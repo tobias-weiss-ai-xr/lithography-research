@@ -12,6 +12,10 @@ All articles by Mark Mantel, heise.de:
 - [Chip Research: Europe's Imec Gets High-NA EUV System (2026-02-09)](https://www.heise.de/en/news/Chip-Research-Europe-s-Imec-Gets-High-NA-EUV-System-11170367.html)
 - [ASML Record Revenue and Profit in 2025 (2026-01-28)](https://www.heise.de/en/news/ASML-Record-Revenue-and-Profit-in-2025-AI-Fuels-Demand-11157655.html)
 - [Export ban — ASML may only sell old lithography systems to China (2023-06-30)](https://www.heise.de/en/news/Export-ban-ASML-may-only-sell-old-lithography-systems-to-China-9204299.html)
+- [CXMT largest Chinese memory manufacturer goes public (2026-07-27)](https://www.heise.de/en/news/CXMT-largest-Chinese-memory-manufacturer-goes-public-11379069.html)
+- [SMIC tests Chinese 7nm lithography system (2025-09-16)](https://www.heise.de/en/news/7-Nanometer-China-testet-angeblich-heimisches-Lithografie-System-10656175.html)
+- [ASML China revenue to collapse in 2026 (2025-10-18)](https://www.heise.de/en/news/ASML-China-revenue-set-to-collapse-in-2026-10773182.html)
+- [Intel 14A, 18A: Chip roadmap for 2025-2027 (2025-04-08)](https://www.heise.de/en/news/Intel-14A-18A-Chip-roadmap-for-2025-to-2027-10368488.html)
 
 ## 1. Breaking News: Aishengna DUV Immersion (2026-07-28)
 
@@ -300,3 +304,99 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - Historically cyclical but AI demand considered structural
 - Chinese memory makers (YMTC, CXMT) excluded from EUV tools
 - Gap widening: Samsung/SK Hynix/Micron with EUV vs Chinese fabs on DUV
+
+## 13. CXMT IPO — Chinese Memory on Global Stage (Jul 2026)
+
+**Source:** heise.de — "CXMT goes public with a bang"
+
+### Company Profile
+- **ChangXin Memory Technologies (CXMT)** — largest Chinese DRAM manufacturer
+- Global DRAM market share: **~8%** (4th largest)
+- DRAM types: DDR5, LPDDR for mobile
+- Expanding production capacity aggressively
+- Apple reportedly interested as customer for supply chain diversification
+- Prices aligned with market (not a "budget" alternative)
+
+### IPO Details (Shanghai Stock Exchange, Jul 27, 2026)
+- IPO price: 8.66 yuan (~€1.12)
+- First day high: 55 yuan (+535%), closing: 49 yuan (+466%)
+- Market cap: **~€425B** (most valuable mainland-listed Chinese company)
+- Now must report quarterly financials
+
+### Competitive Landscape
+| Company | DRAM Share | Market Cap | Home Exchange |
+|---------|-----------|------------|---------------|
+| Samsung | **38%** | ~€878B | KRX |
+| SK Hynix | **29%** | ~€772B | KRX |
+| Micron | **22%** | ~€913B | NASDAQ |
+| CXMT | **~8%** | ~€425B | Shanghai |
+
+### Implications for Lithography
+- CXMT excluded from EUV tools — must rely on DUV + multi-patterning
+- Memory race is critical: DDR5, HBM, LPDDR all benefit from EUV
+- CXMT IPO valuation partially reflects strategic importance (national champion)
+- Apple interest could pressure export control policies
+- Memory makers (all four) investing hundreds of billions in new fabs
+
+## 14. SMIC Testing Yuliangsheng DUV Immersion (Sep 2025)
+
+**Source:** Financial Times — heise.de
+
+- SMIC testing a Yuliangsheng DUV immersion prototype
+- Targets: 28nm single exposure, **7nm through multi-patterning** (like ASML DUV)
+- Some components still sourced from abroad
+- Years from validated series production
+- 5nm theoretically possible but "terrible yield"
+- Mirrors SMIC's earlier approach with ASML DUV (N+2, N+3)
+
+## 15. Intel Roadmap 2025-2027
+
+**Source:** Intel — heise.de
+
+### 18A (H2 2025)
+- Panther Lake (client), Clearwater Forest (server)
+- ~15% perf gain over Intel 3
+- HPC-optimized library focus
+- RibbonFET GAA transistors + PowerVia backside power delivery
+
+### 18A-P (2026)
+- +8% perf over 18A
+- More library options for different applications
+
+### 14A (2027)
+- First node where High-NA EUV becomes optional
+- **30% density** improvement, **15-20% perf** or **25-35% power reduction**
+- PowerDirect (2nd gen backside power)
+- EDA ecosystem weakness acknowledged: fewer design wins than TSMC
+
+### Strategic Context
+- Intel positioning as foundry customer #2 (after TSMC)
+- Key customer: Amazon (AWS), Microsoft, potentially others
+- Relies on ASML High-NA EUV exclusivity (only Intel, TSMC, Samsung can afford)
+- Intel's foundry business still unprofitable as of mid-2026
+
+## 16. ASML China Revenue Collapse (Q3 2025 → 2026)
+
+**Source:** ASML quarterly report — heise.de
+
+### Q3 2025 Snapshot
+- Total revenue: **€7.5B** (slightly below Q2's €7.7B)
+- China: **42% of total = ~€5.6B** (systems + service)
+- Systems sold to China: €2.5B (prev. €5.0B in Q2 — halved)
+- Total: 66 new + 6 refurbished systems globally
+
+### Why China Sales Were High
+- Pre-2022: China was "underserviced" due to capacity constraints
+- 2023-2025: ASML delivered backlog to China
+- Not a lasting trend but catch-up from prior years
+
+### 2026 Outlook
+- China revenue set to **"significantly fall"** per ASML
+- But: **2026 total revenue won't drop below 2025** (€32.7B)
+- Bookings from ROW (memory, TSMC, Intel) compensate
+- Stock rose **+5%** on this guidance (investors relieved China exposure decreasing)
+
+### Structural Shift
+- ASML de-risking China dependency: new restrictions limit even service/maintenance
+- ASML can't service systems it sells to China without Dutch government license
+- Even NXT:1980Di systems already delivered may become unserviceable

@@ -168,5 +168,9 @@ Key conclusions:
 - **ASML 2025 record year**: €32.7B revenue (+16%), €9.6B net profit (+27%), €4.7B R&D (+9%). 300 new + 27 refurbished systems sold. Record €13.2B quarterly bookings. Order backlog €38.8B (40% from memory makers).
 - **Memory makers go EUV**: SK Hynix, Samsung, Micron now major EUV buyers for DRAM (6th gen 10nm class) and HBM. Booked €7.4B in Q4 2025 alone, surpassing logic for first time.
 - **AI boom** driving ASML: CEO Fouquet "sustainability of long-term AI demand" confirmed across logic and memory.
+- **CXMT IPO** (Jul 2026, +466% first day, €425B market cap) — Chinese DRAM maker now ~8% global market share.
+- **SMIC testing Yuliangsheng DUV immersion** (FT, Sep 2025) — 28nm to 7nm via multi-patterning, years from production.
+- **Intel roadmap**: 18A H2 2025, 18A-P 2026, 14A 2027 (first with optional High-NA EUV).
+- **ASML China revenue to collapse** in 2026 (normalization after backlog clearance), but total 2026 revenue won't drop below 2025.
 - Canon pursuing Nanoimprint Lithography (NIL) as alternative.
 - Zeiss SMT (mirrors) + Trumpf (lasers) are bottlenecks for ASML scaling.
