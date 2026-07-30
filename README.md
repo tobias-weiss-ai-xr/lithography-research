@@ -7,6 +7,10 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 - [heise: Neue Gerüchterunde über chinesische Lithografie-Systeme (2026-07-28)](https://www.heise.de/news/Neue-Geruechterunde-ueber-chinesische-Lithografie-Systeme-11380947.html)
 - [The Information: China starts mass-producing homegrown DUV chipmaking tools](https://www.theinformation.com/articles/china-starts-mass-producing-homegrown-duv-chipmaking-tools-advance-local-chip-industry)
 - [Reuters: China starts production of home-grown immersion DUV chipmaking tools (2026-07-28)](https://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28/)
+- [heise: Report: China is said to have a functioning EUV lithography system (2025-12-20)](https://www.heise.de/en/news/Report-China-is-said-to-have-a-functioning-EUV-lithography-system-11121936.html)
+- [heise: Chinese physicists demand their own ASML (2026-03-06)](https://www.heise.de/en/news/Lithography-systems-Chinese-physicists-demand-their-own-ASML-11202833.html)
+- [heise: China improves its 7nm technology further (2025-12-12)](https://www.heise.de/en/news/China-further-improves-its-7-nanometer-technology-11114194.html)
+- [heise: ASML to build significantly more lithography systems (2026-07-15)](https://www.heise.de/en/news/ASML-to-build-significantly-more-lithography-systems-11366229.html)
 
 ## Global Lithography Landscape
 
@@ -18,6 +22,8 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 | **Canon** | Japan | NIL, DUV (FPA-6300ES) | No | No |
 | **Nikon** | Japan | DUV (NSR-S636E) | No | No |
 | **Aishengna** | China | DUV Immersion (prototype/early production) | No | No |
+| **SMEE** | China | DUV dry (28nm, since 2023) | No | No |
+| **Naura Technology** | China | Etch/deposition tools (equipment supplier) | No | No |
 
 ### Technology Nodes vs. Lithography
 
@@ -51,12 +57,23 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 
 | Date | Event |
 |------|-------|
+| 2001 | ASML first functioning EUV prototype internally |
+| 2006 | ASML EUV installed at research partners (IMEC) |
+| 2018/2019 | First commercial EUV (Samsung 7LPP, TSMC N7+) |
+| 2020 | Huawei begins large-scale poaching of ASML engineers |
 | 2023-08 | Aishengna founded |
+| 2023 | SMEE delivers first domestic 28nm DUV dry systems |
+| 2023 | SMIC Kirin 9000S (N+2, 7nm class) using ASML DUV + multi-patterning |
 | 2025 | Yuliangsheng DUV immersion prototype rumors |
-| 2025 | Chinese physicists call for "own ASML" |
-| 2026-07 | Reports of China mass-producing DUV immersion tools |
-| 2026 | Planned: 5 DUV immersion systems |
-| 2027 | Planned: 20 DUV immersion systems |
+| 2025-12 | Kirin 9030 Pro (N+3, improved 7nm, up to 4x multi-patterning, 2.8 GHz) |
+| 2025-12 | Reuters: China has first functioning EUV prototype (crude, can't produce chips) |
+| 2026-03 | Wang Yangyuan et al. publish self-critical analysis: industry "small, scattered, weak" |
+| 2026-05 | Chinese Science & Technology Review: plan for fully Chinese 7nm trial by 2030 |
+| 2026-07-15 | ASML raises 2026 forecast to €43-45B, plans 85 EUV + 169 DUV/yr by 2027 |
+| 2026-07-28 | Reports: Aishengna DUV immersion mass production; ASML stock -12% |
+| 2026 | Planned: 5 Aishengna DUV immersion systems |
+| 2027 | Planned: 20 Aishengna DUV immersion systems |
+| 2028 | Internal target for Chinese EUV chip production (unrealistic per participants) |
 
 ### Current Chinese Capabilities
 
@@ -74,13 +91,61 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 
 **Chinese physicists have acknowledged** the need for domestic EUV development, publishing papers on EUV source technology.
 
+### Chinese Self-Assessment (Wang Yangyuan et al., Mar 2026)
+
+Published in *Chinese Science & Technology Review*. Lead author is SMIC co-founder Wang Yangyuan, now professor at Peking University. Co-authors include YMTC CEO, Naura Technology CEO, Empyrean Technology CEO.
+
+Key conclusions:
+- Industry is "small, scattered and weak"
+- "Shed illusions" about catching up quickly
+- **5-year plan (2026-2030):** consolidate 28nm, achieve stable 14nm, trial fully Chinese 7nm line
+- Recognize that Chinese EUV breakthroughs exist in components but **integration** is the hurdle
+- Call for consolidation of fragmented manufacturers, better EDA tools, public platform
+- A "team fight" needed, not "everyone fighting for themselves"
+
+### Chinese EUV Prototype (Reuters, Dec 2025)
+
+- Completed first functioning prototype **early 2025**
+- Built using reverse-engineered parts from ASML DUV and EUV systems
+- Team includes former ASML employees working under false names
+- Key poached engineer: **Lin Nan**, former head of light source technology at ASML
+- Prototype is **crude**, takes up much more space than ASML EUV
+- **Cannot produce functioning chips**
+- **Zeiss mirror bottleneck:** Chinese suppliers cannot replicate sub-nm surface precision
+- Internal target: 2028 for EUV chip production — but even participants call it unrealistic
+- ASML timeline for reference: prototype 2001 → commercial 2018 (17 years)
+
+### SMIC N+3 Process (TechInsights, Dec 2025)
+
+- Kirin 9030 Pro uses N+3 (improved 7nm class)
+- Requires up to **4x multi-patterning** exposure steps
+- TechInsights: "significantly worse scaling than TSMC/Samsung 5nm"
+- Comparable to TSMC N7 (first-gen 7nm from 2018)
+- Kirin 9030 Pro Geekbench: 1131 single / 4277 multi
+- vs. Apple A19 Pro: ~4000 / ~10000. vs. Snapdragon 8 Elite: ~3200 / ~10000
+- Max clock: ~2.8 GHz vs competitors >4.0 GHz
+- Only economically viable through state subsidies
+
+### ASML Scaling (Jul 2026)
+
+- EUV: 65/yr → ~85/yr by 2027 (+30%), possibly further +30% in 2028
+- DUV: 130/yr → ~169/yr in 2027 (+30%), possibly further +30% in 2028
+- Q2 2026 revenue: >€9.3B. Net profit: ~€2.9B
+- 2026 forecast raised: €43-45B (was €36B → €40B)
+- R&D spending at record ~€1.3B/quarter
+- EUV system cost: €170-200M. High-NA EUV: ~€350M
+- DUV immersion: from ~€60M
+- Scaling depends on German suppliers (Zeiss optics, Trumpf lasers)
+
 ### Limitations
 
 - Even 20 systems/year would not replace ASML installed base in China
 - Only DUV immersion, no EUV capability
-- Immature precision alignment vs. ASML's atomic-scale alignment
+- Immature precision alignment vs. ASML's atomic-scale alignment (<1nm on NXT:2150i vs 1.6nm on NXT:1800Di for China)
 - Export controls on ASML systems continue to tighten
 - Multi-patterning with DUV for 7nm limits yield and economics
+- Chinese industry still 4+ generations behind TSMC (TSMC A14 / "1.4nm" planned for end of 2028)
+- Zeiss mirror monopoly for EUV optics remains unbroken
 
 ## Export Controls
 
