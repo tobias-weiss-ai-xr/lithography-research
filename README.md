@@ -207,4 +207,4 @@ Key conclusions:
 
 **Germany is the structural bottleneck** — Zeiss (EUV mirrors) and Trumpf (EUV lasers) are German sole-source suppliers for ASML. Their export controls are enforceable via German law — giving Berlin veto power over the entire EUV supply chain. But China has leverage: German auto industry dependence on China market.
 
-See `FACTS.md` Sections 19-28 for full German angle, technology deep dives, executive summary, Japanese ecosystem, photoresists/materials, EDA, and advanced packaging analysis.
+See `FACTS.md` Sections 19-29 for full German angle, technology deep dives, executive summary, Japanese ecosystem, photoresists/materials, EDA, advanced packaging, and long-term 5/10/25-year scenarios.
