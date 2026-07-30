@@ -16,6 +16,7 @@ All articles by Mark Mantel, heise.de:
 - [SMIC tests Chinese 7nm lithography system (2025-09-16)](https://www.heise.de/en/news/7-Nanometer-China-testet-angeblich-heimisches-Lithografie-System-10656175.html)
 - [ASML China revenue to collapse in 2026 (2025-10-18)](https://www.heise.de/en/news/ASML-China-revenue-set-to-collapse-in-2026-10773182.html)
 - [Intel 14A, 18A: Chip roadmap for 2025-2027 (2025-04-08)](https://www.heise.de/en/news/Intel-14A-18A-Chip-roadmap-for-2025-to-2027-10368488.html)
+- [TSMC chip manufacturing plans through 2029 (2025-04-23)](https://www.heise.de/en/news/TSMC-gives-outlook-on-A14-manufacturing-technology-10360366.html)
 
 ## 1. Breaking News: Aishengna DUV Immersion (2026-07-28)
 
@@ -183,14 +184,16 @@ Effectiveness: Export controls work well — even if China gets ASML systems, th
 
 ## 8. Gap Analysis: China vs. World Leaders
 
-| Metric | China (2026) | TSMC (2026) | Gap |
-|--------|-------------|-------------|-----|
-| Best node | 7nm (N+3) | 3nm (N3P), A16 in 2026 | 4+ generations |
-| EUV capability | Prototype, can't produce chips | ~60+ EUV systems in fabs | ~15-20 years |
+| Metric | China (2026) | TSMC (2026→2029) | Gap |
+|--------|-------------|-------------------|-----|
+| Best node | 7nm (N+3) | 3nm (N3P) → A14+SPR (2029) | 4+ generations → expanding |
+| EUV capability | Prototype, can't produce chips | ~60+ EUV + High-NA by 2027 | ~15-20 years |
 | DUV capability | 5 domestic systems/yr (2026) | ASML ~130 DUV/yr globally | 2+ orders of magnitude |
-| Litho resolution | Unknown (domestic) | <13nm (EUV) | Unknown |
+| Litho resolution | Unknown (domestic) | <13nm EUV → <8nm High-NA EUV | Unknown |
 | Overlay accuracy | Unknown (domestic) | <1.0 nm (ASML NXT:2150i) | Unknown |
 | Smartphone SoC perf | ~30% of flagship | 100% | Significant |
+| Transistor tech | FinFET (7nm) | GAAFET (2nm, 2025) → 2nd gen GAA (A14, 2028) | 1 generation + 2nd gen |
+| Backside power | None | A16 SPR (2026) → PowerDirect (Intel 14A, 2027) | Not on any roadmap |
 
 ### Timeline Projections
 
@@ -201,7 +204,8 @@ Effectiveness: Export controls work well — even if China gets ASML systems, th
 | 7nm | 2018 | 2026-2030 trial target |
 | 5nm | 2020 | No date |
 | 3nm | 2022-2023 | No date |
-| 2nm/A14 | 2025-2028 | No date |
+| 2nm/A16 | 2025-2026 | No date |
+| A14 (1.4nm) | 2028-2029 | No date |
 
 China's best path is multi-patterning on ASML DUV systems they already own + gradual domestic replacement. Even so, they remain 4+ generations behind and economically disadvantaged.
 
@@ -375,7 +379,38 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - Relies on ASML High-NA EUV exclusivity (only Intel, TSMC, Samsung can afford)
 - Intel's foundry business still unprofitable as of mid-2026
 
-## 16. ASML China Revenue Collapse (Q3 2025 → 2026)
+## 16. TSMC Roadmap 2025-2029
+
+**Source:** TSMC 2025 Symposium — heise.de
+
+### N3 (3nm, since end 2022)
+- Mature production, variants: N3E, N3P, N3X
+- Apple A18/A18 Pro on N3E (iPhone 16)
+
+### N2 (2nm, H2 2025)
+- First TSMC GAAFET (nanosheets), replaces FinFETs
+- Performance vs N3E: **+10-15%**, power: **-25-30%**, density: **~+15%**
+- Apple first customer; AMD & Intel follow
+- N2P (H2 2026): incremental improvement
+- N2X (2027): high clock speed variant, +10% peak
+
+### A16 (~1.6nm, 2026-2027)
+- First TSMC Backside Power Delivery (Super Power Rail / SPR)
+- Transistors same as N2; wiring optimized
+- Perf vs N2P: **+8-10%**, power: **-15-20%**, density: **1.07-1.1x**
+
+### A14 (2028-2029)
+- 2nd gen nanosheets (smaller transistors)
+- A14 base (2028): no SPR yet — perf vs N2: **+10-15%**, power: **-25-30%**, density: **~1.2x**
+- A14 + SPR (2029): combined with backside power — most exciting generation, no specs yet
+
+### Gap to China
+- 2029 TSMC: A14 + SPR (second-gen nanosheets, backside power, High-NA EUV capable)
+- 2030 China target: 7nm trial with fully domestic tools (maybe 28nm stable)
+- Gap >20 years of process evolution
+- Multi-patterning only closes resolution gap, not power/performance/density gap
+
+## 17. ASML China Revenue Collapse (Q3 2025 → 2026)
 
 **Source:** ASML quarterly report — heise.de
 
