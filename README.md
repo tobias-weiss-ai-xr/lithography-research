@@ -23,6 +23,8 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 - [heise: ASML China revenue to collapse in 2026 (2025-10-18)](https://www.heise.de/en/news/ASML-China-revenue-set-to-collapse-in-2026-10773182.html)
 - [heise: Intel 14A, 18A: chip roadmap 2025-2027 (2025-04-08)](https://www.heise.de/en/news/Intel-14A-18A-Chip-roadmap-for-2025-to-2027-10368488.html)
 - [heise: CXMT goes public with a bang (2026-07-27)](https://www.heise.de/en/news/CXMT-largest-Chinese-memory-manufacturer-goes-public-11379069.html)
+- [ASML: Q2 2026 financial results press release (2026-07-15)](https://www.asml.com/en/investors/financial-results/q2-2026)
+- [ASML: Q1 2026 financial results (2026-04-16)](https://www.asml.com/en/investors/financial-results/q1-2026)
 
 ## Global Lithography Landscape
 

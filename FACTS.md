@@ -265,9 +265,9 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - eDRAM PDK: embedded DRAM in logic chips — bridges SRAM speed with DRAM density
 - Europe has no leading-edge chip manufacturing but maintains research leadership
 
-## 11. ASML Financials 2025 — Record Year Driven by AI
+## 11. ASML Financials 2025-2026 — Record Years Driven by AI
 
-### Annual Results (2025)
+### 2025 Annual Results
 | Metric | 2025 | vs 2024 |
 |--------|------|---------|
 | Revenue | **€32.7B** | +16% |
@@ -276,22 +276,59 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 | Systems sold | 300 new + 27 refurbished | fewer units but more complex (EUV/High-NA) |
 | Installed base revenue | **€8.2B** (25% of total) | upgrades + maintenance |
 
-### Record Bookings (Q4 2025)
-- **€13.2B** quarterly bookings — 2.4x previous quarter, surpassing COVID-era records
-- Memory manufacturers booked **€7.4B** (unusually surpassed logic)
-- Total backlog: **€38.8B** (40% from memory)
+### Record Q4 2025 Bookings
+- **€13.2B** quarterly bookings — 2.4x previous quarter
+- Memory makers surpassed logic: **€7.4B vs ~€5.8B**
+- Total backlog by YE 2025: **€38.8B** (40% from memory)
+- Memory crisis recovery: SK Hynix, Samsung, Micron investing heavily
+- HBM (High-Bandwidth Memory) for AI accelerators confirmed as structural shift
 
-### Q1 2026 Guidance
-- Revenue: €8.2-8.9B (slight dip seasonal)
-- Full year 2026: **€34-39B** (raised later to €43-45B by July)
-- Dividend: €7.50/share (+17%), share buyback up to €12B through 2028
+### Q1 2026 Results (asml.com, Apr 15, 2026)
+| Metric | Q1 2026 |
+|--------|---------|
+| Total net sales | **€8.8B** |
+| Gross margin | **53.0%** |
+| R&D costs | **€1.2B** |
+| EPS (basic) | **€7.15** |
+| Net litho systems sold | 67 new + 12 used |
+
+### Q2 2026 Results (asml.com, Jul 15, 2026)
+| Metric | Q2 2026 | vs Q1 2026 |
+|--------|---------|------------|
+| Total net sales | **€9.3B** | +5.7% |
+| Net system sales | €6,538M | — |
+| Installed Base Management | €2,762M | — |
+| Gross margin | **54.0%** | +1.0pp |
+| R&D costs | **€1.3B** | +8.3% |
+| SG&A costs | **€0.24B** | — |
+| Net income | **€2.9B** | — |
+| EPS (basic) | **€7.59** | +6.2% |
+| Net litho systems sold | 86 new + 5 used | — |
+| Net bookings (Q2) | undisclosed but "extremely strong" | — |
+
+### FY 2026 Outlook (raised Jul 2026)
+- Revenue: **€43-45B** (up from €34-39B in Jan 2026)
+- Gross margin: **54-56%**
+- R&D spending: ~€5.2B (FY)
+- System sales increasingly weighted to High-NA
+
+### Q3 2026 Guidance
+- Revenue: **€11.0-12.0B** (record quarter)
+- Gross margin: **55-57%**
+
+### Capital Allocation
+- Dividend: €7.50/share (+17% vs 2025)
+- Share buyback: up to €12B through 2028
 - Job cuts: ~1,700 of 44,000+ (mainly management, to streamline)
+- Next Capital Markets Day: **June 10, 2027**
 
-### AI-Driven Demand
-- CEO Fouquet: "sustainability of long-term AI demand" confirmed
-- HBM (High-Bandwidth Memory) for AI accelerators driving DRAM orders
-- Tight supply expected through 2026 and beyond
-- Memory crisis recovery complete: SK Hynix, Samsung, Micron investing heavily
+### CEO Christophe Fouquet — Key Remarks
+- Planning **+30% Low-NA EUV capacity** for 2027: ~65/yr → ~85/yr
+- Already **investigating +30% further** for 2028 (~110/yr)
+- DUV immersion: **~130 in 2026 → ~169 in 2027** (+30%), investigating +30% for 2028
+- Order intake in H1 2026 "extremely strong" — spans both logic and memory
+- Capacity expansion already communicated to supply chain (Zeiss, Trumpf)
+- **First-hand source**: asml.com investor relations (Q2 2026 press release, investor presentation)
 
 ## 12. Memory Manufacturers and EUV
 
@@ -413,7 +450,7 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - Gap >20 years of process evolution
 - Multi-patterning only closes resolution gap, not power/performance/density gap
 
-## 17. ASML China Revenue Collapse (Q3 2025 → 2026)
+## 16. ASML China Revenue
 
 **Source:** ASML quarterly report — heise.de
 
