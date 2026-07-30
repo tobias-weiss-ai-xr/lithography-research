@@ -11,6 +11,10 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 - [heise: Chinese physicists demand their own ASML (2026-03-06)](https://www.heise.de/en/news/Lithography-systems-Chinese-physicists-demand-their-own-ASML-11202833.html)
 - [heise: China improves its 7nm technology further (2025-12-12)](https://www.heise.de/en/news/China-further-improves-its-7-nanometer-technology-11114194.html)
 - [heise: ASML to build significantly more lithography systems (2026-07-15)](https://www.heise.de/en/news/ASML-to-build-significantly-more-lithography-systems-11366229.html)
+- [heise: EUV Lithography: ASML will shoot tin droplets 300,000 times per second (2026-02-24)](https://www.heise.de/en/news/EUV-Lithography-ASML-will-shoot-tin-droplets-300-000-times-per-second-11187649.html)
+- [heise: Imec gets High-NA EUV system (2026-02-09)](https://www.heise.de/en/news/Chip-Research-Europe-s-Imec-Gets-High-NA-EUV-System-11170367.html)
+- [heise: ASML Record Revenue and Profit in 2025 (2026-01-28)](https://www.heise.de/en/news/ASML-Record-Revenue-and-Profit-in-2025-AI-Fuels-Demand-11157655.html)
+- [heise: Export ban — ASML may only sell old lithography systems to China (2023-06-30)](https://www.heise.de/en/news/Export-ban-ASML-may-only-sell-old-lithography-systems-to-China-9204299.html)
 
 ## Global Lithography Landscape
 
@@ -150,13 +154,19 @@ Key conclusions:
 ## Export Controls
 
 - ASML has **never** been allowed to sell EUV systems to China
-- Since 2023: ASML also restricted on advanced DUV immersion systems
-- Since 2024: Even older DUV systems require export licenses
-- US/Netherlands/Japan (Chip 4) coordinate restrictions
+- Since Sep 2023: ASML NXT:2000i and newer banned (overlay <1.4nm)
+- Legal threshold: overlay accuracy **<1.5nm** bans the system
+- NXT:1980Di (2015, overlay 1.6nm) still allowed. Resolution formula: λ(193nm) × k-factor(0.25) / NA(1.35) = ~36nm
+- Even systems China gets are worthless without ASML setup/maintenance support
+- US/Netherlands/Japan (Chip 4) coordination; EU dual-use regulation
 
 ## Other Developments
 
-- Reports (unconfirmed) of Chinese EUV research prototypes
-- ASML increasing production capacity: aiming for significantly more systems
-- Canon pursuing Nanoimprint Lithography (NIL) as alternative
-- Chinese physicists publishing on EUV source technology
+- **ASML 1000W EUV milestone** (Feb 2026): Pre-series system boosts source power 600→1000W. Tin droplets 50k→100k/sec, laser pulses 100k→300k/sec. Target: 330 wafers/hr by 2030 (+50%). Path to 1500W, possibly 2000W. Upgradable in existing Low-NA EUV, transferable to High-NA.
+- **High-NA EUV** (EXE:5200B, €350M): critical dimension 13nm→8nm, transistor density ~2.9x. Intel 14A in 2027, TSMC follows. Requires taller fabs. Uses anamorphic lenses, larger mirrors.
+- **Imec NanoIC pilot line** (Feb 2026): European research gets High-NA EUV Mar 2026. €350M system. A14 ("1.4nm") PDK already released for virtual design with Cadence/Synopsys EDA. Partners: Fraunhofer, CEA-Leti, VTT.
+- **ASML 2025 record year**: €32.7B revenue (+16%), €9.6B net profit (+27%), €4.7B R&D (+9%). 300 new + 27 refurbished systems sold. Record €13.2B quarterly bookings. Order backlog €38.8B (40% from memory makers).
+- **Memory makers go EUV**: SK Hynix, Samsung, Micron now major EUV buyers for DRAM (6th gen 10nm class) and HBM. Booked €7.4B in Q4 2025 alone, surpassing logic for first time.
+- **AI boom** driving ASML: CEO Fouquet "sustainability of long-term AI demand" confirmed across logic and memory.
+- Canon pursuing Nanoimprint Lithography (NIL) as alternative.
+- Zeiss SMT (mirrors) + Trumpf (lasers) are bottlenecks for ASML scaling.

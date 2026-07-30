@@ -1,8 +1,19 @@
 # Lithography Research — Detailed Facts
 
-## 1. Breaking News: Aishengna DUV Immersion (2026-07-28)
+## Sources
 
-**Sources:** The Information → Reuters → heise.de (Mark Mantel)
+All articles by Mark Mantel, heise.de:
+- [New rumor round about Chinese lithography systems (2026-07-28)](https://www.heise.de/en/news/New-rumor-round-about-Chinese-lithography-systems-11380980.html)
+- [Report: China is said to have a functioning EUV lithography system (2025-12-20)](https://www.heise.de/en/news/Report-China-is-said-to-have-a-functioning-EUV-lithography-system-11121936.html)
+- [Lithography systems: Chinese physicists demand their own ASML (2026-03-06)](https://www.heise.de/en/news/Lithography-systems-Chinese-physicists-demand-their-own-ASML-11202833.html)
+- [China further improves its 7-nanometer technology (2025-12-12)](https://www.heise.de/en/news/China-further-improves-its-7-nanometer-technology-11114194.html)
+- [ASML to build significantly more lithography systems (2026-07-15)](https://www.heise.de/en/news/ASML-to-build-significantly-more-lithography-systems-11366229.html)
+- [EUV Lithography: ASML will shoot tin droplets 300,000 times per second (2026-02-24)](https://www.heise.de/en/news/EUV-Lithography-ASML-will-shoot-tin-droplets-300-000-times-per-second-11187649.html)
+- [Chip Research: Europe's Imec Gets High-NA EUV System (2026-02-09)](https://www.heise.de/en/news/Chip-Research-Europe-s-Imec-Gets-High-NA-EUV-System-11170367.html)
+- [ASML Record Revenue and Profit in 2025 (2026-01-28)](https://www.heise.de/en/news/ASML-Record-Revenue-and-Profit-in-2025-AI-Fuels-Demand-11157655.html)
+- [Export ban — ASML may only sell old lithography systems to China (2023-06-30)](https://www.heise.de/en/news/Export-ban-ASML-may-only-sell-old-lithography-systems-to-China-9204299.html)
+
+## 1. Breaking News: Aishengna DUV Immersion (2026-07-28)
 
 - **Shanghai Aishengna Electronic Technology Group** (state-owned, founded Aug 2023)
 - Linked to **Yuliangsheng** (same address) — DUV immersion prototype rumors since 2025
@@ -189,3 +200,103 @@ Effectiveness: Export controls work well — even if China gets ASML systems, th
 | 2nm/A14 | 2025-2028 | No date |
 
 China's best path is multi-patterning on ASML DUV systems they already own + gradual domestic replacement. Even so, they remain 4+ generations behind and economically disadvantaged.
+
+## 9. ASML 1000W EUV Milestone (Feb 2026)
+
+**Source:** ASML/Reuters — heise.de "ASML will shoot tin droplets 300,000 times per second"
+
+### The Technology
+- Pre-series system boosts EUV source power: **600W → 1000W**
+- Tin droplets: **50,000/sec → 100,000/sec**
+- Laser pulses: **100,000/sec → 300,000/sec** (3 shots per droplet: 2 pre-form + 1 heat)
+- Laser/amplifiers reach up to **40kW** (but can't emit 13.5nm directly)
+- Tested in 2025 at ASML research facility in San Diego, California
+
+### Target
+- **330 wafers/hour** by 2030 (+50% vs NXE:3800E today)
+- Clear path to **1500W**, no fundamental barrier to **2000W**
+- Upgradable in existing Low-NA systems (module swap)
+- Principle transferable to High-NA EUV (identical light source, different orientation)
+
+### Challenges
+- Tin splatter contamination (historically delayed EUV by years)
+- Modular chamber design for cleaning
+- Scanner must withstand higher power, move masks faster
+- Not yet commercial: "research milestone" per ASML spokesperson
+
+### Supply Chain
+- **Trumpf** (Germany): lasers and amplifiers
+- **Zeiss SMT** (Germany): multi-layer Mo/Si mirrors (11-13 per EUV system)
+- Only a fraction of 1000W reaches wafer — optics absorb most
+
+## 10. High-NA EUV — The Next Generation
+
+### Specifications
+| Parameter | Low-NA EUV (NXE:3800E) | High-NA EUV (EXE:5200B) |
+|-----------|----------------------|----------------------|
+| Numerical aperture | 0.33 | 0.55 |
+| Critical dimension | ~13nm | ~8nm |
+| Transistor shrink | baseline | ~1.7x |
+| Density gain | baseline | ~2.9x |
+| Cost | €170-200M | ~€350M |
+| Fab requirement | standard | taller ceilings needed |
+
+### Timeline
+- Imec (Belgium) gets first European system: **March 2026** (NanoIC pilot line)
+- Intel: **14A process in 2027** (already testing systems)
+- TSMC: later, preferring multi-patterning on Low-NA for now
+- ASML: both types share identical light sources
+
+### European Research (Imec)
+- NanoIC pilot line: €350M, funded by Belgium + EU (Digital Europe, Horizon Europe)
+- Partners: Fraunhofer (DE), CEA-Leti (FR), VTT (FI), CSSNT (RO), Tyndall (IE)
+- **A14 PDK** already available for virtual chip design (Cadence/Synopsys compatible)
+- eDRAM PDK: embedded DRAM in logic chips — bridges SRAM speed with DRAM density
+- Europe has no leading-edge chip manufacturing but maintains research leadership
+
+## 11. ASML Financials 2025 — Record Year Driven by AI
+
+### Annual Results (2025)
+| Metric | 2025 | vs 2024 |
+|--------|------|---------|
+| Revenue | **€32.7B** | +16% |
+| Net profit | **€9.6B** | +27% |
+| R&D spending | **€4.7B** | +9% |
+| Systems sold | 300 new + 27 refurbished | fewer units but more complex (EUV/High-NA) |
+| Installed base revenue | **€8.2B** (25% of total) | upgrades + maintenance |
+
+### Record Bookings (Q4 2025)
+- **€13.2B** quarterly bookings — 2.4x previous quarter, surpassing COVID-era records
+- Memory manufacturers booked **€7.4B** (unusually surpassed logic)
+- Total backlog: **€38.8B** (40% from memory)
+
+### Q1 2026 Guidance
+- Revenue: €8.2-8.9B (slight dip seasonal)
+- Full year 2026: **€34-39B** (raised later to €43-45B by July)
+- Dividend: €7.50/share (+17%), share buyback up to €12B through 2028
+- Job cuts: ~1,700 of 44,000+ (mainly management, to streamline)
+
+### AI-Driven Demand
+- CEO Fouquet: "sustainability of long-term AI demand" confirmed
+- HBM (High-Bandwidth Memory) for AI accelerators driving DRAM orders
+- Tight supply expected through 2026 and beyond
+- Memory crisis recovery complete: SK Hynix, Samsung, Micron investing heavily
+
+## 12. Memory Manufacturers and EUV
+
+### DRAM Evolution
+- 6th generation of 10nm-class DRAM now using EUV
+- More chip layers exposed with EUV each generation
+- EUV adoption in memory started later than logic but accelerating fast
+
+### HBM (High-Bandwidth Memory)
+- Key enabler for AI accelerators (NVIDIA, AMD, etc.)
+- Combines multiple DRAM dies with through-silicon vias (TSV)
+- Requires advanced lithography for both DRAM and interconnects
+- ASML: "very strong demand for HBM ... most probably lead to very tight supply"
+
+### Market Dynamics
+- Memory overtook logic in ASML bookings in Q4 2025 (€7.4B vs ~€5.8B)
+- Historically cyclical but AI demand considered structural
+- Chinese memory makers (YMTC, CXMT) excluded from EUV tools
+- Gap widening: Samsung/SK Hynix/Micron with EUV vs Chinese fabs on DUV
