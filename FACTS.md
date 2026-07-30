@@ -16,6 +16,9 @@ All articles by Mark Mantel, heise.de:
 - [SMIC tests Chinese 7nm lithography system (2025-09-16)](https://www.heise.de/en/news/7-Nanometer-China-testet-angeblich-heimisches-Lithografie-System-10656175.html)
 - [ASML China revenue to collapse in 2026 (2025-10-18)](https://www.heise.de/en/news/ASML-China-revenue-set-to-collapse-in-2026-10773182.html)
 - [Intel 14A, 18A: Chip roadmap for 2025-2027 (2025-04-08)](https://www.heise.de/en/news/Intel-14A-18A-Chip-roadmap-for-2025-to-2027-10368488.html)
+- [Canon unveils 5nm nanoimprint lithography system (2023-10-17)](https://www.heise.de/news/Canon-stellt-Lithografie-System-fuer-5-nm-Prozesse-vor-9336563.html)
+- [Chip Lithography: Zeiss Expands German Production by Over 25,000 m² (2026-07-24)](https://www.heise.de/en/news/Chip-Lithography-Zeiss-Expands-German-Production-by-Over-25-000-m2-11377791.html)
+- [US committee wants stricter rules for China (2025-10-09)](https://www.heise.de/en/news/Lithography-systems-US-committee-wants-stricter-rules-for-China-10749031.html)
 - [TSMC chip manufacturing plans through 2029 (2025-04-23)](https://www.heise.de/en/news/TSMC-gives-outlook-on-A14-manufacturing-technology-10360366.html)
 
 ## 1. Breaking News: Aishengna DUV Immersion (2026-07-28)
@@ -435,3 +438,95 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - ASML de-risking China dependency: new restrictions limit even service/maintenance
 - ASML can't service systems it sells to China without Dutch government license
 - Even NXT:1980Di systems already delivered may become unserviceable
+
+## 17. Canon Nanoimprint Lithography (NIL)
+
+**Source:** Canon / heise.de — "Canon unveils 5nm nanoimprint lithography system" (Oct 2023)
+
+### Technology
+- **FPA-1200NZ2C** — uses mechanical stamping, not lasers
+- Current line width: **14nm** (equivalent to 5nm process node)
+- Target: **10nm line width** (= 2nm process class)
+- No laser/amplifier needed → less power, less chemical waste
+- Uses UV light only to cure resist after stamping
+
+### Competitive Position
+| Aspect | Canon NIL | ASML DUV | ASML EUV |
+|--------|-----------|----------|----------|
+| Mechanism | Physical stamp | 193nm laser | 13.5nm LPP |
+| Current best node | 5nm equivalent | 7nm (multi-patt.) | 3nm+ single exposure |
+| Target | 2nm by 2027 | continues | High-NA for sub-2nm |
+| Throughput | UNKNOWN | 300+ wafers/hr | 220+ wafers/hr |
+| Overlay accuracy | UNKNOWN | <1.0nm (NXT:2150i) | <1.0nm |
+| Energy use | Lower | Higher | Highest |
+| Particle risk | Mask can be destroyed | Lower | Lower |
+
+### Status
+- Canon R&D: nearly 20 years
+- Acquired Molecular Imprints (2014) for IP
+- Kioxia (ex-Toshiba Memory) testing pre-production units for years
+- No public throughput or overlay data
+- Primary competition: DUV, not EUV
+- NIL has been "promising" for decades but never broke through
+
+## 18. Zeiss SMT — The Indispensable Optics Supplier
+
+**Source:** Zeiss / heise.de — "Zeiss Expands German Production by Over 25,000 m²" (Jul 2026)
+
+### Company Profile
+- **Carl Zeiss SMT GmbH** — sole global supplier of EUV optics (mirrors + lenses)
+- Part of Carl Zeiss AG, owned by **Carl Zeiss Foundation** (non-profit, not profit-driven)
+- Sites: Oberkochen (HQ, Swabia), Wetzlar (Hesse), Silicon Valley (metrology)
+
+### Expansion
+- **+25,000 m²** in Oberkochen (production, cleanroom, offices)
+- To support ASML's 30%/yr production growth (2027, 2028)
+- Also mask manufacturing/repair equipment, wafer inspection, metrology
+- Advanced packaging inspection tools
+
+### Technical Leadership
+- Mirror surface tolerance: if Earth-sized, largest deviation = toy car
+- High-NA optics module: **40,000+ components**, **~12 tons**
+- EUV mirrors: Mo/Si multi-layer, reflect ~70% of 13.5nm light
+- Vacuum chambers (5m diameter) for mirror measurement
+- 11-13 mirrors per Low-NA EUV system, more for High-NA
+
+### Strategic Implications
+- Monopoly means Zeiss is the bottleneck for ASML scaling
+- Foundation ownership = long-term investing, not quarterly profit maximization
+- German/European export control leverage point
+- China cannot replicate — lacks the decades of precision optics expertise
+- Zeiss also makes mask inspection, metrology, process control tools
+
+## 19. Export Control Tightening — US House Committee (Oct 2025)
+
+**Source:** US House Select Committee on CCP / heise.de
+
+### Scope of Chinese Purchases (2024)
+| Company | 2024 China Revenue | Global % |
+|---------|-------------------|----------|
+| ASML | ~€10B | ~40% |
+| Applied Materials | undisclosed | large share |
+| Tokyo Electron | undisclosed | large share |
+| KLA | undisclosed | large share |
+| Lam Research | undisclosed | large share |
+| **Total (5 companies)** | **~$38B** | **39% of combined** |
+
+### Committee Recommendations
+1. **Decouple from entity lists**: restrictions should apply to ALL China, not just sanctioned entities
+2. **Expand scope**: more tool categories under restriction
+3. **Targeted Chinese fabs**: SMIC, Pengxinwei (PXW), Shenzhen Pensun (PST), plus memory makers YMTC, SwaySure Technology
+4. **Huawei connection**: several listed fabs work closely with Huawei, which now operates its own fabs
+
+### Current Effectiveness (per Committee)
+- China expanding semiconductor industry despite sanctions (acknowledged)
+- 7nm chips via multi-patterning cited as evidence sanctions aren't fully effective
+- Committee wants to close loopholes, not declare defeat
+- Huawei now operates its own chip fabs (confirmed by separate heise article -10373636)
+
+### Key Suppliers at Risk
+- **Applied Materials** (US): wafer fab equipment, deposition, etch
+- **Lam Research** (US): plasma etch, deposition
+- **KLA** (US): wafer inspection, defect detection
+- **Tokyo Electron** (Japan): etch, deposition, coat/develop
+- **ASML** (Netherlands): lithography systems

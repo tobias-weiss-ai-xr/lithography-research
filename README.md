@@ -16,6 +16,13 @@ Facts and tracking on global and Chinese semiconductor lithography progress.
 - [heise: ASML Record Revenue and Profit in 2025 (2026-01-28)](https://www.heise.de/en/news/ASML-Record-Revenue-and-Profit-in-2025-AI-Fuels-Demand-11157655.html)
 - [heise: Export ban — ASML may only sell old lithography systems to China (2023-06-30)](https://www.heise.de/en/news/Export-ban-ASML-may-only-sell-old-lithography-systems-to-China-9204299.html)
 - [heise: TSMC chip manufacturing plans through 2029 (2025-04-23)](https://www.heise.de/en/news/TSMC-gives-outlook-on-A14-manufacturing-technology-10360366.html)
+- [heise: Canon unveils nanoimprint lithography system (2023-10-12)](https://www.heise.de/en/news/Canon-unveils-5nm-nanoimprint-lithography-system-10068994.html)
+- [heise: Zeiss expands German production by over 25,000 m² (2026-07-13)](https://www.heise.de/en/news/Zeiss-expands-German-production-by-over-25-000-m-11373905.html)
+- [heise: US House committee wants stricter rules for China (2025-10-17)](https://www.heise.de/en/news/US-House-Committee-publishes-strategy-for-Chinas-semiconductor-industry-10748944.html)
+- [heise: SMIC tests Chinese 7nm lithography system (2025-09-16)](https://www.heise.de/en/news/7-Nanometer-China-testet-angeblich-heimisches-Lithografie-System-10656175.html)
+- [heise: ASML China revenue to collapse in 2026 (2025-10-18)](https://www.heise.de/en/news/ASML-China-revenue-set-to-collapse-in-2026-10773182.html)
+- [heise: Intel 14A, 18A: chip roadmap 2025-2027 (2025-04-08)](https://www.heise.de/en/news/Intel-14A-18A-Chip-roadmap-for-2025-to-2027-10368488.html)
+- [heise: CXMT goes public with a bang (2026-07-27)](https://www.heise.de/en/news/CXMT-largest-Chinese-memory-manufacturer-goes-public-11379069.html)
 
 ## Global Lithography Landscape
 
@@ -160,19 +167,23 @@ Key conclusions:
 - NXT:1980Di (2015, overlay 1.6nm) still allowed. Resolution formula: λ(193nm) × k-factor(0.25) / NA(1.35) = ~36nm
 - Even systems China gets are worthless without ASML setup/maintenance support
 - US/Netherlands/Japan (Chip 4) coordination; EU dual-use regulation
+- US House Committee (Oct 2025) wants: decouple from entity lists, broader scope, all tool categories restricted
+- 5 major suppliers sold ~$38B to China in 2024 (39% of combined revenue)
+- Committee acknowledges sanctions not fully effective (7nm via multi-patterning cited)
 
 ## Other Developments
 
 - **ASML 1000W EUV milestone** (Feb 2026): Pre-series system boosts source power 600→1000W. Tin droplets 50k→100k/sec, laser pulses 100k→300k/sec. Target: 330 wafers/hr by 2030 (+50%). Path to 1500W, possibly 2000W. Upgradable in existing Low-NA EUV, transferable to High-NA.
-- **High-NA EUV** (EXE:5200B, €350M): critical dimension 13nm→8nm, transistor density ~2.9x. Intel 14A in 2027, TSMC follows. Requires taller fabs. Uses anamorphic lenses, larger mirrors.
+- **High-NA EUV** (EXE:5200B, €350M): critical dimension 13nm→8nm, transistor density ~2.9x. Intel 14A in 2027, TSMC follows. Requires taller fabs. Uses anamorphic lenses, larger mirrors. Zeiss optics module: 40K+ parts, 12 tons.
 - **Imec NanoIC pilot line** (Feb 2026): European research gets High-NA EUV Mar 2026. €350M system. A14 ("1.4nm") PDK already released for virtual design with Cadence/Synopsys EDA. Partners: Fraunhofer, CEA-Leti, VTT.
 - **ASML 2025 record year**: €32.7B revenue (+16%), €9.6B net profit (+27%), €4.7B R&D (+9%). 300 new + 27 refurbished systems sold. Record €13.2B quarterly bookings. Order backlog €38.8B (40% from memory makers).
 - **TSMC roadmap**: N2 (2nm, GAAFET) H2 2025. A16 (backside power) 2026-2027. A14 (2nd gen nanosheets) 2028. A14+SPR 2029. China gap expanding.
 - **Memory makers go EUV**: SK Hynix, Samsung, Micron now major EUV buyers for DRAM (6th gen 10nm class) and HBM. Booked €7.4B in Q4 2025 alone, surpassing logic for first time.
 - **AI boom** driving ASML: CEO Fouquet "sustainability of long-term AI demand" confirmed across logic and memory.
 - **CXMT IPO** (Jul 2026, +466% first day, €425B market cap) — Chinese DRAM maker now ~8% global market share.
-- **SMIC testing Yuliangsheng DUV immersion** (FT, Sep 2025) — 28nm to 7nm via multi-patterning, years from production.
-- **Intel roadmap**: 18A H2 2025, 18A-P 2026, 14A 2027 (first with optional High-NA EUV).
+- **SMIC testing Yuliangsheng DUV immersion** (FT, Sep 2025) — 28nm to 7nm via multi-patterning, years from production. Some components from abroad.
+- **Intel roadmap**: 18A H2 2025 (Panther Lake, Clearwater Forest), 18A-P 2026 (+8%), 14A 2027 (+30% density, optional High-NA EUV, PowerDirect backside power).
 - **ASML China revenue to collapse** in 2026 (normalization after backlog clearance), but total 2026 revenue won't drop below 2025.
-- Canon pursuing Nanoimprint Lithography (NIL) as alternative.
-- Zeiss SMT (mirrors) + Trumpf (lasers) are bottlenecks for ASML scaling.
+- **Canon NIL** (Oct 2023): FPA-1200NZ2C nanoimprint, 14nm line width (=5nm node), mechanical stamp. Kioxia testing. Throughput/overlay data unknown.
+- **Zeiss SMT expansion** (Jul 2026): +25,000m² Oberkochen for EUV optics scaling. Foundation-owned monopoly.
+- **US House Committee** (Oct 2025): wants broader export controls beyond entity lists, acknowledges 7nm workaround. Targets: SMIC, PXW, PST, YMTC, SwaySure.
