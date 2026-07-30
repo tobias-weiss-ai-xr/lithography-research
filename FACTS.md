@@ -977,8 +977,61 @@ For a typical 7nm layer requiring 4x multi-patterning:
 ## 24. Synthesis — Executive Summary
 
 ### 24.1 The Big Picture (mid-2026)
+
+**The global semiconductor lithography landscape in mid-2026 is defined by three simultaneous dynamics:**
+
+**1. ASML's unprecedented scaling.** ASML is expanding EUV production from ~65/yr to ~85/yr by 2027, DUV from ~130/yr to ~169/yr. Revenue guidance raised to €43-45B for 2026. The order backlog stands at €38.8B, driven by AI-fueled demand from both logic (TSMC, Samsung, Intel) and memory (SK Hynix, Samsung, Micron — which overtook logic in bookings for the first time in 2025). This scaling is enabled by Zeiss SMT's +25,000 m² Oberkochen expansion and Trumpf's laser production ramp, but the 30% CAGR growth trajectory puts immense pressure on the entire German supply chain.
+
+**2. China's DUV immersion breakthrough — real but limited.** Shanghai Aishengna (state-owned, founded 2023) has reportedly begun mass production of DUV immersion systems. Plans call for 5 systems in 2026, 20 in 2027. This is a genuine achievement — no other country has developed a functioning immersion DUV system outside of ASML, Nikon, and Canon. However, even 20 systems is ~1,000× behind ASML's planned output of ~169 DUV/yr. The resolution, throughput, overlay accuracy, and yield of these Chinese systems remain unknown. Chinese EUV remains a crude prototype that cannot produce chips, with no realistic path to commercial EUV within a decade.
+
+**3. The gap is widening, not narrowing.** TSMC is shipping N2 (GAAFET) since H2 2025, preparing A16 (backside power, 2026-2027), and planning A14 (2028) and A14+SPR (2029). Intel is on track for 14A in 2027. Samsung is ramping 3GAE. Meanwhile, China's self-published goal is to consolidate 28nm and trial a fully Chinese 7nm line by 2030 — by which time TSMC will be at the equivalent of 1.4nm. The absolute gap in process technology is growing, not shrinking.
+
+**The strategic geometry is asymmetric:** ASML and its German suppliers (Zeiss, Trumpf) hold absolute veto power over the leading edge. China holds leverage over German auto exports (30-40% of VW/BMW/Mercedes profits). The outcome depends on whether export controls hold, whether China can bridge the integration gap, and whether Germany's political calculus shifts under economic pressure.
+
 ### 24.2 The Timeline
+
+**How we got here — and where we're going.**
+
+**2001-2018: The ASML era.** ASML's first EUV prototype (2001) → research installation at Imec (2006) → first commercial EUV systems (Samsung 7LPP, TSMC N7+, 2018). Seventeen years of development, near-bankruptcy, and relentless iteration created a monopoly that no competitor has challenged.
+
+**2018-2023: China accelerates.** Huawei begins poaching ASML engineers (2020). SMIC produces Kirin 9000S (7nm class) using ASML DUV + multi-patterning (2023). SMEE delivers first domestic 28nm DUV dry systems (2023). Aishengna founded (August 2023). Export controls tighten: NXT:2000i and newer banned from China (Sep 2023).
+
+**2024-2025: Prototypes emerge.** Yuliangsheng DUV immersion prototype rumored. Chinese EUV prototype completed (early 2025) — reverse-engineered from ASML parts, crude, cannot produce chips. Kirin 9030 Pro ships using SMIC N+3 (4× multi-patterning, 2.8 GHz ceiling). Chinese physicists publish self-critical assessment: industry is "small, scattered and weak" (March 2025).
+
+**2026: The inflection point.**
+
+| Date | Event | Significance |
+|------|-------|-------------|
+| Jan 2026 | ASML reports record 2025: €32.7B revenue, €9.6B profit | AI-driven demand confirmed across logic and memory |
+| Feb 2026 | ASML 1000W EUV milestone announced (600W→1000W source power) | Path to 330 wafers/hr by 2030 — 50% productivity gain |
+| Feb 2026 | Imec receives High-NA EUV system (€350M) | First research installation — Intel 14A pathfinder |
+| Jul 2026 | ASML raises 2026 guidance to €43-45B, plans +30% capacity by 2027 | Scaling accelerates; CEO Fouquet extends outlook to 2028 |
+| Jul 2026 | Zeiss announces +25,000 m² Oberkochen expansion | German supply chain scaling to meet ASML demand |
+| Jul 2026 | Aishengna DUV immersion mass production reported; ASML stock -12% | First credible Chinese DUV immersion production claim |
+| Jul 2026 | CXMT IPO (+466%, €425B market cap) | Chinese DRAM maker achieves massive valuation — 8% global share |
+
+**2027-2030: The fork in the road.**
+
+- **Bull case for China:** Aishengna reaches 20 DUV immersion systems/yr by 2027 → 50+/yr by 2030. SMIC sustains 7nm via multi-patterning with acceptable yield. Chinese EUV prototype advances to research-grade tool by 2028-2030. CXMT grows to 15%+ DRAM share. Chiplet architectures (Huawei CloudMatrix) compensate for lack of monolithic leading-edge SoCs.
+
+- **Bear case for China:** Aishengna systems underperform (poor overlay, low throughput, bad yield). DUV export controls tighten further — even NXT:1980Di becomes unserviceable. Zeiss mirror bottleneck proves insurmountable. SMIC falls further behind as TSMC moves to A14/A16. Memory gap to Samsung/SK Hynix widens without EUV for DRAM. Chinese auto retaliation triggers German export control backlash.
+
+- **Most likely path:** China achieves self-sufficiency at 28-14nm nodes within 5-7 years (the "good enough" range for automotive, industrial, IoT). At the leading edge (7nm and below), the gap continues to grow. Chinese EUV remains a research project through 2030. The world bifurcates into two semiconductor ecosystems: leading-edge (TSMC/Samsung/Intel with ASML tools) and trailing-edge (China, self-sufficient at mature nodes).
+
 ### 24.3 The Dependency Bottleneck
+
+**The central finding of this research: the global semiconductor industry's dependency on German precision engineering is the single most concentrated point of failure in the entire supply chain.**
+
+**Zeiss mirrors are irreplaceable.** The ability to fabricate EUV mirrors to <0.1 nm RMS surface tolerance is a capability that took 30+ years to develop and is locked inside Carl Zeiss SMT in Oberkochen, Swabia. The polishing, coating, and measurement machines are built in-house and never sold. The knowledge is tacit — embodied in senior technicians, not in manuals. No other company in the world can produce EUV-grade mirrors. Period.
+
+**Trumpf lasers are hard but bridgeable.** The 40kW, 300,000-pulse/sec CO₂ laser system that drives EUV plasma generation is a formidable challenge, but the physics is simpler, components are more commoditized, and China has relevant (if distant) laser experience from fusion research. A 5-10 year gap is plausible. Trumpf is a bottleneck — but not an insurmountable one.
+
+**The integration challenge is the hidden moat.** Even with perfect mirrors and lasers, an EUV system requires 11+ subsystems to operate in sub-nm synchronization inside a vacuum chamber, at 300 wafers/hr throughput, with years of 24/7/365 reliability. ASML's computational lithography software (Brion, Tachyon) is the invisible barrier — it encodes petabytes of process knowledge that cannot be reverse-engineered or purchased. ASML spent 17 years and nearly went bankrupt learning this integration. China's crude 2025 prototype is farther from a commercial system than ASML's 2001 prototype was.
+
+**German export control is the geopolitical wildcard.** Zeiss and Trumpf are German companies. Their exports are governed by German law under BAFA oversight. This means Berlin — not The Hague or Washington — holds veto power over the entire EUV supply chain. If Germany blocks Zeiss mirror exports to an ASML system destined for China, no EUV system ships. The counter-leverage is Chinese auto retaliation: VW, BMW, and Mercedes earn 30-40% of their profits in China. This creates a structural tension in German policymaking that has no easy resolution.
+
+**The German bottleneck is structural, not technological, at its core** — but the technological barriers (sub-0.1nm optics, 300kHz laser-plasma synchronization, multi-subsystem integration) are formidable enough to guarantee China cannot achieve competitive EUV lithography within a decade, regardless of political outcomes.
+
 ### 24.4 Key Takeaways
 
 1. **Export controls are highly effective for EUV** — China has no path to indigenous EUV within a decade. Zeiss mirror technology is a structural barrier.
