@@ -450,7 +450,7 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - Gap >20 years of process evolution
 - Multi-patterning only closes resolution gap, not power/performance/density gap
 
-## 16. ASML China Revenue
+## 17. ASML China Revenue
 
 **Source:** ASML quarterly report — heise.de
 
@@ -476,7 +476,7 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - ASML can't service systems it sells to China without Dutch government license
 - Even NXT:1980Di systems already delivered may become unserviceable
 
-## 17. Canon Nanoimprint Lithography (NIL)
+## 18. Canon Nanoimprint Lithography (NIL)
 
 **Source:** Canon / heise.de — "Canon unveils 5nm nanoimprint lithography system" (Oct 2023)
 
@@ -506,7 +506,7 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - Primary competition: DUV, not EUV
 - NIL has been "promising" for decades but never broke through
 
-## 18. Zeiss SMT — The Indispensable Optics Supplier
+## 19. Zeiss SMT — The Indispensable Optics Supplier
 
 **Source:** Zeiss / heise.de — "Zeiss Expands German Production by Over 25,000 m²" (Jul 2026)
 
@@ -535,7 +535,7 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - China cannot replicate — lacks the decades of precision optics expertise
 - Zeiss also makes mask inspection, metrology, process control tools
 
-## 19. Export Control Tightening — US House Committee (Oct 2025)
+## 20. Export Control Tightening — US House Committee (Oct 2025)
 
 **Source:** US House Select Committee on CCP / heise.de
 
@@ -567,3 +567,95 @@ China's best path is multi-patterning on ASML DUV systems they already own + gra
 - **KLA** (US): wafer inspection, defect detection
 - **Tokyo Electron** (Japan): etch, deposition, coat/develop
 - **ASML** (Netherlands): lithography systems
+
+## 21. Technology Deep Dives
+
+### 21.1 Multi-Patterning Cost Economics
+
+Multi-patterning is the critical bridge for Chinese fabs without EUV. Each additional patterning step dramatically increases cost and reduces yield.
+
+#### Patterning Techniques
+
+| Technique | Exposures | Min. Pitch | Used For |
+|-----------|-----------|------------|----------|
+| Single exposure (SE) | 1 | 80nm (DUV) / 36nm (EUV) | Simple layers |
+| LE (Litho-Etch) | 1 | same | Baseline |
+| LELE (double patterning) | 2 | 1/2 pitch | 28nm metal layers |
+| LELELE (triple) | 3 | 1/3 pitch | 14nm critical layers |
+| LELELELE (quad, QP) | 4 | 1/4 pitch | 7nm critical layers |
+| SADP (self-aligned) | 1+spacer | 1/2 pitch | DRAM, NAND |
+| SAQP (quad) | 1+2x spacer | 1/4 pitch | 7nm fins |
+
+#### Cost Impact
+
+For a typical 7nm layer requiring 4x multi-patterning:
+- **Per-exposure cost**: DUV ~$30-40/wafer pass vs EUV ~$150-200/wafer
+- **Total for 4x layer**: 4 × $35 = **$140** vs EUV single pass **$175**
+- **BUT**: throughput is 4x slower (same scanner time for fewer wafers)
+- **ALSO**: yield loss compounds. If each pass has 98% alignment yield: 0.98^4 = **92.2%** compounding. Additional inspection/repair steps needed between passes.
+- **ALSO**: mask cost — 4x masks instead of 1
+
+**Economic reality**: 4x multi-patterning on DUV costs MORE per good die than EUV single exposure, once yield is factored. Only viable via:
+- State subsidies
+- Low-volume, high-margin chips (Huawei Kirin for prestige)
+- Products where performance target is relaxed (IoT, automotive in China)
+
+#### SMIC N+3 Cost Penalty Estimate
+- N+3 (7nm, 4x multi-patterning): ~**$40-50B** equivalent fab cost for comparable capacity vs TSMC N7 ($20B) — due to 2-3x more tools needed
+- Wafer cost at SMIC 7nm: estimated **$4,000-5,000/wafer**
+- vs TSMC N7: ~**$2,500-3,000/wafer** (using EUV for some layers)
+- vs TSMC N3: ~**$20,000/wafer** (different class)
+- SMIC must charge premium or subsidize — no free-market path
+
+### 21.2 Yield Economics
+### 21.3 GAAFET vs FinFET
+### 21.4 Chiplet Architecture and Packaging
+
+**Why it matters for China:**
+- Chiplets allow combining smaller dies on an interposer to build large processors
+- Each smaller die = higher yield = circumvents yield problems
+- DUV-only fabs can make smaller chips and package them together
+- This is **actively happening**: Huawei Ascend 910C CloudMatrix 384
+
+**The CloudMatrix 384 example:**
+- 384 Ascend 910C chiplets connected via all-to-all topology
+- ~300 PFLOPs dense BF16 (2x NVIDIA GB200 NVL72)
+- Total power: 560kW (4.1x vs Nvidia 136kW)
+- Perf/W: 2.5x WORSE than Nvidia
+- Each chiplet likely smaller = easier to manufacture at "bad" yield
+- Uses CoWoS-like packaging (likely domestic alternative)
+
+**Limitations:**
+- Chiplet architecture doesn't help with **single-chip performance** (smartphone SoCs need monolithic dies)
+- Inter-chiplet communication adds latency and power overhead
+- Advanced packaging tools (TSMC CoWoS/InFO, Intel EMIB) also export-controlled
+- China has domestic packaging (JCET, Tongfu Micro) but behind on 2.5D/3D interposers to sub-micron alignment
+
+**Bottom line**: Chiplets help China make large AI accelerators from many smaller chips, but don't close the smartphone gap, power efficiency gap, or the transistor technology gap.
+
+## 22. Synthesis — Executive Summary
+
+### 22.1 The Big Picture (mid-2026)
+### 22.2 The Timeline
+### 22.3 The Dependency Bottleneck
+### 22.4 Key Takeaways
+
+1. **Export controls are highly effective for EUV** — China has no path to indigenous EUV within a decade. Zeiss mirror technology is a structural barrier.
+
+2. **DUV controls are partially effective** — China can still get NXT:1980Di systems. Their domestic DUV immersion is real but ~1,000x behind ASML's planned output.
+
+3. **Multi-patterning is a stopgap, not a solution** — SMIC's 4x multi-patterning for 7nm costs more per good die than EUV single-pass at TSMC. Economically unviable without subsidies.
+
+4. **The gap is widening** — ASML scaling (30%+ CAGR), TSMC A14, GAAFET, backside power, High-NA EUV. China's ambition to consolidate 28nm and trial 7nm by 2030 means the absolute gap in process technology will grow.
+
+5. **Memory is a mixed picture** — CXMT is real, ~8% global DRAM share, massive IPO valuation. But can't access EUV for DRAM — gap to Samsung/SK Hynix/Micron will expand.
+
+6. **AI is the demand driver** — ASML's record backlog (€38.8B) driven by HBM and logic AI chips. Memory overtook logic in bookings for first time.
+
+7. **Chiplets help but don't solve the core problem** — China can build large AI processors from smaller DUV-made dies, but can't compete on power efficiency, smartphone SoCs, or transistor-level innovation.
+
+8. **The supply chain is the bottleneck** — ASML itself depends on 5,000 suppliers. Zeiss (EUV optics) and Trumpf (EUV lasers) are single points of failure that China cannot replicate.
+
+9. **Chinese self-assessment is honest** — Wang Yangyuan et al. correctly identified the industry as "small, scattered and weak" and called for 5-10 years of consolidation before attempting leading edge.
+
+10. **Political risk is asymmetric** — US/Netherlands/Japan coordination is tightening, not loosening. Even current DUV exports (NXT:1980Di) may become unserviceable. Meanwhile, ASML is scaling capacity to meet non-China demand, reducing its dependence on Chinese revenue.

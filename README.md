@@ -189,3 +189,17 @@ Key conclusions:
 - **Canon NIL** (Oct 2023): FPA-1200NZ2C nanoimprint, 14nm line width (=5nm node), mechanical stamp. Kioxia testing. Throughput/overlay data unknown.
 - **Zeiss SMT expansion** (Jul 2026): +25,000m² Oberkochen for EUV optics scaling. Foundation-owned monopoly.
 - **US House Committee** (Oct 2025): wants broader export controls beyond entity lists, acknowledges 7nm workaround. Targets: SMIC, PXW, PST, YMTC, SwaySure.
+
+## Synthesis
+
+### Key Conclusions (mid-2026)
+
+**China's semiconductor lithography capability is real but far behind.** Strengths: DUV immersion prototype (Aishengna/Yuliangsheng), EUV research prototype (crude, can't produce chips), SMIC 7nm via ASML DUV + multi-patterning. Weaknesses: 4+ generations behind TSMC, no commercial EUV, no GAAFET, poor yield, Zeiss mirror bottleneck, fragmented industry.
+
+**The gap is widening** — ASML scaling at 30%+ CAGR, TSMC A14 by 2028, GAAFET, backside power, High-NA EUV all widen China's relative position.
+
+**Multi-patterning is a stopgap** — 4x patterning costs more per good die than EUV single-pass. Economically unviable without state subsidies.
+
+**Export controls are asymmetric** — Highly effective for EUV (Zeiss mirror monopoly blocks Chinese EUV entirely), partially effective for DUV (older models still flow).
+
+See `FACTS.md` Sections 21-22 for full technology deep dives and executive summary.
