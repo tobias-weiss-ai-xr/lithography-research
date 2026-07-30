@@ -189,6 +189,9 @@ Key conclusions:
 - **Canon NIL** (Oct 2023): FPA-1200NZ2C nanoimprint, 14nm line width (=5nm node), mechanical stamp. Kioxia testing. Throughput/overlay data unknown.
 - **Zeiss SMT expansion** (Jul 2026): +25,000m² Oberkochen for EUV optics scaling. Foundation-owned monopoly.
 - **US House Committee** (Oct 2025): wants broader export controls beyond entity lists, acknowledges 7nm workaround. Targets: SMIC, PXW, PST, YMTC, SwaySure.
+- **Trumpf EUV laser** (Ditzingen): sole supplier of EUV CO₂ lasers. 300,000 pulses/sec, 40kW, hitting 25µm tin droplets at 1.5m. China can bridge this gap in ~5-10 years — hard but bridgeable. See FACTS.md §19.1.
+- **German semiconductor ecosystem**: GlobalFoundries Dresden (largest 300mm EU fab), Infineon Dresden (€5B expansion), ESMC Dresden (TSMC JV, >€10B), Bosch Reutlingen, X-Fab Erfurt. €20B+ subsidies. Intel Magdeburg dead. See FACTS.md §20.
+- **Export control politics**: Germany holds veto power over Zeiss/Trumpf exports via BAFA. Key tension: China can retaliate against German auto (30-40% of VW/BMW/Mercedes profits). See FACTS.md §20.4.
 
 ## Synthesis
 
@@ -202,4 +205,6 @@ Key conclusions:
 
 **Export controls are asymmetric** — Highly effective for EUV (Zeiss mirror monopoly blocks Chinese EUV entirely), partially effective for DUV (older models still flow).
 
-See `FACTS.md` Sections 21-22 for full technology deep dives and executive summary.
+**Germany is the structural bottleneck** — Zeiss (EUV mirrors) and Trumpf (EUV lasers) are German sole-source suppliers for ASML. Their export controls are enforceable via German law — giving Berlin veto power over the entire EUV supply chain. But China has leverage: German auto industry dependence on China market.
+
+See `FACTS.md` Sections 19-24 for full German angle, technology deep dives, and executive summary.
