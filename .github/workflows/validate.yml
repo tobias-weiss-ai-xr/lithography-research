@@ -1,0 +1,21 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repository completeness
+        run: |
+          for f in README.md FACTS.md LICENSE CONTRIBUTING.md CHANGELOG.md CITATION.cff; do
+            test -f "$f" || { echo "missing $f"; exit 1; }
+          done
+          test -d papers && echo "papers/ present"
+      - name: Markdown lint (basic)
+        run: grep -rl "TODO" README.md FACTS.md && exit 1 || echo "no TODO markers"
