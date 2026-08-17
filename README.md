@@ -4,10 +4,10 @@
 <h3 align="center">Semiconductor lithography: EUV, DUV, High-NA, equipment, manufacturing nodes, export controls, and market dynamics</h3>
 
 <div align="center">
-  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/lithography--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/lithography-research)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/lithography--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/lithography-research/actions/workflows/validate.yml)
-  [![Robotics](https://img.shields.io/badge/Robotics-robotics--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/robotics-research) [![DevOps](https://img.shields.io/badge/DevOps-devops--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/devops-research)
+  [**GitHub**](https://github.com/tobias-weiss-ai-xr/lithography-research)
+  [**License**](LICENSE)
+  [**CI**](https://github.com/tobias-weiss-ai-xr/lithography-research/actions/workflows/validate.yml)
+  [**Robotics**](https://github.com/tobias-weiss-ai-xr/robotics-research) [**DevOps**](https://github.com/tobias-weiss-ai-xr/devops-research)
 </div>
 
 > 🔬 **Lithography research corpus:** EUV, DUV immersion, High-NA, nanoimprint,
