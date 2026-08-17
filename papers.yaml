@@ -1,0 +1,19 @@
+# 📄 papers.yaml — Source of truth for the lithography research corpus
+#
+# Auto-populated by fetch scripts (arXiv, OpenAlex, other sources).
+# The README is AUTO-GENERATED from this file — never edit README.md directly.
+#
+# Schema:
+#   title:       Required
+#   date:        Required, YYYY-MM
+#   url:         Required, normalized (https://arxiv.org/abs/XXXX)
+#   category:    Required — one of the categories in config/taxonomy.yaml
+#   subcategory: Required — one of the subcategories in config/taxonomy.yaml
+#   authors:     Optional list
+#   venue:       Optional
+#   code_url:    Optional
+#   project_url: Optional
+#   abstract:    Optional
+#   tags:        Optional list
+
+papers: []

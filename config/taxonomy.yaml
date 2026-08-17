@@ -1,0 +1,217 @@
+# ⚙️ Research Taxonomy & Discovery Config — Lithography Research
+#
+# Semiconductor lithography: EUV, DUV, High-NA, nanoimprint, equipment
+# (ASML, Canon, Nikon, SMEE, Aishengna), manufacturing nodes, export
+# controls, photoresists, optics, and market dynamics.
+#
+# Pipeline:  config/taxonomy.yaml → papers.yaml → validate → README → reports
+
+# ── Topic ────────────────────────────────────────────────────────────────────
+topic:
+  name: "Semiconductor Lithography Research"
+  short: "lithography"
+  description: "Global and Chinese semiconductor lithography progress — EUV, DUV, High-NA EUV, nanoimprint, equipment makers, manufacturing nodes, export controls, and market dynamics."
+  openalex_mailto: "research@tobias-weiss-ai-xr.de"
+
+# ── Taxonomy ─────────────────────────────────────────────────────────────────
+taxonomy:
+  categories:
+    - id: equipment
+      display: "Lithography Equipment"
+    - id: technology
+      display: "Lithography Technology"
+    - id: manufacturing
+      display: "Semiconductor Manufacturing"
+    - id: geopolitics
+      display: "Geopolitics & Export Controls"
+    - id: materials
+      display: "Materials & Optics"
+    - id: market
+      display: "Market & Economics"
+    - id: survey
+      display: "Surveys & Reviews"
+
+  subcategories:
+    - id: euv
+      display: "EUV Lithography"
+    - id: duv
+      display: "DUV Lithography"
+    - id: high-na
+      display: "High-NA EUV"
+    - id: multi-patterning
+      display: "Multi-Patterning"
+    - id: nanoimprint
+      display: "Nanoimprint Lithography"
+    - id: china
+      display: "China-Specific"
+    - id: general
+      display: "General"
+
+# ── Discovery: arXiv queries (fetch_new_papers.py) ───────────────────────────
+arxiv_queries:
+  - query: 'cat:physics.app-ph AND (abs:"lithography" OR abs:"EUV" OR abs:"extreme ultraviolet")'
+    category: technology
+    subcategory_hint: euv
+  - query: 'cat:physics.optics AND (abs:"lithography" OR abs:"EUV optics" OR abs:"extreme ultraviolet")'
+    category: technology
+    subcategory_hint: euv
+  - query: 'cat:eess.SP AND (abs:"semiconductor manufacturing" OR abs:"lithography" OR abs:"process node")'
+    category: manufacturing
+    subcategory_hint: general
+  - query: 'cat:physics.app-ph AND abs:"nanoimprint"'
+    category: technology
+    subcategory_hint: nanoimprint
+  - query: 'cat:physics.app-ph AND (abs:"photoresist" OR abs:"EUV resist" OR abs:"chemically amplified resist")'
+    category: materials
+    subcategory_hint: general
+  - query: 'cat:cond-mat.mtrl-sci AND (abs:"photoresist" OR abs:"EUV resist" OR abs:"line edge roughness")'
+    category: materials
+    subcategory_hint: general
+  - query: 'cat:physics.app-ph AND (abs:"multi-patterning" OR abs:"self-aligned" OR abs:"SADP" OR abs:"SAQP")'
+    category: technology
+    subcategory_hint: multi-patterning
+  - query: 'cat:eess.SP AND (abs:"DTCO" OR abs:"design technology co-optimization" OR abs:"lithography")'
+    category: manufacturing
+    subcategory_hint: general
+  - query: 'cat:physics.app-ph AND (abs:"high-NA EUV" OR abs:"anamorphic" OR abs:"High NA")'
+    category: technology
+    subcategory_hint: high-na
+  - query: 'cat:cs.AR AND (abs:"lithography" OR abs:"optical proximity correction" OR abs:"OPC" OR abs:"computational lithography")'
+    category: technology
+    subcategory_hint: general
+
+# ── Discovery: multi-source queries (fetch_other_sources.py) ─────────────────
+other_sources_queries:
+  - source: dblp
+    query: EUV lithography semiconductor
+    category: technology
+    subcategory_hint: euv
+  - source: crossref
+    query: extreme ultraviolet lithography
+    category: technology
+    subcategory_hint: euv
+  - source: europepmc
+    query: photoresist EUV lithography
+    category: materials
+    subcategory_hint: general
+  - source: crossref
+    query: nanoimprint lithography semiconductor
+    category: technology
+    subcategory_hint: nanoimprint
+  - source: europepmc
+    query: high-NA EUV lithography
+    category: technology
+    subcategory_hint: high-na
+  - source: crossref
+    query: semiconductor manufacturing multi-patterning
+    category: manufacturing
+    subcategory_hint: multi-patterning
+  - source: openalex
+    query: EUV lithography optics
+    category: materials
+    subcategory_hint: general
+  - source: semantic_scholar
+    query: computational lithography optical proximity correction
+    category: technology
+    subcategory_hint: general
+
+# ── OpenAlex bulk fetch (fetch_openalex_bulk.py) ─────────────────────────────
+openalex_queries:
+  - category: technology
+    query: "EUV lithography extreme ultraviolet"
+  - category: technology
+    query: "DUV immersion lithography 193nm"
+  - category: technology
+    query: "high-NA EUV anamorphic lithography"
+  - category: technology
+    query: "nanoimprint lithography"
+  - category: technology
+    query: "multi-patterning lithography SADP SAQP"
+  - category: technology
+    query: "computational lithography optical proximity correction"
+  - category: equipment
+    query: "ASML lithography system"
+  - category: equipment
+    query: "Nikon lithography scanner"
+  - category: equipment
+    query: "Canon nanoimprint lithography"
+  - category: equipment
+    query: "SMEE lithography China"
+  - category: manufacturing
+    query: "semiconductor manufacturing process node"
+  - category: manufacturing
+    query: "DTCO design technology co-optimization lithography"
+  - category: materials
+    query: "EUV photoresist chemically amplified resist"
+  - category: materials
+    query: "EUV optics mirror Zeiss"
+  - category: materials
+    query: "line edge roughness lithography"
+  - category: geopolitics
+    query: "semiconductor export control lithography"
+  - category: geopolitics
+    query: "China semiconductor lithography self-sufficiency"
+  - category: market
+    query: "semiconductor lithography market ASML revenue"
+  - category: survey
+    query: "lithography review survey semiconductor"
+  - category: survey
+    query: "EUV lithography review"
+
+# ── GitHub repository discovery (fetch_github_repos.py) ─────────────────────
+github_queries:
+  - query: "lithography+semiconductor+stars:>10"
+    category: technology
+  - query: "EUV+lithography+stars:>5"
+    category: technology
+  - query: "OPC+computational+lithography+stars:>5"
+    category: technology
+  - query: "photoresist+simulation+stars:>5"
+    category: materials
+  - query: "nanoimprint+lithography+stars:>3"
+    category: technology
+
+# ── Codeberg repository discovery (fetch_codeberg_repos.py) ──────────────────
+# (no codeberg queries defined — lithography tooling is not well-represented
+#  on Codeberg; add queries here if relevant repos emerge)
+
+# ── Trend / burst keywords ───────────────────────────────────────────────────
+trend_keywords:
+  - "EUV"
+  - "high-NA"
+  - "DUV"
+  - "immersion"
+  - "multi-patterning"
+  - "nanoimprint"
+  - "photoresist"
+  - "optical proximity correction"
+  - "OPC"
+  - "DTCO"
+  - "ASML"
+  - "Zeiss"
+  - "Trumpf"
+  - "SMEE"
+  - "SMIC"
+  - "TSMC"
+  - "Intel"
+  - "export control"
+  - "self-sufficiency"
+  - "anamorphic"
+  - "line edge roughness"
+
+# ── Subclassification keywords ───────────────────────────────────────────────
+subcategory_keywords:
+  - id: euv
+    keywords: ["EUV", "extreme ultraviolet", "13.5nm", "plasma source"]
+  - id: duv
+    keywords: ["DUV", "193nm", "248nm", "argon fluoride", "krypton fluoride", "immersion"]
+  - id: high-na
+    keywords: ["high-NA", "high NA", "anamorphic", "EXE:5000", "EXE:5200", "0.55 NA"]
+  - id: multi-patterning
+    keywords: ["multi-patterning", "multiple patterning", "SADP", "SAQP", "self-aligned", "double patterning", "quad patterning"]
+  - id: nanoimprint
+    keywords: ["nanoimprint", "NIL", "imprint lithography", "FPA-1200"]
+  - id: china
+    keywords: ["China", "Chinese", "SMEE", "SMIC", "Aishengna", "Yuliangsheng", "Huawei"]
+  - id: general
+    keywords: ["lithography", "semiconductor", "wafer", "scanner", "reticle", "mask"]

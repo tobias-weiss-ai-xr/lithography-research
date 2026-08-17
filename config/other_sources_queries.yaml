@@ -1,0 +1,35 @@
+# Multi-source discovery queries (fetch_other_sources.py)
+# Sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
+
+- source: dblp
+  query: EUV lithography semiconductor
+  category: technology
+  subcategory_hint: euv
+- source: crossref
+  query: extreme ultraviolet lithography
+  category: technology
+  subcategory_hint: euv
+- source: europepmc
+  query: photoresist EUV lithography
+  category: materials
+  subcategory_hint: general
+- source: crossref
+  query: nanoimprint lithography semiconductor
+  category: technology
+  subcategory_hint: nanoimprint
+- source: europepmc
+  query: high-NA EUV lithography
+  category: technology
+  subcategory_hint: high-na
+- source: crossref
+  query: semiconductor manufacturing multi-patterning
+  category: manufacturing
+  subcategory_hint: multi-patterning
+- source: openalex
+  query: EUV lithography optics
+  category: materials
+  subcategory_hint: general
+- source: semantic_scholar
+  query: computational lithography optical proximity correction
+  category: technology
+  subcategory_hint: general
