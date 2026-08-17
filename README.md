@@ -3,12 +3,14 @@
 </h1>
 <h3 align="center">Semiconductor lithography: EUV, DUV, High-NA, equipment, manufacturing nodes, export controls, and market dynamics</h3>
 
-<div align="center">
-  [**GitHub**](https://github.com/tobias-weiss-ai-xr/lithography-research)
-  [**License**](LICENSE)
-  [**CI**](https://github.com/tobias-weiss-ai-xr/lithography-research/actions/workflows/validate.yml)
-  [**Robotics**](https://github.com/tobias-weiss-ai-xr/robotics-research) [**DevOps**](https://github.com/tobias-weiss-ai-xr/devops-research)
-</div>
+### 🔗 Links
+
+- **GitHub**: https://github.com/tobias-weiss-ai-xr/lithography-research
+- **License**: https://github.com/tobias-weiss-ai-xr/lithography-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/lithography-research/actions/workflows/validate.yml
+- **Robotics**: https://github.com/tobias-weiss-ai-xr/robotics-research
+- **DevOps**: https://github.com/tobias-weiss-ai-xr/devops-research
+
 
 > 🔬 **Lithography research corpus:** EUV, DUV immersion, High-NA, nanoimprint,
 > multi-patterning, equipment makers, manufacturing nodes, export controls,
@@ -96,23 +98,84 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ## 📊 Corpus Statistics
 
-**0 papers** across **1 categories**.  
-Sources: No source breakdown.  
+**651 papers** across **7 categories**.  
+Sources: **arXiv** 4 (0%) · **DOI** 634 (97%) · **Other** 13 (1%).  
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/lithography-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| unknown | **0** | 0 |  |
+| technology | **288** | 0 | ████████████ |
+| materials | **144** | 0 | ██████░░░░░░ |
+| manufacturing | **97** | 0 | ████░░░░░░░░ |
+| survey | **56** | 0 | ██░░░░░░░░░░ |
+| equipment | **47** | 0 | █░░░░░░░░░░░ |
+| geopolitics | **18** | 0 | ░░░░░░░░░░░░ |
+| market | **1** | 0 | ░░░░░░░░░░░░ |
+
+
+### By year
+
+| Year | Papers | |
+|------|--------|-|
+| 2024 | 218 | ██████████░░ |
+| 2025 | 242 | ████████████ |
+| 2026 | 115 | █████░░░░░░░ |
 
 
 ### Momentum (hottest categories)
 
 | Category | Total | Rate | Recent | Score |
 |----------|-------|------|--------|-------|
-| Unknown | 0 | 0.0/mo | 0% | 0 |
+| Survey | 56 | 2.1/mo | 45% | 137 |
+| Equipment | 47 | 1.9/mo | 49% | 113 |
+| Geopolitics | 18 | 1.2/mo | 78% | 78 |
+| Materials | 144 | 4.1/mo | 34% | 32 |
+| Manufacturing | 97 | 2.0/mo | 25% | -14 |
 
+
+### Trending keywords
+
+| Keyword | Papers | Burst |
+|---------|--------|-------|
+| self-sufficiency | 2 | 3.21 |
+| export control | 15 | 2.78 |
+| immersion | 11 | 1.17 |
+| photoresist | 149 | 1.10 |
+| multi-patterning | 6 | 1.07 |
+| line edge roughness | 64 | 1.00 |
+| nanoimprint | 108 | 0.98 |
+| optical proximity correction | 66 | 0.97 |
+
+
+### Top venues
+
+| Venue | Papers |
+|-------|--------|
+| Journal of Micro/Nanopatterning Materials and Metrology | 33 |
+| Zenodo (CERN European Organization for Nuclear Research) | 16 |
+| Micromachines | 12 |
+| Japanese Journal of Applied Physics | 11 |
+| Applied Optics | 8 |
+| Journal of Photopolymer Science and Technology | 8 |
+| SSRN Electronic Journal | 8 |
+| Advanced Functional Materials | 7 |
+
+
+### Research gaps (thinnest cells)
+
+| Cell | Papers |
+|------|--------|
+| `equipment/multi-patterning` | 1 |
+| `equipment/duv` | 1 |
+| `manufacturing/multi-patterning` | 1 |
+| `materials/multi-patterning` | 1 |
+| `materials/nanoimprint` | 1 |
+
+
+
+*Generated 2026-08 by `scripts/standard_stats.py`.*
 
 
 ## 📖 Citation
