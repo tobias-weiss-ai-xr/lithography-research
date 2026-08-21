@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "total_papers": 651,
+    "total_papers": 954,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 7,
       "subcategories": 6,
       "total_cells": 42,
-      "filled_cells": 26,
-      "saturation": 61.9,
-      "empty_cells": 16
+      "filled_cells": 27,
+      "saturation": 64.3,
+      "empty_cells": 15
     },
     "analysis_window": {
       "last_12m_start": "2025-08"
@@ -17,44 +17,45 @@
   "by_category": {
     "equipment": 47,
     "geopolitics": 18,
-    "manufacturing": 97,
+    "manufacturing": 161,
     "market": 1,
-    "materials": 144,
+    "materials": 158,
     "survey": 56,
-    "technology": 288
+    "technology": 513
   },
   "by_subcategory": {
-    "china": 8,
-    "duv": 6,
-    "euv": 366,
-    "general": 169,
-    "multi-patterning": 7,
-    "nanoimprint": 95
+    "china": 9,
+    "duv": 9,
+    "euv": 526,
+    "general": 227,
+    "multi-patterning": 10,
+    "nanoimprint": 173
   },
   "by_year": {
     "2023": 76,
     "2024": 218,
     "2025": 242,
-    "2026": 115
+    "2026": 418
   },
   "by_cell": {
-    "technology/euv": 143,
-    "materials/euv": 111,
-    "technology/nanoimprint": 91,
-    "manufacturing/general": 72,
+    "technology/euv": 284,
+    "technology/nanoimprint": 169,
+    "manufacturing/general": 124,
+    "materials/euv": 122,
     "survey/euv": 51,
-    "technology/general": 46,
+    "technology/general": 49,
+    "materials/general": 33,
     "equipment/euv": 32,
-    "materials/general": 30,
-    "manufacturing/euv": 21,
+    "manufacturing/euv": 29,
     "equipment/general": 11,
+    "technology/multi-patterning": 7,
     "geopolitics/euv": 7,
     "geopolitics/china": 5,
     "geopolitics/general": 5,
     "survey/general": 5,
-    "technology/multi-patterning": 4,
     "technology/duv": 4,
-    "manufacturing/china": 3,
+    "manufacturing/china": 4,
+    "manufacturing/duv": 3,
     "equipment/nanoimprint": 2,
     "equipment/multi-patterning": 1,
     "equipment/duv": 1,
@@ -75,35 +76,57 @@
       "papers": 13
     },
     {
+      "keyword": "nanoimprint",
+      "papers": 112
+    },
+    {
       "keyword": "immersion",
-      "papers": 4
+      "papers": 7
     },
     {
       "keyword": "photoresist",
-      "papers": 51
+      "papers": 78
     },
     {
       "keyword": "multi-patterning",
-      "papers": 2
+      "papers": 3
     },
     {
       "keyword": "line edge roughness",
-      "papers": 20
-    },
-    {
-      "keyword": "nanoimprint",
-      "papers": 33
+      "papers": 29
     },
     {
       "keyword": "optical proximity correction",
-      "papers": 20
+      "papers": 24
     },
     {
       "keyword": "anamorphic",
-      "papers": 9
+      "papers": 10
     }
   ],
   "momentum": [
+    {
+      "id": "technology",
+      "name": "Technology",
+      "total": 513,
+      "recent": 293,
+      "prior": 113,
+      "growth_pct": 159.3,
+      "recent_share": 0.571,
+      "papers_per_month": 24.4,
+      "score": 216.4
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing",
+      "total": 161,
+      "recent": 88,
+      "prior": 39,
+      "growth_pct": 125.6,
+      "recent_share": 0.547,
+      "papers_per_month": 7.3,
+      "score": 180.3
+    },
     {
       "id": "survey",
       "name": "Survey",
@@ -140,35 +163,13 @@
     {
       "id": "materials",
       "name": "Materials",
-      "total": 144,
-      "recent": 49,
+      "total": 158,
+      "recent": 63,
       "prior": 50,
-      "growth_pct": -2.0,
-      "recent_share": 0.34,
-      "papers_per_month": 4.1,
-      "score": 32.0
-    },
-    {
-      "id": "manufacturing",
-      "name": "Manufacturing",
-      "total": 97,
-      "recent": 24,
-      "prior": 39,
-      "growth_pct": -38.5,
-      "recent_share": 0.247,
-      "papers_per_month": 2.0,
-      "score": -13.8
-    },
-    {
-      "id": "technology",
-      "name": "Technology",
-      "total": 288,
-      "recent": 68,
-      "prior": 113,
-      "growth_pct": -39.8,
-      "recent_share": 0.236,
-      "papers_per_month": 5.7,
-      "score": -16.2
+      "growth_pct": 26.0,
+      "recent_share": 0.399,
+      "papers_per_month": 5.2,
+      "score": 65.9
     },
     {
       "id": "market",
@@ -199,7 +200,7 @@
       "2023": 9,
       "2024": 38,
       "2025": 40,
-      "2026": 10
+      "2026": 74
     },
     "market": {
       "2025": 1
@@ -208,7 +209,7 @@
       "2023": 13,
       "2024": 43,
       "2025": 56,
-      "2026": 32
+      "2026": 46
     },
     "survey": {
       "2023": 11,
@@ -220,7 +221,7 @@
       "2023": 37,
       "2024": 115,
       "2025": 109,
-      "2026": 27
+      "2026": 252
     }
   },
   "keyword_bursts": [
@@ -228,131 +229,131 @@
       "keyword": "self-sufficiency",
       "recent": 2,
       "total": 2,
-      "burst_score": 3.21,
-      "recent_share": 0.0099
+      "burst_score": 1.89,
+      "recent_share": 0.004
     },
     {
       "keyword": "export control",
       "recent": 13,
       "total": 15,
-      "burst_score": 2.78,
-      "recent_share": 0.064
-    },
-    {
-      "keyword": "immersion",
-      "recent": 4,
-      "total": 11,
-      "burst_score": 1.17,
-      "recent_share": 0.0197
-    },
-    {
-      "keyword": "photoresist",
-      "recent": 51,
-      "total": 149,
-      "burst_score": 1.1,
-      "recent_share": 0.2512
-    },
-    {
-      "keyword": "multi-patterning",
-      "recent": 2,
-      "total": 6,
-      "burst_score": 1.07,
-      "recent_share": 0.0099
-    },
-    {
-      "keyword": "line edge roughness",
-      "recent": 20,
-      "total": 64,
-      "burst_score": 1.0,
-      "recent_share": 0.0985
+      "burst_score": 1.63,
+      "recent_share": 0.0257
     },
     {
       "keyword": "nanoimprint",
-      "recent": 33,
-      "total": 108,
-      "burst_score": 0.98,
-      "recent_share": 0.1626
+      "recent": 112,
+      "total": 187,
+      "burst_score": 1.13,
+      "recent_share": 0.2213
+    },
+    {
+      "keyword": "immersion",
+      "recent": 7,
+      "total": 14,
+      "burst_score": 0.94,
+      "recent_share": 0.0138
+    },
+    {
+      "keyword": "photoresist",
+      "recent": 78,
+      "total": 176,
+      "burst_score": 0.84,
+      "recent_share": 0.1542
+    },
+    {
+      "keyword": "multi-patterning",
+      "recent": 3,
+      "total": 7,
+      "burst_score": 0.81,
+      "recent_share": 0.0059
+    },
+    {
+      "keyword": "line edge roughness",
+      "recent": 29,
+      "total": 73,
+      "burst_score": 0.75,
+      "recent_share": 0.0573
     },
     {
       "keyword": "optical proximity correction",
-      "recent": 20,
-      "total": 66,
-      "burst_score": 0.97,
-      "recent_share": 0.0985
+      "recent": 24,
+      "total": 70,
+      "burst_score": 0.65,
+      "recent_share": 0.0474
     },
     {
       "keyword": "anamorphic",
-      "recent": 9,
-      "total": 38,
-      "burst_score": 0.76,
-      "recent_share": 0.0443
+      "recent": 10,
+      "total": 39,
+      "burst_score": 0.48,
+      "recent_share": 0.0198
     }
   ],
   "source_breakdown": {
-    "arxiv": 4,
-    "doi": 634,
-    "other": 13
+    "arxiv": 91,
+    "doi": 844,
+    "other": 19
   },
   "venues": [
     {
       "name": "Journal of Micro/Nanopatterning Materials and Metrology",
-      "papers": 33
+      "papers": 42
     },
     {
       "name": "Zenodo (CERN European Organization for Nuclear Research)",
-      "papers": 16
-    },
-    {
-      "name": "Micromachines",
-      "papers": 12
+      "papers": 33
     },
     {
       "name": "Japanese Journal of Applied Physics",
-      "papers": 11
+      "papers": 18
+    },
+    {
+      "name": "Micromachines",
+      "papers": 15
+    },
+    {
+      "name": "Advanced Functional Materials",
+      "papers": 12
+    },
+    {
+      "name": "Optics Express",
+      "papers": 10
     },
     {
       "name": "Applied Optics",
-      "papers": 8
+      "papers": 10
+    },
+    {
+      "name": "Figshare",
+      "papers": 10
+    },
+    {
+      "name": "Nanotechnology",
+      "papers": 9
     },
     {
       "name": "Journal of Photopolymer Science and Technology",
-      "papers": 8
+      "papers": 9
     },
     {
       "name": "SSRN Electronic Journal",
       "papers": 8
     },
     {
-      "name": "Advanced Functional Materials",
-      "papers": 7
-    },
-    {
-      "name": "Optics Express",
-      "papers": 7
-    },
-    {
       "name": "Chemistry of Materials",
-      "papers": 6
-    },
-    {
-      "name": "Nanotechnology",
-      "papers": 6
-    },
-    {
-      "name": "Electronics",
-      "papers": 6
+      "papers": 7
     },
     {
       "name": "ACS Applied Materials & Interfaces",
-      "papers": 5
+      "papers": 7
+    },
+    {
+      "name": "Nano Letters",
+      "papers": 6
     },
     {
       "name": "Journal of Vacuum Science & Technology B Nanotechnology and Microelectronics Materials Processing Measurement and Phenomena",
-      "papers": 5
-    },
-    {
-      "name": "Small",
-      "papers": 5
+      "papers": 6
     }
   ],
   "gaps": {
@@ -394,7 +395,7 @@
         "papers": 2
       },
       {
-        "cell": "manufacturing/china",
+        "cell": "manufacturing/duv",
         "papers": 3
       }
     ],
@@ -403,6 +404,12 @@
         "cell": "geopolitics/euv",
         "total": 7,
         "recent": 7,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "manufacturing/duv",
+        "total": 3,
+        "recent": 3,
         "recent_share": 1.0
       },
       {
@@ -418,6 +425,12 @@
         "recent_share": 0.8
       },
       {
+        "cell": "technology/multi-patterning",
+        "total": 7,
+        "recent": 4,
+        "recent_share": 0.57
+      },
+      {
         "cell": "equipment/general",
         "total": 11,
         "recent": 4,
@@ -428,6 +441,14 @@
   "top_authors": [
     {
       "name": "Kenta Suzuki",
+      "papers": 8
+    },
+    {
+      "name": "Tetsuya Ueda",
+      "papers": 7
+    },
+    {
+      "name": "Roberto Fallica",
       "papers": 7
     },
     {
@@ -435,8 +456,12 @@
       "papers": 6
     },
     {
-      "name": "Tetsuya Ueda",
+      "name": "Fabian Holzmeier",
       "papers": 6
+    },
+    {
+      "name": "Lisong Dong",
+      "papers": 5
     },
     {
       "name": "Vicky Philipsen",
@@ -451,7 +476,11 @@
       "papers": 5
     },
     {
-      "name": "Lisong Dong",
+      "name": "Ziqi Li",
+      "papers": 4
+    },
+    {
+      "name": "Xu Ma",
       "papers": 4
     },
     {
@@ -468,22 +497,6 @@
     },
     {
       "name": "Xuewen Cui",
-      "papers": 4
-    },
-    {
-      "name": "Tianjun Yu",
-      "papers": 4
-    },
-    {
-      "name": "Qi Wang",
-      "papers": 4
-    },
-    {
-      "name": "Gayoung Kim",
-      "papers": 4
-    },
-    {
-      "name": "Ying Li",
       "papers": 4
     }
   ]

@@ -47,23 +47,23 @@
   {
    "id": "manufacturing",
    "name": "Semiconductor Manufacturing",
-   "count": 97,
+   "count": 161,
    "trajectory": {
     "2023": 9,
     "2024": 38,
     "2025": 40,
-    "2026": 10
+    "2026": 74
    },
    "momentum": {
     "id": "manufacturing",
     "name": "Manufacturing",
-    "total": 97,
-    "recent": 24,
+    "total": 161,
+    "recent": 88,
     "prior": 39,
-    "growth_pct": -38.5,
-    "recent_share": 0.247,
-    "papers_per_month": 2.0,
-    "score": -13.8
+    "growth_pct": 125.6,
+    "recent_share": 0.547,
+    "papers_per_month": 7.3,
+    "score": 180.3
    }
   },
   {
@@ -88,23 +88,23 @@
   {
    "id": "materials",
    "name": "Materials & Optics",
-   "count": 144,
+   "count": 158,
    "trajectory": {
     "2023": 13,
     "2024": 43,
     "2025": 56,
-    "2026": 32
+    "2026": 46
    },
    "momentum": {
     "id": "materials",
     "name": "Materials",
-    "total": 144,
-    "recent": 49,
+    "total": 158,
+    "recent": 63,
     "prior": 50,
-    "growth_pct": -2.0,
-    "recent_share": 0.34,
-    "papers_per_month": 4.1,
-    "score": 32.0
+    "growth_pct": 26.0,
+    "recent_share": 0.399,
+    "papers_per_month": 5.2,
+    "score": 65.9
    }
   },
   {
@@ -132,23 +132,23 @@
   {
    "id": "technology",
    "name": "Lithography Technology",
-   "count": 288,
+   "count": 513,
    "trajectory": {
     "2023": 37,
     "2024": 115,
     "2025": 109,
-    "2026": 27
+    "2026": 252
    },
    "momentum": {
     "id": "technology",
     "name": "Technology",
-    "total": 288,
-    "recent": 68,
+    "total": 513,
+    "recent": 293,
     "prior": 113,
-    "growth_pct": -39.8,
-    "recent_share": 0.236,
-    "papers_per_month": 5.7,
-    "score": -16.2
+    "growth_pct": 159.3,
+    "recent_share": 0.571,
+    "papers_per_month": 24.4,
+    "score": 216.4
    }
   }
  ],
@@ -156,32 +156,32 @@
   {
    "id": "china",
    "name": "China-Specific",
-   "count": 8
+   "count": 9
   },
   {
    "id": "duv",
    "name": "DUV Lithography",
-   "count": 6
+   "count": 9
   },
   {
    "id": "euv",
    "name": "EUV Lithography",
-   "count": 366
+   "count": 526
   },
   {
    "id": "general",
    "name": "General",
-   "count": 169
+   "count": 227
   },
   {
    "id": "multi-patterning",
    "name": "Multi-Patterning",
-   "count": 7
+   "count": 10
   },
   {
    "id": "nanoimprint",
    "name": "Nanoimprint Lithography",
-   "count": 95
+   "count": 173
   }
  ],
  "timeline": [
@@ -2987,6 +2987,31 @@
   ],
   [
    "2026-02",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-02",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-02",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-02",
    "materials",
    "euv"
   ],
@@ -3003,7 +3028,57 @@
   [
    "2026-02",
    "technology",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-02",
+   "technology",
    "general"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "general"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-02",
+   "technology",
+   "nanoimprint"
   ],
   [
    "2026-02",
@@ -3043,6 +3118,61 @@
   [
    "2026-03",
    "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-03",
+   "manufacturing",
    "general"
   ],
   [
@@ -3067,18 +3197,208 @@
   ],
   [
    "2026-03",
+   "materials",
+   "general"
+  ],
+  [
+   "2026-03",
    "survey",
    "general"
   ],
   [
    "2026-03",
    "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-03",
+   "technology",
    "general"
   ],
   [
    "2026-03",
    "technology",
    "general"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "multi-patterning"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "multi-patterning"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-03",
+   "technology",
+   "nanoimprint"
   ],
   [
    "2026-03",
@@ -3113,6 +3433,26 @@
   [
    "2026-04",
    "manufacturing",
+   "china"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "duv"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
    "general"
   ],
   [
@@ -3124,6 +3464,111 @@
    "2026-04",
    "manufacturing",
    "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "materials",
+   "euv"
   ],
   [
    "2026-04",
@@ -3218,12 +3663,247 @@
   [
    "2026-04",
    "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-04",
+   "technology",
    "general"
   ],
   [
    "2026-04",
    "technology",
    "general"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "general"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-04",
+   "technology",
+   "nanoimprint"
   ],
   [
    "2026-04",
@@ -3262,8 +3942,83 @@
   ],
   [
    "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-05",
    "materials",
    "euv"
+  ],
+  [
+   "2026-05",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "materials",
+   "general"
   ],
   [
    "2026-05",
@@ -3283,6 +4038,106 @@
   [
    "2026-05",
    "survey",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-05",
+   "technology",
    "euv"
   ],
   [
@@ -3291,9 +4146,134 @@
    "nanoimprint"
   ],
   [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-05",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "manufacturing",
+   "duv"
+  ],
+  [
+   "2026-06",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-06",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-06",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-06",
+   "manufacturing",
+   "general"
+  ],
+  [
    "2026-06",
    "materials",
    "euv"
+  ],
+  [
+   "2026-06",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "materials",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "materials",
+   "general"
   ],
   [
    "2026-06",
@@ -3321,6 +4301,226 @@
    "euv"
   ],
   [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "general"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-06",
+   "technology",
+   "nanoimprint"
+  ],
+  [
    "2026-07",
    "equipment",
    "euv"
@@ -3334,6 +4534,36 @@
    "2026-07",
    "equipment",
    "general"
+  ],
+  [
+   "2026-07",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-07",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-07",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-07",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-07",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-07",
+   "materials",
+   "euv"
   ],
   [
    "2026-07",
@@ -3399,6 +4629,181 @@
    "2026-07",
    "technology",
    "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "multi-patterning"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-07",
+   "technology",
+   "nanoimprint"
   ],
   [
    "2026-08",
@@ -3423,6 +4828,36 @@
   [
    "2026-08",
    "manufacturing",
+   "duv"
+  ],
+  [
+   "2026-08",
+   "manufacturing",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-08",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-08",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-08",
+   "manufacturing",
+   "general"
+  ],
+  [
+   "2026-08",
+   "manufacturing",
    "general"
   ],
   [
@@ -3439,68 +4874,148 @@
    "2026-08",
    "survey",
    "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "nanoimprint"
+  ],
+  [
+   "2026-08",
+   "technology",
+   "nanoimprint"
   ]
  ],
  "venues": [
   {
    "name": "Journal of Micro/Nanopatterning Materials and Metrology",
-   "papers": 33
+   "papers": 42
   },
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 16
-  },
-  {
-   "name": "Micromachines",
-   "papers": 12
+   "papers": 33
   },
   {
    "name": "Japanese Journal of Applied Physics",
-   "papers": 11
+   "papers": 18
+  },
+  {
+   "name": "Micromachines",
+   "papers": 15
+  },
+  {
+   "name": "Advanced Functional Materials",
+   "papers": 12
+  },
+  {
+   "name": "Optics Express",
+   "papers": 10
   },
   {
    "name": "Applied Optics",
-   "papers": 8
+   "papers": 10
+  },
+  {
+   "name": "Figshare",
+   "papers": 10
+  },
+  {
+   "name": "Nanotechnology",
+   "papers": 9
   },
   {
    "name": "Journal of Photopolymer Science and Technology",
-   "papers": 8
+   "papers": 9
   },
   {
    "name": "SSRN Electronic Journal",
    "papers": 8
   },
   {
-   "name": "Advanced Functional Materials",
-   "papers": 7
-  },
-  {
-   "name": "Optics Express",
-   "papers": 7
-  },
-  {
    "name": "Chemistry of Materials",
-   "papers": 6
-  },
-  {
-   "name": "Nanotechnology",
-   "papers": 6
-  },
-  {
-   "name": "Electronics",
-   "papers": 6
+   "papers": 7
   },
   {
    "name": "ACS Applied Materials & Interfaces",
-   "papers": 5
+   "papers": 7
+  },
+  {
+   "name": "Nano Letters",
+   "papers": 6
   },
   {
    "name": "Journal of Vacuum Science & Technology B Nanotechnology and Microelectronics Materials Processing Measurement and Phenomena",
-   "papers": 5
-  },
-  {
-   "name": "Small",
-   "papers": 5
+   "papers": 6
   }
  ],
  "keyword_bursts": [
@@ -3508,64 +5023,64 @@
    "keyword": "self-sufficiency",
    "recent": 2,
    "total": 2,
-   "burst_score": 3.21,
-   "recent_share": 0.0099
+   "burst_score": 1.89,
+   "recent_share": 0.004
   },
   {
    "keyword": "export control",
    "recent": 13,
    "total": 15,
-   "burst_score": 2.78,
-   "recent_share": 0.064
-  },
-  {
-   "keyword": "immersion",
-   "recent": 4,
-   "total": 11,
-   "burst_score": 1.17,
-   "recent_share": 0.0197
-  },
-  {
-   "keyword": "photoresist",
-   "recent": 51,
-   "total": 149,
-   "burst_score": 1.1,
-   "recent_share": 0.2512
-  },
-  {
-   "keyword": "multi-patterning",
-   "recent": 2,
-   "total": 6,
-   "burst_score": 1.07,
-   "recent_share": 0.0099
-  },
-  {
-   "keyword": "line edge roughness",
-   "recent": 20,
-   "total": 64,
-   "burst_score": 1.0,
-   "recent_share": 0.0985
+   "burst_score": 1.63,
+   "recent_share": 0.0257
   },
   {
    "keyword": "nanoimprint",
-   "recent": 33,
-   "total": 108,
-   "burst_score": 0.98,
-   "recent_share": 0.1626
+   "recent": 112,
+   "total": 187,
+   "burst_score": 1.13,
+   "recent_share": 0.2213
+  },
+  {
+   "keyword": "immersion",
+   "recent": 7,
+   "total": 14,
+   "burst_score": 0.94,
+   "recent_share": 0.0138
+  },
+  {
+   "keyword": "photoresist",
+   "recent": 78,
+   "total": 176,
+   "burst_score": 0.84,
+   "recent_share": 0.1542
+  },
+  {
+   "keyword": "multi-patterning",
+   "recent": 3,
+   "total": 7,
+   "burst_score": 0.81,
+   "recent_share": 0.0059
+  },
+  {
+   "keyword": "line edge roughness",
+   "recent": 29,
+   "total": 73,
+   "burst_score": 0.75,
+   "recent_share": 0.0573
   },
   {
    "keyword": "optical proximity correction",
-   "recent": 20,
-   "total": 66,
-   "burst_score": 0.97,
-   "recent_share": 0.0985
+   "recent": 24,
+   "total": 70,
+   "burst_score": 0.65,
+   "recent_share": 0.0474
   },
   {
    "keyword": "anamorphic",
-   "recent": 9,
-   "total": 38,
-   "burst_score": 0.76,
-   "recent_share": 0.0443
+   "recent": 10,
+   "total": 39,
+   "burst_score": 0.48,
+   "recent_share": 0.0198
   }
  ]
 }

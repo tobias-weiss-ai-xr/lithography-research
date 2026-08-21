@@ -27134,3 +27134,210 @@ papers:
     No. 2026-099027 and supports the exposure architectures of Applications No. 2026-095217
     and No. 2026-096037.'
   venue: ''
+- title: Dynamics of EUV-induced plasma adjacent to an electrostatic chuck
+  date: 2026-03
+  url: https://doi.org/10.1088/1361-6595/ae59b4
+  category: technology
+  subcategory: euv
+  authors:
+  - Xing Han
+  - Yangyang Fu
+  abstract: Abstract In extreme ultraviolet (EUV) lithography, high-energy photon
+    pulses generate transient plasmas，and thus can degrade lithography system performance.
+    This study investigates the dynamics of EUV-induced plasma adjacent to an electrostatic
+    chuck, with a focus on the coupling mechanism between the plasma and the applied
+    electric field. First-principle particle-in-cell simulations demonstrate that
+    photoelectron emission serves as the dominant mechanism for electron production
+    during an EUV pulse. Concurrently, electron-induced secondary emission significantly
+    alters the potential distribution and electron density within positively biased
+    regions, thereby modulating local plasma density. The space charge separation
+    and the associated distortion of the electric field lead to anomalous electron
+    and ion energy distributions, which in turn enhance ion sputtering on ruthenium
+    surfaces. During the post-EUV-pulse phase, ion-induced secondary electron emission
+    becomes the dominant source of electrons, sustaining the plasma during its gradual
+    decay. The applied electric field established between the grounded blade and the
+    reticle surface facilitates the extraction and loss of ions, thereby accelerating
+    local ion density decay. Spatiotemporal electron and ion energy distribution functions
+    and ion fluxes indicate that the EUV-induced plasma transitions from a photoionization-dominated
+    to a sheath-controlled state. These findings provide deep insights into the evolution
+    of EUV-induced plasmas and enhance the understanding of particle sputtering-induced
+    damage under coupled conditions, laying the foundation for improving pattern fidelity
+    and process stability in nanolithography.
+  venue: Plasma Sources Science and Technology
+- title: Characterizing tip-sample interaction dynamics on extreme ultraviolet nanostructures
+    using atomic force microscopy with a high-aspect ratio tip
+  date: 2026-03
+  url: https://doi.org/10.1088/1361-6501/ae59a3
+  category: technology
+  subcategory: euv
+  authors:
+  - Uidam Jung
+  - Todd Hoppe
+  - Jason Osborne
+  abstract: Abstract Accurate measurements of the nanometer scale geometry of extreme
+    ultraviolet (EUV) lithography photoresist (PR) patterns are a critical metrology
+    step in semiconductor manufacturing. The atomic force microscope (AFM) can nondestructively
+    measure three-dimensional surface PR profiles with nanometer resolution. However,
+    geometric and mechanical artifacts limit AFM’s accuracy when measuring tall or
+    narrow features comparable in size to the AFM tip radius. In this work, we investigate
+    tip-sample interaction dynamics on 40 nm pitch EUV PR features using force mapping-based
+    AFM with high-aspect ratio diamond-like carbon spike tips. We train and utilize
+    a random forest machine learning algorithm to classify force curves based on their
+    linearity, adhesion, and hysteresis. Some of the observed force curves are consistent
+    with stick-slip friction between the AFM tip and PR sidewall during indentation.
+    We compare the AFM measured PR profile to those measured with scanning electron
+    microscopy. We conclude that a combination of PR shrinkage under electron beam
+    exposure, geometric dilation of the profile due to the finite size of the AFM
+    tip, and bending of the AFM tip as it interacts with the sidewall can explain
+    the experimental results. This study challenges the conventional assumption that
+    high aspect ratio tips with smaller tip radius have capability to reach narrow
+    features; instead, we demonstrate that complex tip-sample interaction dynamics
+    occur around the sidewall. This work contributes to an improved understanding
+    of AFM measurement artifacts associated with high-aspect ratio spike tips on nanometer
+    scale patterns.
+  venue: Measurement Science and Technology
+- title: Optical study of beyond EUV mask and mirrors
+  date: 2026-07
+  url: https://doi.org/10.31224/7648
+  category: technology
+  subcategory: euv
+  authors:
+  - Naoki Hayase
+  - Shinji Yamakawa
+  - Tetsuo Harada
+  abstract: 'Abstract: Beyond EUV (BEUV) lithography at 6.6 nm wavelength suffers
+    from the small refractive-index contrast and requires multilayer (ML) mirrors
+    of around 200 pairs. The large number of ML interfaces amplifies scattered light
+    arising from surface roughness, and a greater effective reflection plane depth
+    ( ) of ML drives mask 3D effect (M3D) in photomasks. Background: The problems
+    originate from the same low-contrast constraint, and a systematic metric linking
+    reactive surface growth and surface roughness has been lacking to improve reflectivity.
+    In addition, nitride-based BEUV mask absorbers against M3D have not been optimized
+    in our previous study. Aim: We investigate nitride-based BEUV optics to control
+    kinetic roughness during gas-reactive deposition and identify a promising BEUV
+    mask to control optical performance. Approach: A finite-mobility solid-on-solid
+    model is introduced to describe reactive surface growth, in which chemisorption
+    coverage governed by the Langmuir-Hinshelwood kinetics modifies the Ehrlich-Schwoebel
+    (ES) and adatom diffusion barriers. As nitride-based components, we investigate
+    TaN and CrN BEUV absorbers in terms of reflectivity, phase difference, and aerial
+    images. Results: Our model predicts decreasing roughness with increasing chemisorption
+    coverage, controlled by the ratio of the ES length to the adatom diffusion length.
+    For photomask, CrN absorber gives 135° phase shifting at 62.6 nm thickness, at
+    which the normalized image logarithmic slope (NILS) approaches saturation at 0.55
+    NA in our photomask model. Conclusions: Nitride interface kinetics suggests a
+    route to roughness control for MLs and photomasks. CrN-based Att-PSMs are candidates
+    for high-NA BEUV lithography at 0.55 NA with anamorphic (4x/8x) demagnification
+    at an angle of incidence of around 6°.'
+  venue: ''
+- title: 'Material-process coupling in nanoimprint lithography: stamp mechanics, resist
+    behaviour and demolding energetics'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21996910
+  category: technology
+  subcategory: nanoimprint
+  authors:
+  - Juan Segurola
+  abstract: 'Nanoimprint lithography (NIL) has matured over three decades into a high-resolution
+    patterning technique with applications spanning semiconductor manufacturing, photonics,
+    biomedical patterning and microfluidic fabrication. Recent reviews describe NIL
+    molds, resist chemistries and demolding physics in considerable detail. This Perspective
+    examines the interaction between these components rather than treating them as
+    independent design variables. Three recurring interaction patterns are distinguished:
+    rheology-compliance coupling during fill, curing-interface coupling during photochemical
+    cure, and mechanical-energetic coupling during release. Across the cited literature,
+    characteristic defects such as incomplete filling, feature deformation, adhesion,
+    tearing and demolding damage depend on combinations of geometry, material state
+    and process conditions rather than on a single material threshold. During fill,
+    resist rheology and mold compliance act together; during cure, conversion, polymerization
+    shrinkage and interface chemistry influence the state from which release begins;
+    during demolding, stored stress, interfacial adhesion and friction, feature geometry
+    and release conditions determine whether separation is clean or damaging. Demolding
+    is therefore treated here as a practical observability point at which the accumulated
+    consequences of fill and cure become evident. The synthesis maps documented interaction
+    patterns and their implications for material development. It does not propose
+    a quantitative ranking, a predictive model, a unified material-design framework
+    or a roadmap for NIL.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Expanded field of view light-field extended-reality displays with metalens
+    array
+  date: 2026-06
+  url: https://doi.org/10.1038/s41377-026-02266-w
+  category: technology
+  subcategory: nanoimprint
+  authors:
+  - Wen-Long Lu
+  - Yi Yang
+  - Zhi-Bin Fan
+  abstract: Extended reality with an immersive visual experience needs to achieve
+    vergence-accommodation-conflict-free (VAC-free) and human-level field of view
+    (FOV) simultaneously. Holography is a dreamlike solution but seriously suffers
+    from both an ultra-narrow diffraction angle and uneliminated coherent laser speckle.
+    Incoherent-based light-field display is an alternative solution, but it still
+    has an inherent issue with off-axis aberration when using a homogeneous microlens
+    array for lightweight applications. Here, we propose a heterogeneous metalens
+    array (MeLA) that integrates VAC-free operation and aberration correction into
+    a slim monolithic component with expanded FOV. Such a large etendue is due to
+    a unique phase profile in the heterogeneous MeLA, each lenslet of which has an
+    identical hyperbolic term cascading a varying linear-tiling term. Nanoimprint
+    lithography is employed to achieve a centimeter-scale MeLA with a feature aspect
+    ratio of 7:1. In this way, we developed a light-field 3D display prototype with
+    monocular focus cues and a FOV of 50°, approximately four times that of the microlens-array
+    case, and fully exploiting the commercial micro-displays. The proposed MeLA system
+    can even be scaled to human stereoscopic vision, with a maximum value of 80°,
+    without compromising other performance metrics such as depth of field, resolution,
+    and compactness. The characteristics of FOV expansion with monocular 3D display
+    capability are demonstrated through experimental videos generated using a real-time
+    elemental image array algorithm dedicated to the proposed MeLA system. This work
+    opens new opportunities for extended reality through VAC-free 3D display and a
+    wide FOV, poised to transform consumer electronics, precision nanofabrication,
+    and healthcare.
+  venue: Light Science & Applications
+- title: Design of Heterogeneous Dual-Core (ACE/CDC) Analog Compute-in-Memory Systems
+    Under Short Supply Chains in the Post-Globalization Era
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21943616
+  category: manufacturing
+  subcategory: euv
+  authors:
+  - xuezhi cheng
+  abstract: 'I. Theoretical Background and Connection to Previous Work The preceding
+    paper, "The Return of Intuitionism: Collapse and Redemption in Your Age of Hyper-Complex
+    Empires," diagnosed the systemic brittleness of modern hyper-complex societies
+    and scientism. It pointed out that blind reliance on globalization, ultra-long
+    supply chains, and exorbitant defensive maintenance costs (such as administrative
+    compliance and complex risk hedging) are pushing modern civilization toward a
+    massive yet fragile edge of collapse. To counter this, the previous paper proposed
+    an active "de-complexification" strategy: shedding redundant overhead, restoring
+    human tacit knowledge and intuitionism, and reshaping anti-fragility at the foundational
+    system level. However, if de-complexification remains confined to the macro-governance
+    level, the foundational compute bedrock of digital society will still violently
+    collapse when global supply chains rupture. Therefore, this sequel, "The Post-Globalization
+    Era: Roadmap for Short Supply Chains and Low-Complexity Topological Physical AI
+    Architectures," extends the philosophy of de-complexification downward into the
+    first principles of semiconductor hardware, chip architecture, and manufacturing
+    industries. II. Core Content and Innovative Contributions This paper aims to answer
+    how to construct a "survivable compute system" that does not rely on advanced
+    process nodes or global division of labor under extreme deglobalization and physical
+    chain breaks. Its core contents encompass: Diagnosis of the "Brittleness Trap"
+    of Digital Compute: Dissecting the deep reliance of advanced nodes on EUV lithography
+    machines, high-purity chemicals, and ultra-long global supply chains, while revealing
+    the "unmaintainability" and catastrophic brittleness of modern general-purpose
+    large compute chips after supply chain ruptures. Dimensionality-Reduction Breakthrough
+    of Physical Computing Paradigms: Discarding traditional Boolean logic gate stacking,
+    returning to continuous analog Compute-in-Memory (Analog CIM) driven by Ohm''s
+    law and Kirchhoff''s current law; utilizing neural network "soft-failure" tolerance
+    toward hardware non-idealities (noise and drift) to achieve efficient matrix multiply-accumulate
+    operations within $O(1)$ time. Heterogeneous Dual-Core and Short-Chain Manufacturing
+    Closed-Loop: Proposing a hybrid architecture comprising a "$180\text{ nm}$ Analog
+    Compute Engine (ACE)" and a "$90\text{ nm}$ Coarse Digital Controller (CDC),"
+    retreating back to traditional i-line/KrF lithography machines and regional fabs
+    to achieve a $100\%$ localized physical closed-loop for a single industrial entity.
+    Evolutionary Trilogy and Anti-Damage Mesh: Outlining the evolutionary pathway
+    from the enclosed trial-and-error of the "Tactical Citadel Period" to the civilian
+    popularization of the "Open-Source Diffusion Period," and finally to the "Decentralized
+    Self-Healing Compute Network (Self-Healing Mesh)," preserving sustainable physical
+    computing sparks for civilization in the post-collapse era. Keywords:Analog Compute-in-Memory
+    (CIM), Post-Globalization, Short Supply Chain, Anti-Fragile Hardware, Physical
+    Computing, Mature Process Nodes (180nm/90nm), Heterogeneous Dual-Core, Decentralized
+    Compute Network, Noise-Aware Training (NAT), Regional Fab'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
