@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 954,
+    "total_papers": 955,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 7,
@@ -21,12 +21,12 @@
     "market": 1,
     "materials": 158,
     "survey": 56,
-    "technology": 513
+    "technology": 514
   },
   "by_subcategory": {
     "china": 9,
     "duv": 9,
-    "euv": 526,
+    "euv": 527,
     "general": 227,
     "multi-patterning": 10,
     "nanoimprint": 173
@@ -35,10 +35,10 @@
     "2023": 76,
     "2024": 218,
     "2025": 242,
-    "2026": 418
+    "2026": 419
   },
   "by_cell": {
-    "technology/euv": 284,
+    "technology/euv": 285,
     "technology/nanoimprint": 169,
     "manufacturing/general": 124,
     "materials/euv": 122,
@@ -108,13 +108,13 @@
     {
       "id": "technology",
       "name": "Technology",
-      "total": 513,
-      "recent": 293,
+      "total": 514,
+      "recent": 294,
       "prior": 113,
-      "growth_pct": 159.3,
-      "recent_share": 0.571,
-      "papers_per_month": 24.4,
-      "score": 216.4
+      "growth_pct": 160.2,
+      "recent_share": 0.572,
+      "papers_per_month": 24.5,
+      "score": 217.4
     },
     {
       "id": "manufacturing",
@@ -221,7 +221,7 @@
       "2023": 37,
       "2024": 115,
       "2025": 109,
-      "2026": 252
+      "2026": 253
     }
   },
   "keyword_bursts": [
@@ -229,22 +229,22 @@
       "keyword": "self-sufficiency",
       "recent": 2,
       "total": 2,
-      "burst_score": 1.89,
-      "recent_share": 0.004
+      "burst_score": 1.88,
+      "recent_share": 0.0039
     },
     {
       "keyword": "export control",
       "recent": 13,
       "total": 15,
       "burst_score": 1.63,
-      "recent_share": 0.0257
+      "recent_share": 0.0256
     },
     {
       "keyword": "nanoimprint",
       "recent": 112,
       "total": 187,
       "burst_score": 1.13,
-      "recent_share": 0.2213
+      "recent_share": 0.2209
     },
     {
       "keyword": "immersion",
@@ -257,8 +257,8 @@
       "keyword": "photoresist",
       "recent": 78,
       "total": 176,
-      "burst_score": 0.84,
-      "recent_share": 0.1542
+      "burst_score": 0.83,
+      "recent_share": 0.1538
     },
     {
       "keyword": "multi-patterning",
@@ -272,25 +272,25 @@
       "recent": 29,
       "total": 73,
       "burst_score": 0.75,
-      "recent_share": 0.0573
+      "recent_share": 0.0572
     },
     {
       "keyword": "optical proximity correction",
       "recent": 24,
       "total": 70,
       "burst_score": 0.65,
-      "recent_share": 0.0474
+      "recent_share": 0.0473
     },
     {
       "keyword": "anamorphic",
       "recent": 10,
       "total": 39,
       "burst_score": 0.48,
-      "recent_share": 0.0198
+      "recent_share": 0.0197
     }
   ],
   "source_breakdown": {
-    "arxiv": 91,
+    "arxiv": 92,
     "doi": 844,
     "other": 19
   },

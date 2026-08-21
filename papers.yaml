@@ -27341,3 +27341,27 @@ papers:
     Computing, Mature Process Nodes (180nm/90nm), Heterogeneous Dual-Core, Decentralized
     Compute Network, Noise-Aware Training (NAT), Regional Fab'
   venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Remarkable Enhancement of High Harmonic Generation from Superhard Material
+    under High Pressure
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.18905v1
+  category: technology
+  subcategory: euv
+  authors:
+  - Zishao Wang
+  - Tong Wu
+  - Ziwen Wang
+  - Shicheng Liu
+  - Hui Li
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: High harmonic generation (HHG) in solids offers a pathway to develop compact
+    extreme ultraviolet (EUV) sources crucial for attosecond science and advanced
+    spectroscopy. Here, we demonstrate theoretically that high pressure dramatically
+    enhances HHG in superhard hexagonal tungsten nitride (h-WN6). Compared with solid-state
+    systems at ambient pressure, the reshaped electronic environment under high pressure
+    leads to a unique band-gap widening in h-WN6, which raises the material's damage
+    threshold, allowing the use of stronger laser fields and enabling access to higher-energy
+    bands. This pressure-induced band-gap widening offers a promising strategy to
+    overcome the cutoff limitation of solid-state EUV light sources.
