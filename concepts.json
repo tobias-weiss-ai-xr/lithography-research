@@ -810,25 +810,6 @@
       ]
     },
     {
-      "term": "advanced lithography",
-      "kind": "emergent",
-      "seed": false,
-      "df": 29,
-      "match": {
-        "type": "text",
-        "forms": [
-          "advanced lithography"
-        ]
-      },
-      "papers": 29,
-      "top_cells": [
-        "technology/euv",
-        "survey/euv",
-        "technology/general",
-        "materials/euv"
-      ]
-    },
-    {
       "term": "technology node",
       "kind": "emergent",
       "seed": false,
@@ -845,6 +826,25 @@
         "technology/euv",
         "materials/euv",
         "survey/euv"
+      ]
+    },
+    {
+      "term": "advanced lithography",
+      "kind": "emergent",
+      "seed": false,
+      "df": 29,
+      "match": {
+        "type": "text",
+        "forms": [
+          "advanced lithography"
+        ]
+      },
+      "papers": 29,
+      "top_cells": [
+        "technology/euv",
+        "survey/euv",
+        "technology/general",
+        "materials/euv"
       ]
     },
     {
