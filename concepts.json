@@ -810,25 +810,6 @@
       ]
     },
     {
-      "term": "technology node",
-      "kind": "emergent",
-      "seed": false,
-      "df": 29,
-      "match": {
-        "type": "text",
-        "forms": [
-          "technology node"
-        ]
-      },
-      "papers": 29,
-      "top_cells": [
-        "manufacturing/general",
-        "technology/euv",
-        "materials/euv",
-        "survey/euv"
-      ]
-    },
-    {
       "term": "advanced lithography",
       "kind": "emergent",
       "seed": false,
@@ -845,6 +826,25 @@
         "survey/euv",
         "technology/general",
         "materials/euv"
+      ]
+    },
+    {
+      "term": "technology node",
+      "kind": "emergent",
+      "seed": false,
+      "df": 29,
+      "match": {
+        "type": "text",
+        "forms": [
+          "technology node"
+        ]
+      },
+      "papers": 29,
+      "top_cells": [
+        "manufacturing/general",
+        "technology/euv",
+        "materials/euv",
+        "survey/euv"
       ]
     },
     {
