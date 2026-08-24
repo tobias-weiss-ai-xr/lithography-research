@@ -27365,3 +27365,37 @@ papers:
     threshold, allowing the use of stronger laser fields and enabling access to higher-energy
     bands. This pressure-induced band-gap widening offers a promising strategy to
     overcome the cutoff limitation of solid-state EUV light sources.
+- title: Electric-Field-Induced Second Harmonic Generation at a Reconfigurable LaAlO$_3$/SrTiO$_3$
+    Nanojunction
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.21065v1
+  category: technology
+  subcategory: euv
+  authors:
+  - Pubudu Wijesinghe
+  - Melanie Dieterlen
+  - Kyoungjun Lee
+  - Ahmed Omran
+  - Aswini Ramankutty
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Electrically tunable nonlinear optical responses at the nanoscale remain
+    challenging to achieve because conventional nonlinear materials lack the combination
+    of large susceptibility, nanoscale confinement, and in situ reconfigurability.
+    Here we report electric-field-induced second harmonic (EFISH) generation from
+    a nanoscale tunnel junction defined by conductive atomic force microscope lithography
+    at the LaAlO$_3$/SrTiO$_3$ interface. A conducting channel written at the interface
+    is interrupted by a nanoscale insulating gap, across which applied DC bias produces
+    local electric fields exceeding $10^7$ V/m. The SHG signal is spatially localized
+    at the junction, exhibits a quadratic bias dependence described by $I(2ω) \propto
+    |χ^{(2)}_\mathrm{0} + χ^{(3)} E_\mathrm{DC}|^2$ with no hysteresis, a modulation
+    depth exceeding 380% at $|V_\mathrm{DC}| = 1$ V, and shows a two-lobed input-polarization
+    pattern aligned with the junction axis, consistent with EFISH from a centrosymmetric
+    host. Calibration against a BBO reference crystal gives $|χ^{(3)}| \approx 1\times10^{-19}$
+    m$^2$/V$^2$ at 6 K. These results establish cAFM-written oxide nanojunctions as
+    a reconfigurable platform for nanoscale nonlinear optics in which the junction
+    geometry sets the symmetry of the response and the large field-induced $χ^{(2)}$
+    of SrTiO$_3$ provides the optical nonlinearity. Because the nonlinearity is both
+    generated and read out within the same nanoscale gap, the junction operates simultaneously
+    as a subwavelength source and a near-field detector of optical nonlinearity.

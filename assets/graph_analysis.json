@@ -132,23 +132,23 @@
   {
    "id": "technology",
    "name": "Lithography Technology",
-   "count": 514,
+   "count": 515,
    "trajectory": {
     "2023": 37,
     "2024": 115,
     "2025": 109,
-    "2026": 253
+    "2026": 254
    },
    "momentum": {
     "id": "technology",
     "name": "Technology",
-    "total": 514,
-    "recent": 294,
+    "total": 515,
+    "recent": 295,
     "prior": 113,
-    "growth_pct": 160.2,
-    "recent_share": 0.572,
-    "papers_per_month": 24.5,
-    "score": 217.4
+    "growth_pct": 161.1,
+    "recent_share": 0.573,
+    "papers_per_month": 24.6,
+    "score": 218.4
    }
   }
  ],
@@ -166,7 +166,7 @@
   {
    "id": "euv",
    "name": "EUV Lithography",
-   "count": 527
+   "count": 528
   },
   {
    "id": "general",
@@ -4938,6 +4938,11 @@
   [
    "2026-08",
    "technology",
+   "euv"
+  ],
+  [
+   "2026-08",
+   "technology",
    "nanoimprint"
   ],
   [
@@ -5043,7 +5048,7 @@
    "recent": 112,
    "total": 187,
    "burst_score": 1.13,
-   "recent_share": 0.2209
+   "recent_share": 0.2205
   },
   {
    "keyword": "immersion",
@@ -5057,7 +5062,7 @@
    "recent": 78,
    "total": 176,
    "burst_score": 0.83,
-   "recent_share": 0.1538
+   "recent_share": 0.1535
   },
   {
    "keyword": "multi-patterning",
@@ -5071,14 +5076,14 @@
    "recent": 29,
    "total": 73,
    "burst_score": 0.75,
-   "recent_share": 0.0572
+   "recent_share": 0.0571
   },
   {
    "keyword": "optical proximity correction",
    "recent": 24,
    "total": 70,
    "burst_score": 0.65,
-   "recent_share": 0.0473
+   "recent_share": 0.0472
   },
   {
    "keyword": "anamorphic",
