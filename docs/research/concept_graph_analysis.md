@@ -4,7 +4,7 @@
 
 ## Top hubs (by PageRank)
 
-- **Lithography Technology** — PR 0.0000, degree 0, df 514
+- **Lithography Technology** — PR 0.0000, degree 0, df 515
 - **Semiconductor Manufacturing** — PR 0.0000, degree 0, df 161
 - **Materials & Optics** — PR 0.0000, degree 0, df 158
 - **Surveys & Reviews** — PR 0.0000, degree 0, df 56

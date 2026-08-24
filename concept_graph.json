@@ -4,7 +4,7 @@
       "id": 0,
       "term": "Lithography Technology",
       "kind": "taxonomy",
-      "df": 514
+      "df": 515
     },
     {
       "id": 1,
@@ -47,6 +47,6 @@
   "stats": {
     "concepts": 7,
     "edges": 0,
-    "papers": 955
+    "papers": 956
   }
 }

@@ -1,12 +1,12 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 7 concepts, 0 relationships from 955 papers. Edges = co-occurrence (shared papers).
+**Generated:** 7 concepts, 0 relationships from 956 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| Lithography Technology | taxonomy | 514 |
+| Lithography Technology | taxonomy | 515 |
 | Semiconductor Manufacturing | taxonomy | 161 |
 | Materials & Optics | taxonomy | 158 |
 | Surveys & Reviews | taxonomy | 56 |
