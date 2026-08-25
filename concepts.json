@@ -1,5 +1,5 @@
 {
-  "count": 7,
+  "count": 27,
   "concepts": [
     {
       "term": "Lithography Technology",
@@ -56,6 +56,25 @@
       "papers": 158
     },
     {
+      "term": "framework",
+      "kind": "curated",
+      "seed": true,
+      "df": 106,
+      "match": {
+        "type": "text",
+        "forms": [
+          "framework"
+        ]
+      },
+      "papers": 106,
+      "top_cells": [
+        "manufacturing/general",
+        "technology/euv",
+        "technology/general",
+        "technology/nanoimprint"
+      ]
+    },
+    {
       "term": "Surveys & Reviews",
       "kind": "taxonomy",
       "seed": true,
@@ -90,6 +109,25 @@
       "papers": 47
     },
     {
+      "term": "quantitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 27,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quantitative"
+        ]
+      },
+      "papers": 27,
+      "top_cells": [
+        "technology/euv",
+        "technology/nanoimprint",
+        "materials/euv",
+        "geopolitics/euv"
+      ]
+    },
+    {
       "term": "Geopolitics & Export Controls",
       "kind": "taxonomy",
       "seed": true,
@@ -108,6 +146,157 @@
       "papers": 18
     },
     {
+      "term": "dataset",
+      "kind": "curated",
+      "seed": true,
+      "df": 15,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dataset"
+        ]
+      },
+      "papers": 15,
+      "top_cells": [
+        "manufacturing/general",
+        "technology/euv",
+        "technology/general",
+        "technology/nanoimprint"
+      ]
+    },
+    {
+      "term": "reproducibility",
+      "kind": "curated",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reproducibility"
+        ]
+      },
+      "papers": 11,
+      "top_cells": [
+        "technology/nanoimprint",
+        "technology/euv",
+        "manufacturing/general",
+        "materials/euv"
+      ]
+    },
+    {
+      "term": "benchmark",
+      "kind": "curated",
+      "seed": true,
+      "df": 10,
+      "match": {
+        "type": "text",
+        "forms": [
+          "benchmark"
+        ]
+      },
+      "papers": 10,
+      "top_cells": [
+        "technology/euv",
+        "materials/euv",
+        "technology/general",
+        "manufacturing/general"
+      ]
+    },
+    {
+      "term": "case study",
+      "kind": "curated",
+      "seed": true,
+      "df": 6,
+      "match": {
+        "type": "text",
+        "forms": [
+          "case study"
+        ]
+      },
+      "papers": 6,
+      "top_cells": [
+        "equipment/general",
+        "geopolitics/euv",
+        "technology/general",
+        "manufacturing/general"
+      ]
+    },
+    {
+      "term": "survey",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "survey"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "manufacturing/general",
+        "materials/euv",
+        "survey/general",
+        "technology/general"
+      ]
+    },
+    {
+      "term": "literature review",
+      "kind": "curated",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "text",
+        "forms": [
+          "literature review"
+        ]
+      },
+      "papers": 4,
+      "top_cells": [
+        "manufacturing/general",
+        "geopolitics/general",
+        "survey/euv",
+        "technology/nanoimprint"
+      ]
+    },
+    {
+      "term": "experiment",
+      "kind": "curated",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiment"
+        ]
+      },
+      "papers": 4,
+      "top_cells": [
+        "technology/euv",
+        "technology/nanoimprint",
+        "manufacturing/general",
+        "survey/euv"
+      ]
+    },
+    {
+      "term": "qualitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "qualitative"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "technology/nanoimprint",
+        "geopolitics/nanoimprint",
+        "geopolitics/euv"
+      ]
+    },
+    {
       "term": "Market & Economics",
       "kind": "taxonomy",
       "seed": true,
@@ -121,6 +310,150 @@
         "market/euv"
       ],
       "papers": 1
+    },
+    {
+      "term": "systematic review",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "systematic review"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "technology/euv"
+      ]
+    },
+    {
+      "term": "taxonomy",
+      "kind": "curated",
+      "seed": true,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "taxonomy"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "survey/general"
+      ]
+    },
+    {
+      "term": "meta analysis",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "meta analysis"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "mixed methods",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "mixed methods"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "interview",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "interview"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "research gap",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "research gap"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "grounded theory",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "grounded theory"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "triangulation",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "triangulation"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "open access",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "open access"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
+    },
+    {
+      "term": "peer review",
+      "kind": "curated",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "text",
+        "forms": [
+          "peer review"
+        ]
+      },
+      "papers": 0,
+      "top_cells": []
     }
   ]
 }
