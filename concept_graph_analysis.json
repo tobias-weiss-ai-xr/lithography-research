@@ -1,77 +1,197 @@
 {
   "stats": {
-    "nodes": 7,
-    "edges": 0,
-    "components": 0,
-    "communities": 0,
-    "modularity": 0.0
+    "nodes": 27,
+    "edges": 28,
+    "components": 1,
+    "communities": 1,
+    "modularity": -22.861
   },
   "nodes": [
+    {
+      "id": 3,
+      "term": "framework",
+      "kind": "curated",
+      "df": 106,
+      "degree": 11,
+      "weighted_degree": 130,
+      "degree_centrality": 0.4231,
+      "pagerank": 0.286701,
+      "betweenness": 44.3833,
+      "clustering": 0.2364
+    },
     {
       "id": 0,
       "term": "Lithography Technology",
       "kind": "taxonomy",
       "df": 515,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
+      "degree": 6,
+      "weighted_degree": 89,
+      "degree_centrality": 0.2308,
+      "pagerank": 0.194774,
+      "betweenness": 18.9167,
+      "clustering": 0.2
     },
     {
       "id": 1,
       "term": "Semiconductor Manufacturing",
       "kind": "taxonomy",
       "df": 161,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
+      "degree": 6,
+      "weighted_degree": 49,
+      "degree_centrality": 0.2308,
+      "pagerank": 0.113348,
+      "betweenness": 18.9167,
+      "clustering": 0.2
+    },
+    {
+      "id": 6,
+      "term": "quantitative",
+      "kind": "curated",
+      "df": 27,
+      "degree": 7,
+      "weighted_degree": 37,
+      "degree_centrality": 0.2692,
+      "pagerank": 0.088358,
+      "betweenness": 12.4667,
+      "clustering": 0.3333
+    },
+    {
+      "id": 8,
+      "term": "dataset",
+      "kind": "curated",
+      "df": 15,
+      "degree": 3,
+      "weighted_degree": 23,
+      "degree_centrality": 0.1154,
+      "pagerank": 0.053854,
+      "betweenness": 0.8,
+      "clustering": 0.6667
     },
     {
       "id": 2,
       "term": "Materials & Optics",
       "kind": "taxonomy",
       "df": 158,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
+      "degree": 3,
+      "weighted_degree": 16,
+      "degree_centrality": 0.1154,
+      "pagerank": 0.041963,
+      "betweenness": 0.25,
+      "clustering": 0.6667
     },
     {
-      "id": 3,
-      "term": "Surveys & Reviews",
-      "kind": "taxonomy",
-      "df": 56,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
-    },
-    {
-      "id": 4,
-      "term": "Lithography Equipment",
-      "kind": "taxonomy",
-      "df": 47,
-      "degree": 0,
-      "weighted_degree": 0,
-      "degree_centrality": 0.0,
-      "pagerank": 0.0,
-      "betweenness": 0.0,
-      "clustering": 0.0
+      "id": 10,
+      "term": "benchmark",
+      "kind": "curated",
+      "df": 10,
+      "degree": 4,
+      "weighted_degree": 13,
+      "degree_centrality": 0.1538,
+      "pagerank": 0.035545,
+      "betweenness": 2.4667,
+      "clustering": 0.5
     },
     {
       "id": 5,
+      "term": "Lithography Equipment",
+      "kind": "taxonomy",
+      "df": 47,
+      "degree": 2,
+      "weighted_degree": 8,
+      "degree_centrality": 0.0769,
+      "pagerank": 0.031507,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 9,
+      "term": "reproducibility",
+      "kind": "curated",
+      "df": 11,
+      "degree": 2,
+      "weighted_degree": 10,
+      "degree_centrality": 0.0769,
+      "pagerank": 0.028814,
+      "betweenness": 0.8,
+      "clustering": 0.0
+    },
+    {
+      "id": 7,
       "term": "Geopolitics & Export Controls",
       "kind": "taxonomy",
       "df": 18,
+      "degree": 3,
+      "weighted_degree": 8,
+      "degree_centrality": 0.1154,
+      "pagerank": 0.028308,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 15,
+      "term": "qualitative",
+      "kind": "curated",
+      "df": 3,
+      "degree": 3,
+      "weighted_degree": 6,
+      "degree_centrality": 0.1154,
+      "pagerank": 0.023824,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 11,
+      "term": "case study",
+      "kind": "curated",
+      "df": 6,
+      "degree": 2,
+      "weighted_degree": 5,
+      "degree_centrality": 0.0769,
+      "pagerank": 0.023792,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 4,
+      "term": "Surveys & Reviews",
+      "kind": "taxonomy",
+      "df": 56,
+      "degree": 2,
+      "weighted_degree": 6,
+      "degree_centrality": 0.0769,
+      "pagerank": 0.021558,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 12,
+      "term": "survey",
+      "kind": "curated",
+      "df": 5,
+      "degree": 1,
+      "weighted_degree": 2,
+      "degree_centrality": 0.0385,
+      "pagerank": 0.013932,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 14,
+      "term": "experiment",
+      "kind": "curated",
+      "df": 4,
+      "degree": 1,
+      "weighted_degree": 2,
+      "degree_centrality": 0.0385,
+      "pagerank": 0.01372,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 13,
+      "term": "literature review",
+      "kind": "curated",
+      "df": 4,
       "degree": 0,
       "weighted_degree": 0,
       "degree_centrality": 0.0,
@@ -80,7 +200,7 @@
       "clustering": 0.0
     },
     {
-      "id": 6,
+      "id": 16,
       "term": "Market & Economics",
       "kind": "taxonomy",
       "df": 1,
@@ -90,18 +210,262 @@
       "pagerank": 0.0,
       "betweenness": 0.0,
       "clustering": 0.0
+    },
+    {
+      "id": 17,
+      "term": "systematic review",
+      "kind": "curated",
+      "df": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 18,
+      "term": "taxonomy",
+      "kind": "curated",
+      "df": 1,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 19,
+      "term": "meta analysis",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 20,
+      "term": "mixed methods",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 21,
+      "term": "interview",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 22,
+      "term": "research gap",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 23,
+      "term": "grounded theory",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 24,
+      "term": "triangulation",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 25,
+      "term": "open access",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
+      "id": 26,
+      "term": "peer review",
+      "kind": "curated",
+      "df": 0,
+      "degree": 0,
+      "weighted_degree": 0,
+      "degree_centrality": 0.0,
+      "pagerank": 0.0,
+      "betweenness": 0.0,
+      "clustering": 0.0
     }
   ],
-  "communities": [],
+  "communities": [
+    {
+      "size": 15,
+      "members": [
+        "Geopolitics & Export Controls",
+        "Lithography Equipment",
+        "Lithography Technology",
+        "Materials & Optics",
+        "Semiconductor Manufacturing",
+        "Surveys & Reviews",
+        "benchmark",
+        "case study",
+        "dataset",
+        "experiment",
+        "framework",
+        "qualitative",
+        "quantitative",
+        "reproducibility",
+        "survey"
+      ]
+    }
+  ],
   "top_hubs": [
+    "framework",
     "Lithography Technology",
     "Semiconductor Manufacturing",
+    "quantitative",
+    "dataset",
     "Materials & Optics",
-    "Surveys & Reviews",
+    "benchmark",
     "Lithography Equipment",
-    "Geopolitics & Export Controls",
-    "Market & Economics"
+    "reproducibility",
+    "Geopolitics & Export Controls"
   ],
-  "bridge_nodes": [],
-  "bridge_edges": []
+  "bridge_nodes": [
+    "framework",
+    "Lithography Technology",
+    "Semiconductor Manufacturing",
+    "quantitative",
+    "benchmark",
+    "dataset",
+    "reproducibility",
+    "Materials & Optics"
+  ],
+  "bridge_edges": [
+    {
+      "source": "Semiconductor Manufacturing",
+      "target": "survey",
+      "weight": 2,
+      "edge_betweenness": 14.0
+    },
+    {
+      "source": "Lithography Technology",
+      "target": "experiment",
+      "weight": 2,
+      "edge_betweenness": 14.0
+    },
+    {
+      "source": "framework",
+      "target": "Lithography Equipment",
+      "weight": 5,
+      "edge_betweenness": 13.0
+    },
+    {
+      "source": "framework",
+      "target": "case study",
+      "weight": 2,
+      "edge_betweenness": 13.0
+    },
+    {
+      "source": "Semiconductor Manufacturing",
+      "target": "framework",
+      "weight": 32,
+      "edge_betweenness": 12.8833
+    },
+    {
+      "source": "Lithography Technology",
+      "target": "framework",
+      "weight": 52,
+      "edge_betweenness": 12.8833
+    },
+    {
+      "source": "framework",
+      "target": "Surveys & Reviews",
+      "weight": 4,
+      "edge_betweenness": 9.0
+    },
+    {
+      "source": "framework",
+      "target": "qualitative",
+      "weight": 2,
+      "edge_betweenness": 8.5
+    },
+    {
+      "source": "framework",
+      "target": "Geopolitics & Export Controls",
+      "weight": 4,
+      "edge_betweenness": 8.5
+    },
+    {
+      "source": "Semiconductor Manufacturing",
+      "target": "quantitative",
+      "weight": 2,
+      "edge_betweenness": 8.4667
+    },
+    {
+      "source": "Lithography Technology",
+      "target": "quantitative",
+      "weight": 16,
+      "edge_betweenness": 8.4667
+    },
+    {
+      "source": "Semiconductor Manufacturing",
+      "target": "reproducibility",
+      "weight": 2,
+      "edge_betweenness": 7.8
+    },
+    {
+      "source": "Lithography Technology",
+      "target": "reproducibility",
+      "weight": 8,
+      "edge_betweenness": 7.8
+    },
+    {
+      "source": "framework",
+      "target": "dataset",
+      "weight": 8,
+      "edge_betweenness": 7.6667
+    },
+    {
+      "source": "Materials & Optics",
+      "target": "framework",
+      "weight": 9,
+      "edge_betweenness": 7.1667
+    }
+  ]
 }
