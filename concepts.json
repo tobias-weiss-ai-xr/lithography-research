@@ -41,7 +41,7 @@
       "term": "Semiconductor Manufacturing",
       "kind": "taxonomy",
       "seed": true,
-      "df": 170,
+      "df": 169,
       "match": {
         "type": "field",
         "field": "category",
@@ -53,20 +53,20 @@
         "manufacturing/china",
         "manufacturing/duv"
       ],
-      "papers": 170
+      "papers": 169
     },
     {
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 122,
+      "df": 121,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 122,
+      "papers": 121,
       "top_cells": [
         "technology/euv",
         "manufacturing/general",
@@ -149,14 +149,14 @@
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 17,
+      "df": 16,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 17,
+      "papers": 16,
       "top_cells": [
         "manufacturing/general",
         "technology/general",

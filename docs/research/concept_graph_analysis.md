@@ -1,21 +1,21 @@
 # Concept Graph Analysis
 
-**Generated:** 27 nodes, 29 edges, 1 components, 1 communities (modularity -30.338). Edges = co-occurrence.
+**Generated:** 27 nodes, 29 edges, 1 components, 1 communities (modularity -29.416). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2782, degree 11, df 122
-- **Lithography Technology** — PR 0.2150, degree 7, df 684
-- **Semiconductor Manufacturing** — PR 0.1012, degree 6, df 170
-- **quantitative** — PR 0.0865, degree 7, df 32
-- **dataset** — PR 0.0517, degree 3, df 17
-- **Materials & Optics** — PR 0.0439, degree 3, df 180
-- **benchmark** — PR 0.0364, degree 4, df 12
-- **Lithography Equipment** — PR 0.0295, degree 2, df 47
-- **reproducibility** — PR 0.0291, degree 2, df 13
-- **Geopolitics & Export Controls** — PR 0.0262, degree 3, df 18
-- **case study** — PR 0.0226, degree 2, df 6
-- **qualitative** — PR 0.0223, degree 3, df 3
+- **framework** — PR 0.2781, degree 11, df 121
+- **Lithography Technology** — PR 0.2173, degree 7, df 684
+- **Semiconductor Manufacturing** — PR 0.0992, degree 6, df 169
+- **quantitative** — PR 0.0873, degree 7, df 32
+- **dataset** — PR 0.0490, degree 3, df 16
+- **Materials & Optics** — PR 0.0442, degree 3, df 180
+- **benchmark** — PR 0.0367, degree 4, df 12
+- **Lithography Equipment** — PR 0.0297, degree 2, df 47
+- **reproducibility** — PR 0.0294, degree 2, df 13
+- **Geopolitics & Export Controls** — PR 0.0263, degree 3, df 18
+- **case study** — PR 0.0227, degree 2, df 6
+- **qualitative** — PR 0.0224, degree 3, df 3
 
 ## Bridge nodes (high betweenness — connect clusters)
 
@@ -35,7 +35,7 @@
 - Lithography Technology ↔ experiment (weight 7, EB 14.0)
 - framework ↔ Lithography Equipment (weight 5, EB 13.0)
 - framework ↔ case study (weight 2, EB 13.0)
-- Semiconductor Manufacturing ↔ framework (weight 36, EB 10.0)
+- Semiconductor Manufacturing ↔ framework (weight 35, EB 10.0)
 - Lithography Technology ↔ quantitative (weight 19, EB 9.4167)
 - framework ↔ Surveys & Reviews (weight 4, EB 9.0)
 - framework ↔ qualitative (weight 2, EB 8.5)

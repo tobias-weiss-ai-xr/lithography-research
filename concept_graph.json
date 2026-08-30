@@ -16,13 +16,13 @@
       "id": 2,
       "term": "Semiconductor Manufacturing",
       "kind": "taxonomy",
-      "df": 170
+      "df": 169
     },
     {
       "id": 3,
       "term": "framework",
       "kind": "curated",
-      "df": 122
+      "df": 121
     },
     {
       "id": 4,
@@ -52,7 +52,7 @@
       "id": 8,
       "term": "dataset",
       "kind": "curated",
-      "df": 17
+      "df": 16
     },
     {
       "id": 9,
@@ -197,7 +197,7 @@
     {
       "source": 3,
       "target": 8,
-      "weight": 9
+      "weight": 8
     },
     {
       "source": 3,
@@ -242,7 +242,7 @@
     {
       "source": 2,
       "target": 3,
-      "weight": 36
+      "weight": 35
     },
     {
       "source": 2,
@@ -256,13 +256,13 @@
     },
     {
       "source": 2,
-      "target": 13,
-      "weight": 2
+      "target": 8,
+      "weight": 8
     },
     {
       "source": 2,
-      "target": 8,
-      "weight": 9
+      "target": 13,
+      "weight": 2
     },
     {
       "source": 2,
@@ -313,6 +313,6 @@
   "stats": {
     "concepts": 27,
     "edges": 29,
-    "papers": 1156
+    "papers": 1155
   }
 }
