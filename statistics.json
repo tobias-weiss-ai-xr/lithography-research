@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "total_papers": 956,
+    "total_papers": 1156,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 7,
-      "subcategories": 6,
-      "total_cells": 42,
-      "filled_cells": 27,
-      "saturation": 64.3,
-      "empty_cells": 15
+      "subcategories": 7,
+      "total_cells": 49,
+      "filled_cells": 28,
+      "saturation": 57.1,
+      "empty_cells": 21
     },
     "analysis_window": {
       "last_12m_start": "2025-08"
@@ -17,39 +17,41 @@
   "by_category": {
     "equipment": 47,
     "geopolitics": 18,
-    "manufacturing": 161,
+    "manufacturing": 170,
     "market": 1,
-    "materials": 158,
+    "materials": 180,
     "survey": 56,
-    "technology": 515
+    "technology": 684
   },
   "by_subcategory": {
     "china": 9,
     "duv": 9,
-    "euv": 528,
-    "general": 227,
-    "multi-patterning": 10,
-    "nanoimprint": 173
+    "euv": 677,
+    "general": 267,
+    "high-na": 6,
+    "multi-patterning": 14,
+    "nanoimprint": 174
   },
   "by_year": {
-    "2023": 76,
-    "2024": 218,
-    "2025": 242,
-    "2026": 420
+    "2023": 94,
+    "2024": 297,
+    "2025": 332,
+    "2026": 433
   },
   "by_cell": {
-    "technology/euv": 286,
-    "technology/nanoimprint": 169,
-    "manufacturing/general": 124,
+    "technology/euv": 435,
+    "technology/nanoimprint": 170,
+    "manufacturing/general": 133,
     "materials/euv": 122,
+    "technology/general": 58,
+    "materials/general": 55,
     "survey/euv": 51,
-    "technology/general": 49,
-    "materials/general": 33,
     "equipment/euv": 32,
     "manufacturing/euv": 29,
+    "technology/multi-patterning": 11,
     "equipment/general": 11,
-    "technology/multi-patterning": 7,
     "geopolitics/euv": 7,
+    "technology/high-na": 6,
     "geopolitics/china": 5,
     "geopolitics/general": 5,
     "survey/general": 5,
@@ -77,19 +79,19 @@
     },
     {
       "keyword": "nanoimprint",
-      "papers": 112
+      "papers": 114
     },
     {
       "keyword": "immersion",
       "papers": 7
     },
     {
-      "keyword": "photoresist",
-      "papers": 78
-    },
-    {
       "keyword": "multi-patterning",
       "papers": 3
+    },
+    {
+      "keyword": "photoresist",
+      "papers": 86
     },
     {
       "keyword": "line edge roughness",
@@ -106,26 +108,15 @@
   ],
   "momentum": [
     {
-      "id": "technology",
-      "name": "Technology",
-      "total": 515,
-      "recent": 295,
-      "prior": 113,
-      "growth_pct": 161.1,
-      "recent_share": 0.573,
-      "papers_per_month": 24.6,
-      "score": 218.4
-    },
-    {
       "id": "manufacturing",
       "name": "Manufacturing",
-      "total": 161,
-      "recent": 88,
-      "prior": 39,
-      "growth_pct": 125.6,
-      "recent_share": 0.547,
-      "papers_per_month": 7.3,
-      "score": 180.3
+      "total": 170,
+      "recent": 90,
+      "prior": 45,
+      "growth_pct": 100.0,
+      "recent_share": 0.529,
+      "papers_per_month": 7.5,
+      "score": 152.9
     },
     {
       "id": "survey",
@@ -137,6 +128,17 @@
       "recent_share": 0.446,
       "papers_per_month": 2.1,
       "score": 136.9
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "total": 684,
+      "recent": 336,
+      "prior": 184,
+      "growth_pct": 82.6,
+      "recent_share": 0.491,
+      "papers_per_month": 28.0,
+      "score": 131.7
     },
     {
       "id": "equipment",
@@ -163,13 +165,13 @@
     {
       "id": "materials",
       "name": "Materials",
-      "total": 158,
-      "recent": 63,
-      "prior": 50,
-      "growth_pct": 26.0,
-      "recent_share": 0.399,
-      "papers_per_month": 5.2,
-      "score": 65.9
+      "total": 180,
+      "recent": 71,
+      "prior": 58,
+      "growth_pct": 22.4,
+      "recent_share": 0.394,
+      "papers_per_month": 5.9,
+      "score": 61.8
     },
     {
       "id": "market",
@@ -198,18 +200,18 @@
     },
     "manufacturing": {
       "2023": 9,
-      "2024": 38,
-      "2025": 40,
+      "2024": 39,
+      "2025": 48,
       "2026": 74
     },
     "market": {
       "2025": 1
     },
     "materials": {
-      "2023": 13,
-      "2024": 43,
-      "2025": 56,
-      "2026": 46
+      "2023": 14,
+      "2024": 50,
+      "2025": 67,
+      "2026": 49
     },
     "survey": {
       "2023": 11,
@@ -218,10 +220,10 @@
       "2026": 19
     },
     "technology": {
-      "2023": 37,
-      "2024": 115,
-      "2025": 109,
-      "2026": 254
+      "2023": 54,
+      "2024": 186,
+      "2025": 180,
+      "2026": 264
     }
   },
   "keyword_bursts": [
@@ -229,68 +231,68 @@
       "keyword": "self-sufficiency",
       "recent": 2,
       "total": 2,
-      "burst_score": 1.88,
-      "recent_share": 0.0039
+      "burst_score": 2.07,
+      "recent_share": 0.0036
     },
     {
       "keyword": "export control",
       "recent": 13,
       "total": 15,
-      "burst_score": 1.63,
-      "recent_share": 0.0256
+      "burst_score": 1.79,
+      "recent_share": 0.0233
     },
     {
       "keyword": "nanoimprint",
-      "recent": 112,
-      "total": 187,
-      "burst_score": 1.13,
-      "recent_share": 0.2205
+      "recent": 114,
+      "total": 193,
+      "burst_score": 1.22,
+      "recent_share": 0.2039
     },
     {
       "keyword": "immersion",
       "recent": 7,
-      "total": 14,
-      "burst_score": 0.94,
-      "recent_share": 0.0138
-    },
-    {
-      "keyword": "photoresist",
-      "recent": 78,
-      "total": 176,
-      "burst_score": 0.83,
-      "recent_share": 0.1535
+      "total": 15,
+      "burst_score": 0.97,
+      "recent_share": 0.0125
     },
     {
       "keyword": "multi-patterning",
       "recent": 3,
       "total": 7,
-      "burst_score": 0.81,
-      "recent_share": 0.0059
+      "burst_score": 0.89,
+      "recent_share": 0.0054
+    },
+    {
+      "keyword": "photoresist",
+      "recent": 86,
+      "total": 201,
+      "burst_score": 0.88,
+      "recent_share": 0.1538
     },
     {
       "keyword": "line edge roughness",
       "recent": 29,
-      "total": 73,
-      "burst_score": 0.75,
-      "recent_share": 0.0571
+      "total": 74,
+      "burst_score": 0.81,
+      "recent_share": 0.0519
     },
     {
       "keyword": "optical proximity correction",
       "recent": 24,
-      "total": 70,
-      "burst_score": 0.65,
-      "recent_share": 0.0472
+      "total": 73,
+      "burst_score": 0.68,
+      "recent_share": 0.0429
     },
     {
       "keyword": "anamorphic",
       "recent": 10,
-      "total": 39,
-      "burst_score": 0.48,
-      "recent_share": 0.0197
+      "total": 40,
+      "burst_score": 0.52,
+      "recent_share": 0.0179
     }
   ],
   "source_breakdown": {
-    "arxiv": 93,
+    "arxiv": 293,
     "doi": 844,
     "other": 19
   },
@@ -426,9 +428,9 @@
       },
       {
         "cell": "technology/multi-patterning",
-        "total": 7,
-        "recent": 4,
-        "recent_share": 0.57
+        "total": 11,
+        "recent": 5,
+        "recent_share": 0.45
       },
       {
         "cell": "equipment/general",
@@ -444,20 +446,20 @@
       "papers": 8
     },
     {
+      "name": "Yanqiu Li",
+      "papers": 7
+    },
+    {
       "name": "Tetsuya Ueda",
+      "papers": 7
+    },
+    {
+      "name": "Fabian Holzmeier",
       "papers": 7
     },
     {
       "name": "Roberto Fallica",
       "papers": 7
-    },
-    {
-      "name": "Yanqiu Li",
-      "papers": 6
-    },
-    {
-      "name": "Fabian Holzmeier",
-      "papers": 6
     },
     {
       "name": "Lisong Dong",
