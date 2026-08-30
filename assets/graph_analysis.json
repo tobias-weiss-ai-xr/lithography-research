@@ -47,23 +47,23 @@
   {
    "id": "manufacturing",
    "name": "Semiconductor Manufacturing",
-   "count": 170,
+   "count": 169,
    "trajectory": {
     "2023": 9,
     "2024": 39,
     "2025": 48,
-    "2026": 74
+    "2026": 73
    },
    "momentum": {
     "id": "manufacturing",
     "name": "Manufacturing",
-    "total": 170,
-    "recent": 90,
+    "total": 169,
+    "recent": 89,
     "prior": 45,
-    "growth_pct": 100.0,
-    "recent_share": 0.529,
-    "papers_per_month": 7.5,
-    "score": 152.9
+    "growth_pct": 97.8,
+    "recent_share": 0.527,
+    "papers_per_month": 7.4,
+    "score": 150.5
    }
   },
   {
@@ -171,7 +171,7 @@
   {
    "id": "general",
    "name": "General",
-   "count": 267
+   "count": 266
   },
   {
    "id": "high-na",
@@ -3992,11 +3992,6 @@
   ],
   [
    "2026-02",
-   "manufacturing",
-   "general"
-  ],
-  [
-   "2026-02",
    "materials",
    "euv"
   ],
@@ -6053,7 +6048,7 @@
    "recent": 114,
    "total": 193,
    "burst_score": 1.22,
-   "recent_share": 0.2039
+   "recent_share": 0.2043
   },
   {
    "keyword": "immersion",
@@ -6063,6 +6058,13 @@
    "recent_share": 0.0125
   },
   {
+   "keyword": "photoresist",
+   "recent": 86,
+   "total": 201,
+   "burst_score": 0.89,
+   "recent_share": 0.1541
+  },
+  {
    "keyword": "multi-patterning",
    "recent": 3,
    "total": 7,
@@ -6070,25 +6072,18 @@
    "recent_share": 0.0054
   },
   {
-   "keyword": "photoresist",
-   "recent": 86,
-   "total": 201,
-   "burst_score": 0.88,
-   "recent_share": 0.1538
-  },
-  {
    "keyword": "line edge roughness",
    "recent": 29,
    "total": 74,
    "burst_score": 0.81,
-   "recent_share": 0.0519
+   "recent_share": 0.052
   },
   {
    "keyword": "optical proximity correction",
    "recent": 24,
    "total": 73,
    "burst_score": 0.68,
-   "recent_share": 0.0429
+   "recent_share": 0.043
   },
   {
    "keyword": "anamorphic",

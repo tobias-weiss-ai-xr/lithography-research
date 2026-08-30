@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 1156,
+    "total_papers": 1155,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 7,
@@ -17,7 +17,7 @@
   "by_category": {
     "equipment": 47,
     "geopolitics": 18,
-    "manufacturing": 170,
+    "manufacturing": 169,
     "market": 1,
     "materials": 180,
     "survey": 56,
@@ -27,7 +27,7 @@
     "china": 9,
     "duv": 9,
     "euv": 677,
-    "general": 267,
+    "general": 266,
     "high-na": 6,
     "multi-patterning": 14,
     "nanoimprint": 174
@@ -36,12 +36,12 @@
     "2023": 94,
     "2024": 297,
     "2025": 332,
-    "2026": 433
+    "2026": 432
   },
   "by_cell": {
     "technology/euv": 435,
     "technology/nanoimprint": 170,
-    "manufacturing/general": 133,
+    "manufacturing/general": 132,
     "materials/euv": 122,
     "technology/general": 58,
     "materials/general": 55,
@@ -86,12 +86,12 @@
       "papers": 7
     },
     {
-      "keyword": "multi-patterning",
-      "papers": 3
-    },
-    {
       "keyword": "photoresist",
       "papers": 86
+    },
+    {
+      "keyword": "multi-patterning",
+      "papers": 3
     },
     {
       "keyword": "line edge roughness",
@@ -110,13 +110,13 @@
     {
       "id": "manufacturing",
       "name": "Manufacturing",
-      "total": 170,
-      "recent": 90,
+      "total": 169,
+      "recent": 89,
       "prior": 45,
-      "growth_pct": 100.0,
-      "recent_share": 0.529,
-      "papers_per_month": 7.5,
-      "score": 152.9
+      "growth_pct": 97.8,
+      "recent_share": 0.527,
+      "papers_per_month": 7.4,
+      "score": 150.5
     },
     {
       "id": "survey",
@@ -202,7 +202,7 @@
       "2023": 9,
       "2024": 39,
       "2025": 48,
-      "2026": 74
+      "2026": 73
     },
     "market": {
       "2025": 1
@@ -246,7 +246,7 @@
       "recent": 114,
       "total": 193,
       "burst_score": 1.22,
-      "recent_share": 0.2039
+      "recent_share": 0.2043
     },
     {
       "keyword": "immersion",
@@ -256,6 +256,13 @@
       "recent_share": 0.0125
     },
     {
+      "keyword": "photoresist",
+      "recent": 86,
+      "total": 201,
+      "burst_score": 0.89,
+      "recent_share": 0.1541
+    },
+    {
       "keyword": "multi-patterning",
       "recent": 3,
       "total": 7,
@@ -263,25 +270,18 @@
       "recent_share": 0.0054
     },
     {
-      "keyword": "photoresist",
-      "recent": 86,
-      "total": 201,
-      "burst_score": 0.88,
-      "recent_share": 0.1538
-    },
-    {
       "keyword": "line edge roughness",
       "recent": 29,
       "total": 74,
       "burst_score": 0.81,
-      "recent_share": 0.0519
+      "recent_share": 0.052
     },
     {
       "keyword": "optical proximity correction",
       "recent": 24,
       "total": 73,
       "burst_score": 0.68,
-      "recent_share": 0.0429
+      "recent_share": 0.043
     },
     {
       "keyword": "anamorphic",
@@ -293,7 +293,7 @@
   ],
   "source_breakdown": {
     "arxiv": 293,
-    "doi": 844,
+    "doi": 843,
     "other": 19
   },
   "venues": [

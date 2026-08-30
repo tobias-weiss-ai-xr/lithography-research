@@ -24679,35 +24679,6 @@ papers:
     interpretable, and maintainable implementations that transform statistical analysis
     from a passive monitoring tool into an active component of data-driven fab control.'
   venue: Applied System Innovation
-- title: Transformer Networks Enable Nanoscale Defect Detection at Advanced Semiconductor
-    Nodes
-  date: 2026-02
-  url: https://doi.org/10.71465/fbf697
-  category: manufacturing
-  subcategory: general
-  authors:
-  - Zhixuan Gao
-  - Haoyu Deng
-  - Ethan Marshall
-  abstract: The relentless scaling of semiconductor manufacturing toward sub-5nm process
-    nodes has rendered traditional optical and rule-based inspection systems increasingly
-    inadequate for detecting nanoscale structural anomalies. This paper proposes a
-    transformer-based deep learning framework for automated nanoscale defect detection
-    in advanced semiconductor fabrication environments. The proposed architecture
-    leverages self-attention mechanisms and multi-head feature extraction to capture
-    long-range spatial dependencies across scanning electron microscopy (SEM) images
-    of wafer surfaces, enabling high-sensitivity identification of defects including
-    voids, bridging, line-edge roughness, and particle contamination. A hybrid pipeline
-    combining a convolutional feature extractor with a Vision Transformer (ViT) encoder
-    is developed and evaluated on a multi-class wafer defect dataset. Experimental
-    results demonstrate that the proposed model achieves a defect detection accuracy
-    of 97.3%, a false negative rate of 1.8%, and a mean average precision of 95.6%,
-    outperforming conventional convolutional neural network (CNN)-based and support
-    vector machine (SVM)-based baselines. The findings confirm that transformer architectures
-    offer a compelling pathway for scalable, high-throughput semiconductor quality
-    control, particularly as device geometries continue to shrink toward physical
-    limits.
-  venue: Frontiers in Business and Finance
 - title: Deterministic EtherCAT-Based Control Architectures for High-Precision Semiconductor
     Manufacturing Systems
   date: 2026-04
@@ -27397,7 +27368,7 @@ papers:
     source and a near-field detector of optical nonlinearity.
 - title: 'Resistless EUV lithography: photon-induced oxide patterning on silicon'
   date: 2023-10
-  url: https://arxiv.org/abs/2310.01268v1
+  url: https://arxiv.org/abs/2310.01268
   category: technology
   subcategory: euv
   authors: []
@@ -27420,7 +27391,7 @@ papers:
 - title: Extreme-ultraviolet laser generation at 118 nm via adaptive random additional
     periodic-phase engineering in a LiF crystal
   date: 2025-08
-  url: https://arxiv.org/abs/2508.05412v1
+  url: https://arxiv.org/abs/2508.05412
   category: technology
   subcategory: euv
   authors:
@@ -27451,7 +27422,7 @@ papers:
 - title: Interference-governed electromagnetic-thermal coupling and heat transport
     in pulse EUV-irradiated multilayer nanofilms
   date: 2026-01
-  url: https://arxiv.org/abs/2601.10069v1
+  url: https://arxiv.org/abs/2601.10069
   category: technology
   subcategory: euv
   authors:
@@ -27482,7 +27453,7 @@ papers:
 - title: Transforming Computational Lithography with AC and AI -- Faster, More Accurate,
     and Energy-efficient
   date: 2026-01
-  url: https://arxiv.org/abs/2602.15036v1
+  url: https://arxiv.org/abs/2602.15036
   category: technology
   subcategory: euv
   authors:
@@ -27521,7 +27492,7 @@ papers:
 - title: Dose Constraints for High-Resolution Imaging of Biological Specimens with
     Extreme Ultraviolet and Soft X-ray radiation
   date: 2025-10
-  url: https://arxiv.org/abs/2510.21570v1
+  url: https://arxiv.org/abs/2510.21570
   category: technology
   subcategory: euv
   authors:
@@ -27551,7 +27522,7 @@ papers:
 - title: Ultra-shallow EUV and soft X-ray gratings fabricated by broad-beam nitrogen
     ion irradiation
   date: 2026-01
-  url: https://arxiv.org/abs/2601.04667v1
+  url: https://arxiv.org/abs/2601.04667
   category: technology
   subcategory: euv
   authors:
@@ -27576,7 +27547,7 @@ papers:
 - title: Lossless photon flux sensing methodology for EUV and Soft X-ray metrology
     systems
   date: 2024-10
-  url: https://arxiv.org/abs/2410.20479v1
+  url: https://arxiv.org/abs/2410.20479
   category: technology
   subcategory: euv
   authors:
@@ -27602,7 +27573,7 @@ papers:
     to existing systems.
 - title: Dynamic Imaging of Periodic Structures using Extreme Ultraviolet Scatterometry
   date: 2025-12
-  url: https://arxiv.org/abs/2512.19940v1
+  url: https://arxiv.org/abs/2512.19940
   category: technology
   subcategory: euv
   authors:
@@ -27624,7 +27595,7 @@ papers:
     the changing intensities of the far field diffracted orders. Starting from a system
     of equations relating small changes in far field diffraction to phase and amplitude
     perturbations at the sample plane, it is shown that under certain conditions,
-    changes to the $n$th diffracted order map exclusively onto the $n$th Fourier component
+    changes to the nth diffracted order map exclusively onto the nth Fourier component
     of the perturbation via a closed-form relation. We show through rigorous coupled-wave
     analysis simulations that our method can provide a good approximation even outside
     the scalar diffraction theory framework in which it is derived. Finally, we experimentally
@@ -27634,7 +27605,7 @@ papers:
 - title: High-quality Blazed Gratings through Synergy between E-Beam lithography and
     Robust Characterisation Techniques
   date: 2025-07
-  url: https://arxiv.org/abs/2507.22697v1
+  url: https://arxiv.org/abs/2507.22697
   category: technology
   subcategory: euv
   authors:
@@ -27658,7 +27629,7 @@ papers:
 - title: Applying Machine Learning Models on Metrology Data for Predicting Device
     Electrical Performance
   date: 2023-11
-  url: https://arxiv.org/abs/2312.09462v1
+  url: https://arxiv.org/abs/2312.09462
   category: technology
   subcategory: euv
   authors:
@@ -27694,10 +27665,10 @@ papers:
     multiple metrology inputs at different steps of wafer processing. Finally, we
     demonstrate that by using appropriate machine learning models we are able to do
     better prediction of electrical results.
-- title: Non-destructive depth reconstruction of Al-Al$_2$Cu layer structure with
-    nanometer resolution using extreme ultraviolet coherence tomography
+- title: Non-destructive depth reconstruction of Al-Al_2Cu layer structure with nanometer
+    resolution using extreme ultraviolet coherence tomography
   date: 2023-10
-  url: https://arxiv.org/abs/2311.10743v1
+  url: https://arxiv.org/abs/2311.10743
   category: technology
   subcategory: euv
   authors:
@@ -27718,14 +27689,14 @@ papers:
     methods. Laser-generated radiation in the extreme ultraviolet (XUV) and soft x-ray
     range is used for characterization. The measurement principle is interferometric
     and the signal evaluation is performed via an iterative Fourier analysis. The
-    method is demonstrated on the metallic material system Al-Al$_2$Cu and compared
+    method is demonstrated on the metallic material system Al-Al_2Cu and compared
     to electron and atomic force microscopy measurements. We also present advanced
     reconstruction methods for XCT which even allow for the determination of the roughness
     of outer and inner interfaces.
 - title: Non-Destructive, High-Resolution, Chemically Specific, 3D Nanostructure Characterization
     using Phase-Sensitive EUV Imaging Reflectometry
   date: 2024-03
-  url: https://arxiv.org/abs/2404.02170v1
+  url: https://arxiv.org/abs/2404.02170
   category: technology
   subcategory: euv
   authors:
@@ -27755,7 +27726,7 @@ papers:
 - title: 'Single attosecond XUV pulse source via light-wave controlled relativistic
     laser-plasma interaction: Thomson Back Scattering Scheme'
   date: 2025-07
-  url: https://arxiv.org/abs/2507.16949v2
+  url: https://arxiv.org/abs/2507.16949
   category: technology
   subcategory: euv
   authors:
@@ -27773,9 +27744,9 @@ papers:
     and upshifts a counter-propagating laser beam from the infrared to the extreme
     ultraviolet with efficiency exceeding incoherent scattering by over several orders
     of magnitude. Here we demonstrate that optimizing the drive laser waveform can
-    reliably produce a single RES, leading to generation of isolated \emph{attosecond}
-    pulses enhancing both intensity and temporal compression of the back reflected
-    light in a controlled manner. Simulations reveal that tuning parameters like timing
+    reliably produce a single RES, leading to generation of isolated attosecond pulses
+    enhancing both intensity and temporal compression of the back reflected light
+    in a controlled manner. Simulations reveal that tuning parameters like timing
     delay enables control over the amplitude, duration, and bandwidth of the resulting
     attosecond Thomson backscattering pulse. Together, these advances meet key experimental
     challenges and pave the way for compact, tunable sources of isolated attosecond
@@ -27783,7 +27754,7 @@ papers:
 - title: 'Unlocking High Performance, Ultra-Low Power Van der Waals Transistors: Towards
     Back-End-of-Line In-Sensor Machine Vision Applications'
   date: 2023-12
-  url: https://arxiv.org/abs/2312.08634v1
+  url: https://arxiv.org/abs/2312.08634
   category: technology
   subcategory: euv
   authors:
@@ -27817,7 +27788,7 @@ papers:
 - title: Fabrication Optimization of Suspended Stencil Mask Lithography for Multi-Terminal
     Josephson Junctions
   date: 2025-12
-  url: https://arxiv.org/abs/2512.16690v2
+  url: https://arxiv.org/abs/2512.16690
   category: technology
   subcategory: euv
   authors:
@@ -27836,11 +27807,11 @@ papers:
     under scanning electron microscope. Reliable statements are made about mask yield,
     minimal dimensions, and systematic dependencies on the number of superconducting
     terminals. We find that stencil mask lithography can be used reliably for fabricating
-    multi-terminal Josephson junctions, enabling lateral mask dimensions down to 40$\,$nm
+    multi-terminal Josephson junctions, enabling lateral mask dimensions down to 40\,nm
     on average.
 - title: Can we improve the energy efficiency of EUV lithography?
   date: 2024-05
-  url: https://arxiv.org/abs/2405.11717v1
+  url: https://arxiv.org/abs/2405.11717
   category: technology
   subcategory: euv
   authors:
@@ -27867,7 +27838,7 @@ papers:
     chiplet technology.
 - title: Towards multi-petahertz all-optical electric field sampling
   date: 2024-10
-  url: https://arxiv.org/abs/2410.19196v1
+  url: https://arxiv.org/abs/2410.19196
   category: technology
   subcategory: euv
   authors:
@@ -27891,7 +27862,7 @@ papers:
 - title: Lithography-free patterning of chalcogenide materials for integrated photonic
     devices
   date: 2024-08
-  url: https://arxiv.org/abs/2408.05099v1
+  url: https://arxiv.org/abs/2408.05099
   category: technology
   subcategory: euv
   authors:
@@ -27928,7 +27899,7 @@ papers:
 - title: 'Rapid Prototyping of 3D Microstructures: A Simplified Grayscale Lithography
     Encoding Method Using Blender'
   date: 2024-09
-  url: https://arxiv.org/abs/2409.16749v1
+  url: https://arxiv.org/abs/2409.16749
   category: technology
   subcategory: euv
   authors:
@@ -27954,7 +27925,7 @@ papers:
     strategy for rapid prototyping of initial designs with minimal effort.
 - title: Analysis and Applications of a Heralded Electron Source
   date: 2024-06
-  url: https://arxiv.org/abs/2406.18755v1
+  url: https://arxiv.org/abs/2406.18755
   category: technology
   subcategory: euv
   authors: []
@@ -27978,7 +27949,7 @@ papers:
     for wall-steepness estimation in SEM.'
 - title: Gradient Electronic Landscapes in van der Waals Heterostructures
   date: 2025-08
-  url: https://arxiv.org/abs/2508.07896v1
+  url: https://arxiv.org/abs/2508.07896
   category: technology
   subcategory: euv
   authors:
@@ -28008,7 +27979,7 @@ papers:
 - title: Deterministic nanofabrication of quantum dot-circular Bragg grating resonators
     with high process yield using in-situ electron beam lithography
   date: 2025-10
-  url: https://arxiv.org/abs/2510.16131v1
+  url: https://arxiv.org/abs/2510.16131
   category: technology
   subcategory: euv
   authors:
@@ -28041,7 +28012,7 @@ papers:
 - title: 3D printing of hierarchical structures made of inorganic silicon-rich glass
     featuring self-forming nanogratings
   date: 2024-03
-  url: https://arxiv.org/abs/2403.17102v1
+  url: https://arxiv.org/abs/2403.17102
   category: technology
   subcategory: euv
   authors: []
@@ -28069,7 +28040,7 @@ papers:
 - title: Directional Thermal Emission Across Both Polarizations in Planar Photonic
     Architectures
   date: 2025-05
-  url: https://arxiv.org/abs/2505.03905v1
+  url: https://arxiv.org/abs/2505.03905
   category: technology
   subcategory: euv
   authors:
@@ -28103,7 +28074,7 @@ papers:
 - title: Inverse-designed broadband low-loss grating coupler on thick lithium-niobate-on-insulator
     platform
   date: 2023-09
-  url: https://arxiv.org/abs/2309.12976v1
+  url: https://arxiv.org/abs/2309.12976
   category: technology
   subcategory: euv
   authors:
@@ -28122,7 +28093,7 @@ papers:
 - title: A high -quality and -throughput colloidal lithography by mechanical assembly
     and ice-based transfer
   date: 2025-06
-  url: https://arxiv.org/abs/2506.06385v1
+  url: https://arxiv.org/abs/2506.06385
   category: technology
   subcategory: euv
   authors:
@@ -28157,7 +28128,7 @@ papers:
 - title: Measurements, simulations, and models of the point-spread function of electron-beam
     lithography
   date: 2025-06
-  url: https://arxiv.org/abs/2506.21236v1
+  url: https://arxiv.org/abs/2506.21236
   category: technology
   subcategory: euv
   authors:
@@ -28190,7 +28161,7 @@ papers:
 - title: Fabrication of a 3D mode size converter for efficient edge coupling in photonic
     integrated circuits
   date: 2024-11
-  url: https://arxiv.org/abs/2411.16221v1
+  url: https://arxiv.org/abs/2411.16221
   category: technology
   subcategory: euv
   authors:
@@ -28211,7 +28182,7 @@ papers:
     for the TM mode at a wavelength of 1550 nm.
 - title: Metasurface-based planar microlenses for SPAD pixels
   date: 2024-03
-  url: https://arxiv.org/abs/2403.13396v1
+  url: https://arxiv.org/abs/2403.13396
   category: technology
   subcategory: euv
   authors: []
@@ -28229,7 +28200,7 @@ papers:
     highlighting the
 - title: Phase mask fabrication for multi-plane light conversion using grayscale lithography
   date: 2025-07
-  url: https://arxiv.org/abs/2507.10405v3
+  url: https://arxiv.org/abs/2507.10405
   category: technology
   subcategory: euv
   authors:
@@ -28252,7 +28223,7 @@ papers:
 - title: Tailored Fabrication of 3D Nanopores with Dielectric Oxides for Multiple
     Nanoscale Applications
   date: 2024-05
-  url: https://arxiv.org/abs/2405.02632v1
+  url: https://arxiv.org/abs/2405.02632
   category: technology
   subcategory: euv
   authors:
@@ -28289,7 +28260,7 @@ papers:
     model.
 - title: Magnetic metamaterials by ion-implantation
   date: 2024-09
-  url: https://arxiv.org/abs/2409.10433v2
+  url: https://arxiv.org/abs/2409.10433
   category: technology
   subcategory: euv
   authors:
@@ -28304,7 +28275,7 @@ papers:
   abstract: We present a method for the additive fabrication of planar magnetic nanoarrays
     with minimal surface roughness. Synthesis is accomplished by combining electron-beam
     lithography, used to generate nanometric patterned masks, with ion implantation
-    in thin films. By implanting $^{56}$Fe$^{+}$ ions, we are able to introduce magnetic
+    in thin films. By implanting ^{56}Fe^{+} ions, we are able to introduce magnetic
     functionality in a controlled manner into continuous Pd thin films, achieving
     3D spatial resolution down to a few tens of nanometers. Our results demonstrate
     the application of this technique in fabricating square artificial spin ice lattices,
@@ -28313,7 +28284,7 @@ papers:
 - title: Wafer-scale waveguide sidewall roughness scattering loss characterization
     by image processing
   date: 2025-01
-  url: https://arxiv.org/abs/2501.11590v1
+  url: https://arxiv.org/abs/2501.11590
   category: technology
   subcategory: euv
   authors:
@@ -28340,7 +28311,7 @@ papers:
     the loss on two homemade nitride and oxide films on 3-inch silicon wafers with
     12 waveguide devices on each and co-related the scattering loss estimated from
     a 2D image-based sidewall profile and theoretical Payne model. The lowest loss
-    of guided fundamental transverse electric (TE$_{0}$) is found at 0.075 dB/cm at
+    of guided fundamental transverse electric (TE_{0}) is found at 0.075 dB/cm at
     633 nm across 24 devices, which is a record at visible wavelength. Our work shows
     a 100% success in edge detection in image processing to estimate autocorrelation
     function and optical mode loss. These demonstrations offer valuable insights into
@@ -28349,7 +28320,7 @@ papers:
 - title: Soft X-ray imaging with coherence tomography in the water window spectral
     range using high-harmonic generation
   date: 2025-03
-  url: https://arxiv.org/abs/2503.04276v1
+  url: https://arxiv.org/abs/2503.04276
   category: technology
   subcategory: euv
   authors:
@@ -28367,21 +28338,20 @@ papers:
     resolution. The unfavorable efficiency scaling to higher photon energies prevented
     the imaging application in the soft X-ray range so far. In this work we demonstrate
     the feasibility of using harmonics for imaging in the water window spectral region
-    (284$\,$eV to 532$\,$eV). We achieve nondestructive depth profile imaging in a
-    heterostructure by utilizing a broadband and noise-resistant technique called
-    soft X-ray Coherence Tomography (SXCT) at a high-flux lab-scale HHG source. SXCT
-    is derived from Optical Coherence Tomography, a Fourier based technique, that
-    can use the full bandwidth of the source to reach an axial resolution of 12$\,$nm
-    in this demonstration. The employed source covers the entire water window, with
-    a photon flux exceeding 10$^\text{6}\,$photons/eV/s at a photon energy of 500$\,$eV.
-    We show local cross sections of a sample consisting of Aluminium oxide and Platinum
-    layers of varying thickness on a Zinc oxide substrate. We validate the findings
-    with scanning and transmission electron microscopy after preparation with focused
-    ion beam milling.
+    (284\,eV to 532\,eV). We achieve nondestructive depth profile imaging in a heterostructure
+    by utilizing a broadband and noise-resistant technique called soft X-ray Coherence
+    Tomography (SXCT) at a high-flux lab-scale HHG source. SXCT is derived from Optical
+    Coherence Tomography, a Fourier based technique, that can use the full bandwidth
+    of the source to reach an axial resolution of 12\,nm in this demonstration. The
+    employed source covers the entire water window, with a photon flux exceeding 10^6\,photons/eV/s
+    at a photon energy of 500\,eV. We show local cross sections of a sample consisting
+    of Aluminium oxide and Platinum layers of varying thickness on a Zinc oxide substrate.
+    We validate the findings with scanning and transmission electron microscopy after
+    preparation with focused ion beam milling.
 - title: Controlling Raman enhancement in particle-aperture hybrid nanostructures
     by interlayer spacing
   date: 2024-09
-  url: https://arxiv.org/abs/2409.03848v1
+  url: https://arxiv.org/abs/2409.03848
   category: technology
   subcategory: euv
   authors:
@@ -28406,7 +28376,7 @@ papers:
     and near-field profiles.
 - title: Application of Optical Stochastic Cooling in Future Accelerator Light Sources
   date: 2024-07
-  url: https://arxiv.org/abs/2407.16098v1
+  url: https://arxiv.org/abs/2407.16098
   category: technology
   subcategory: euv
   authors:
@@ -28419,14 +28389,14 @@ papers:
     (SSMB). The motivation is to provide a powerful radiation source which could benefit
     fundamental science research and industry applications. Our study shows that such
     a compact OSC-SSMB storage ring using present technology can deliver EUV light
-    with an average power of kilowatt, and spectral flux $&gt;10^{20}$ phs/s/0.1\%b.w.,
+    with an average power of kilowatt, and spectral flux &gt;10^{20} phs/s/0.1\%b.w.,
     which is four orders of magnitude higher than existing synchrotron sources. It
     is expected that the presented work is of value for the development of both OSC
     and SSMB.
-- title: Ultralow-loss photonic integrated chips on 8-inch anomalous-dispersion Si$_3$N$_4$-SiO$_2$-Si
+- title: Ultralow-loss photonic integrated chips on 8-inch anomalous-dispersion Si_3N_4-SiO_2-Si
     Wafer
   date: 2025-02
-  url: https://arxiv.org/abs/2502.05997v1
+  url: https://arxiv.org/abs/2502.05997
   category: technology
   subcategory: euv
   authors:
@@ -28439,21 +28409,20 @@ papers:
   code_url: ''
   project_url: ''
   abstract: We report the fabrication of 8-inch crack-free, dispersion-engineered
-    Si$_3$N$_4$-SiO$_2$-Si wafers fully compatible with industrial foundry silicon
-    photonics fabrication lines. By combining these wafers with a developed amorphous
-    silicon (a-Si) hardmask etching technique, we achieve ultra-low-loss Si$_3$N$_4$
-    photonic integrated circuits (PICs) with intrinsic quality factors exceeding $25
-    \times 10^6$ using electron beam lithography and $24 \times 10^6$ using standard
-    ultraviolet stepper photolithography. Frequency-comb generation is demonstrated
-    on these high-quality Si$_3$N$_4$ PICs, corroborating the designed anomalous dispersion.
-    These results establish the feasibility of mass-manufacturing high-performance,
-    dispersion-engineered Si$_3$N$_4$ PICs using standard foundry-grade processes,
-    opening new pathways for applications in optical communications, nonlinear optics,
-    and quantum optics.
+    Si_3N_4-SiO_2-Si wafers fully compatible with industrial foundry silicon photonics
+    fabrication lines. By combining these wafers with a developed amorphous silicon
+    (a-Si) hardmask etching technique, we achieve ultra-low-loss Si_3N_4 photonic
+    integrated circuits (PICs) with intrinsic quality factors exceeding 25 \times
+    10^6 using electron beam lithography and 24 \times 10^6 using standard ultraviolet
+    stepper photolithography. Frequency-comb generation is demonstrated on these high-quality
+    Si_3N_4 PICs, corroborating the designed anomalous dispersion. These results establish
+    the feasibility of mass-manufacturing high-performance, dispersion-engineered
+    Si_3N_4 PICs using standard foundry-grade processes, opening new pathways for
+    applications in optical communications, nonlinear optics, and quantum optics.
 - title: A strategy for fabricating micro-scale freestanding single-crystalline complex
     oxide device arrays
   date: 2024-08
-  url: https://arxiv.org/abs/2408.10071v2
+  url: https://arxiv.org/abs/2408.10071
   category: technology
   subcategory: euv
   authors:
@@ -28467,18 +28436,18 @@ papers:
   project_url: ''
   abstract: We present a general fabrication strategy for freestanding single-crystalline
     complex oxide device arrays via wet chemical etching-based microfabrication processes
-    and epitaxial lift-off. Here, we used 0.5Ba(Zr$_{0.2}$Ti$_{0.8}$)O$_3$-0.5Ba(Zr$_{0.7}$Ti$_{0.3}$)O$_3$
-    (BCZT) as a model relaxor ferroelectric oxide system and La$_{0.7}$Sr$_{0.3}$MnO$_3$
-    as the sacrificial layer for demonstration. Arrays of SrRuO$_3$ (SRO) / BCZT /
-    SRO ferroelectric capacitor mesas were first defined and isolated on the growth
-    wafer, and then they were released using epitaxial lift-off with lithography-defined
+    and epitaxial lift-off. Here, we used 0.5Ba(Zr_{0.2}Ti_{0.8})O_3-0.5Ba(Zr_{0.7}Ti_{0.3})O_3
+    (BCZT) as a model relaxor ferroelectric oxide system and La_{0.7}Sr_{0.3}MnO_3
+    as the sacrificial layer for demonstration. Arrays of SrRuO_3 (SRO) / BCZT / SRO
+    ferroelectric capacitor mesas were first defined and isolated on the growth wafer,
+    and then they were released using epitaxial lift-off with lithography-defined
     surrounding etching holes, after which the freestanding device arrays were integrated
     onto a glass substrate. Our proposed strategy sheds light on preparing various
     freestanding single-crystalline oxide devices and paves the way for their heterogeneous
     integration onto arbitrary substates.
 - title: Scalable and Robust Beam Shaping Using Apodized Fish-bone Grating Couplers
   date: 2023-09
-  url: https://arxiv.org/abs/2309.08791v1
+  url: https://arxiv.org/abs/2309.08791
   category: technology
   subcategory: euv
   authors:
@@ -28506,7 +28475,7 @@ papers:
 - title: 3D-architected gratings for polarization-sensitive, nature-inspired structural
     color
   date: 2024-11
-  url: https://arxiv.org/abs/2411.13803v1
+  url: https://arxiv.org/abs/2411.13803
   category: technology
   subcategory: euv
   authors:
@@ -28534,7 +28503,7 @@ papers:
     for structural color applications.
 - title: Experimental realisation of a universal inverse-design magnonic device
   date: 2024-03
-  url: https://arxiv.org/abs/2403.17724v2
+  url: https://arxiv.org/abs/2403.17724
   category: technology
   subcategory: euv
   authors:
@@ -28561,7 +28530,7 @@ papers:
 - title: 'Hyperbolic-enhanced Raman scattering in van der Waals MoOCl2: from Fano
     resonances to picomolar detection'
   date: 2025-12
-  url: https://arxiv.org/abs/2512.17647v2
+  url: https://arxiv.org/abs/2512.17647
   category: technology
   subcategory: euv
   authors:
@@ -28590,7 +28559,7 @@ papers:
 - title: Simplified Aluminum Nitride Processing for Low-Loss Integrated Photonics
     and Nonlinear Optics
   date: 2025-06
-  url: https://arxiv.org/abs/2506.22595v1
+  url: https://arxiv.org/abs/2506.22595
   category: technology
   subcategory: euv
   authors:
@@ -28617,7 +28586,7 @@ papers:
 - title: Erbium-ytterbium co-doped lithium niobate single-mode microdisk laser with
     an ultralow threshold of 1 uW
   date: 2023-09
-  url: https://arxiv.org/abs/2309.10512v1
+  url: https://arxiv.org/abs/2309.10512
   category: technology
   subcategory: euv
   authors:
@@ -28643,7 +28612,7 @@ papers:
     also the highest value reported in single-mode active TFLN microlasers.
 - title: Silicon nitride integrated photonics from visible to mid-infrared spectra
   date: 2024-05
-  url: https://arxiv.org/abs/2405.10038v1
+  url: https://arxiv.org/abs/2405.10038
   category: technology
   subcategory: euv
   authors: []
@@ -28666,7 +28635,7 @@ papers:
 - title: Impact of Annealing and Nanostructuring on Properties of NV Centers Created
     by Different Techniques
   date: 2024-12
-  url: https://arxiv.org/abs/2412.07354v2
+  url: https://arxiv.org/abs/2412.07354
   category: technology
   subcategory: euv
   authors:
@@ -28696,7 +28665,7 @@ papers:
 - title: Polarization splitter rotator on thin film lithium niobate based on multimode
     interference
   date: 2024-02
-  url: https://arxiv.org/abs/2402.15203v1
+  url: https://arxiv.org/abs/2402.15203
   category: technology
   subcategory: euv
   authors:
@@ -28723,7 +28692,7 @@ papers:
 - title: Mitigation of Delamination of Epitaxial Large-Area Boron Nitride for Semiconductor
     Processing
   date: 2025-01
-  url: https://arxiv.org/abs/2501.18735v1
+  url: https://arxiv.org/abs/2501.18735
   category: technology
   subcategory: euv
   authors:
@@ -28752,7 +28721,7 @@ papers:
     and optoelectronic technologies.
 - title: Scalable nanoimprint manufacturing of multi-layer hybrid metasurface device
   date: 2023-12
-  url: https://arxiv.org/abs/2312.14297v1
+  url: https://arxiv.org/abs/2312.14297
   category: technology
   subcategory: euv
   authors:
@@ -28782,7 +28751,7 @@ papers:
 - title: Bessel-beam direct-write of the etch-mask in a nano-film of alumina for high-efficiency
     Si solar cells
   date: 2024-03
-  url: https://arxiv.org/abs/2403.14237v1
+  url: https://arxiv.org/abs/2403.14237
   category: technology
   subcategory: euv
   authors:
@@ -28809,7 +28778,7 @@ papers:
 - title: GHz-rate optical phase shift in light matter interaction-engineered, silicon-ferroelectric
     nematic liquid crystals
   date: 2024-05
-  url: https://arxiv.org/abs/2405.08833v3
+  url: https://arxiv.org/abs/2405.08833
   category: technology
   subcategory: euv
   authors:
@@ -28830,15 +28799,14 @@ papers:
     we report an additional GHz-fast phase shift that ultimately allows for significant
     second-order nonlinear optical coefficients related to the Pockels effect. It
     avoids poling issues and can pave the way for hybrid silicon-organic systems with
-    CMOS-foundry compatibility. We report DC and AC modulation efficiencies of $\approx$~0.25
-    V$\cdot$mm (from liquid crystal orientation) and $\approx$~25.7 V$\cdot$mm (from
-    Pockels effect), respectively, an on-chip insertion loss of $\approx$~2.6 dB,
-    and an electro-optic bandwidth of $f_\text{-6dB}$&gt;4.18 GHz, employing improved
-    light-matter interaction in a waveguide architecture that calls for only one lithography
-    step.
+    CMOS-foundry compatibility. We report DC and AC modulation efficiencies of \approx~0.25
+    V\cdotmm (from liquid crystal orientation) and \approx~25.7 V\cdotmm (from Pockels
+    effect), respectively, an on-chip insertion loss of \approx~2.6 dB, and an electro-optic
+    bandwidth of f_-6dB&gt;4.18 GHz, employing improved light-matter interaction in
+    a waveguide architecture that calls for only one lithography step.
 - title: Focused helium ion beam nanofabrication by near-surface swelling
   date: 2024-10
-  url: https://arxiv.org/abs/2410.04953v1
+  url: https://arxiv.org/abs/2410.04953
   category: technology
   subcategory: euv
   authors:
@@ -28865,7 +28833,7 @@ papers:
 - title: Electrostatic interference control of a high-energy coherent electron beam
     using a three-element Boersch phase shifter
   date: 2024-07
-  url: https://arxiv.org/abs/2407.06554v1
+  url: https://arxiv.org/abs/2407.06554
   category: technology
   subcategory: euv
   authors:
@@ -28892,7 +28860,7 @@ papers:
     arrays is discussed.
 - title: Large-Scale Bottom-Up Fabricated 3D Nonlinear Photonic Crystals
   date: 2023-10
-  url: https://arxiv.org/abs/2310.03386v1
+  url: https://arxiv.org/abs/2310.03386
   category: technology
   subcategory: euv
   authors:
@@ -28909,18 +28877,18 @@ papers:
     in the nonlinear susceptibility in three spatial directions are called 3D nonlinear
     photonic crystals (NPhCs). They enable enhanced nonlinear optical conversion efficiencies,
     emission control, and simultaneous generation of nonlinear wavelengths. The chemical
-    inertness of efficient second-order nonlinear materials ($χ^{(2)}$) prohibited
-    their nanofabrication until 2018. The current method is restricted to top-down
-    laser-based techniques limiting the periodicity along z-axis to 10 um. We demonstrate
-    the first bottom-up fabricated 3D NPhC in sol-gel derived barium titanate by soft-nanoimprint
+    inertness of efficient second-order nonlinear materials (χ^{(2)}) prohibited their
+    nanofabrication until 2018. The current method is restricted to top-down laser-based
+    techniques limiting the periodicity along z-axis to 10 um. We demonstrate the
+    first bottom-up fabricated 3D NPhC in sol-gel derived barium titanate by soft-nanoimprint
     lithography: a woodpile with eight layers and periodicities of 1 um (xy-plane)
-    and 300 nm (z-plane). The surface areas exceed $5.3\cdot 10^4$ um^2, which is
-    two orders of magnitude larger than the state-of-the-art. This study is expected
-    to initiate bottom-up fabrication of 3D NPhCs with a supremely strong and versatile
+    and 300 nm (z-plane). The surface areas exceed 5.3\cdot 10^4 um^2, which is two
+    orders of magnitude larger than the state-of-the-art. This study is expected to
+    initiate bottom-up fabrication of 3D NPhCs with a supremely strong and versatile
     nonlinear response.'
 - title: A bulk acoustic resonator with vertical electrodes for wideband filters
   date: 2026-02
-  url: https://arxiv.org/abs/2602.02782v1
+  url: https://arxiv.org/abs/2602.02782
   category: technology
   subcategory: euv
   authors:
@@ -28948,7 +28916,7 @@ papers:
     and robust RF filters for next-generation wireless systems.
 - title: Deterministic Integration of CsPbBr3 Quantum Dots with Plasmonic Ring Microcavities
   date: 2025-08
-  url: https://arxiv.org/abs/2508.07965v1
+  url: https://arxiv.org/abs/2508.07965
   category: technology
   subcategory: euv
   authors:
@@ -28977,7 +28945,7 @@ papers:
     quantum photonic circuits.
 - title: Versatile Top-Down Patterning Technique for Perovskite On-Chip Integration
   date: 2024-11
-  url: https://arxiv.org/abs/2411.15286v2
+  url: https://arxiv.org/abs/2411.15286
   category: technology
   subcategory: euv
   authors:
@@ -28999,15 +28967,15 @@ papers:
     versatile and precise method comprising photolithography and reactive ion etching
     (RIE) processes that can be tuned to accommodate different perovskite compositions
     and morphologies. Our method utilizes conventional photoresists at reduced temperatures
-    to create micron-sized features down to 1 $μ$m, providing high reproducibility
-    from chip to chip. The patterning technique is validated through atomic force
-    microscopy (AFM), X-ray diffraction (XRD), optical spectroscopy, and scanning
-    electron microscopy (SEM). It enables the scalable and high-throughput on-chip
-    monolithic integration of MHPs.
+    to create micron-sized features down to 1 μm, providing high reproducibility from
+    chip to chip. The patterning technique is validated through atomic force microscopy
+    (AFM), X-ray diffraction (XRD), optical spectroscopy, and scanning electron microscopy
+    (SEM). It enables the scalable and high-throughput on-chip monolithic integration
+    of MHPs.
 - title: Coherent Spin Waves in Curved Ferromagnetic Nanocaps of a 3D-printed Magnonic
     Crystal
   date: 2025-06
-  url: https://arxiv.org/abs/2506.16103v1
+  url: https://arxiv.org/abs/2506.16103
   category: technology
   subcategory: euv
   authors:
@@ -29035,7 +29003,7 @@ papers:
     prospects of edge-dominated magnon modes.
 - title: Van der Waals devices for surface-sensitive experiments
   date: 2025-05
-  url: https://arxiv.org/abs/2505.14003v2
+  url: https://arxiv.org/abs/2505.14003
   category: technology
   subcategory: euv
   authors:
@@ -29057,14 +29025,14 @@ papers:
     electrical contacts, and exfoliation in ultra-high vacuum. The resist-free patterning
     method utilizes a shadow mask to define electrical contacts and yields thin flakes
     down to the single-layer regime via gold-assisted exfoliation. As a demonstration,
-    we fabricate devices from 1$T-$TaS$_2$ flakes, achieving reliable contacts for
-    application of electrical pulses and resistance measurements, as well as clean
-    surfaces allowing for angle-resolved photoemission spectroscopy. The approach
-    provides a platform for studying the electronic properties of vdW systems with
-    surface-sensitive probes in well-defined device geometries.
+    we fabricate devices from 1T-TaS_2 flakes, achieving reliable contacts for application
+    of electrical pulses and resistance measurements, as well as clean surfaces allowing
+    for angle-resolved photoemission spectroscopy. The approach provides a platform
+    for studying the electronic properties of vdW systems with surface-sensitive probes
+    in well-defined device geometries.
 - title: Scalable Lithium Niobate Nanoimprinting for Nonlinear Metalenses
   date: 2024-09
-  url: https://arxiv.org/abs/2409.16379v1
+  url: https://arxiv.org/abs/2409.16379
   category: technology
   subcategory: euv
   authors:
@@ -29091,7 +29059,7 @@ papers:
     highly scalable fabrication method for engineered nonlinear nanostructures
 - title: Tunable transmissive metasurface based on thin-film lithium niobate
   date: 2024-11
-  url: https://arxiv.org/abs/2411.04937v1
+  url: https://arxiv.org/abs/2411.04937
   category: technology
   subcategory: euv
   authors:
@@ -29118,7 +29086,7 @@ papers:
     modulation devices.
 - title: Controllable Domain Wall Memories with Magnetic Topological Insulator
   date: 2025-10
-  url: https://arxiv.org/abs/2510.10369v1
+  url: https://arxiv.org/abs/2510.10369
   category: technology
   subcategory: euv
   authors:
@@ -29146,7 +29114,7 @@ papers:
 - title: High-efficiency edge couplers enabled by vertically tapering on lithium-niobate
     photonic chips
   date: 2023-11
-  url: https://arxiv.org/abs/2311.05837v1
+  url: https://arxiv.org/abs/2311.05837
   category: technology
   subcategory: euv
   authors:
@@ -29174,7 +29142,7 @@ papers:
     electro-optic modulators, frequency comb generation, and quantum sensors.
 - title: Mechanism of Conductivity Enhancement of Polymers Employing Microbubble Lithography
   date: 2025-06
-  url: https://arxiv.org/abs/2506.09957v1
+  url: https://arxiv.org/abs/2506.09957
   category: technology
   subcategory: euv
   authors:
@@ -29205,7 +29173,7 @@ papers:
 - title: A reduced-temperature process for preparing atomically clean Si(100) and
     SiGe(100) surfaces with vapor HF
   date: 2025-01
-  url: https://arxiv.org/abs/2501.05620v1
+  url: https://arxiv.org/abs/2501.05620
   category: technology
   subcategory: euv
   authors:
@@ -29219,23 +29187,23 @@ papers:
   project_url: ''
   abstract: Silicon processing techniques such as atomic precision advanced manufacturing
     (APAM) and epitaxial growth require surface preparations that activate oxide desorption
-    (typically &gt;1000 $^{\circ}$C) and promote surface reconstruction toward atomically-clean,
-    flat, and ordered Si(100)-2$\times$1. We compare aqueous and vapor phase cleaning
+    (typically &gt;1000 ^{\circ}C) and promote surface reconstruction toward atomically-clean,
+    flat, and ordered Si(100)-2\times1. We compare aqueous and vapor phase cleaning
     of Si and Si/SiGe surfaces to prepare APAM-ready and epitaxy-ready surfaces at
     lower temperatures. Angle resolved X-ray photoelectron spectroscopy (ARXPS) and
     Fourier transform infrared (FTIR) spectroscopy indicate that vapor hydrogen fluoride
     (VHF) cleans dramatically reduce carbon surface contamination and allow the chemically
-    prepared surface to reconstruct at lower temperatures, 600 $^{\circ}$C for Si
-    and 580 $^{\circ}$C for a Si/Si$_{0.7}$Ge$_{0.3}$ heterostructures, into an ordered
-    atomic terrace structure indicated by scanning tunneling microscopy (STM). After
-    thermal treatment and vacuum hydrogen termination, we demonstrate STM hydrogen
-    desorption lithography (HDL) on VHF-treated Si samples, creating reactive zones
-    that enable area-selective chemistry using a thermal budget similar to CMOS process
-    flows. We anticipate these results will establish new pathways to integrate APAM
-    with Si foundry processing.
+    prepared surface to reconstruct at lower temperatures, 600 ^{\circ}C for Si and
+    580 ^{\circ}C for a Si/Si_{0.7}Ge_{0.3} heterostructures, into an ordered atomic
+    terrace structure indicated by scanning tunneling microscopy (STM). After thermal
+    treatment and vacuum hydrogen termination, we demonstrate STM hydrogen desorption
+    lithography (HDL) on VHF-treated Si samples, creating reactive zones that enable
+    area-selective chemistry using a thermal budget similar to CMOS process flows.
+    We anticipate these results will establish new pathways to integrate APAM with
+    Si foundry processing.
 - title: Lithographically Defined Zerogap Strain Sensors
   date: 2024-03
-  url: https://arxiv.org/abs/2403.08288v1
+  url: https://arxiv.org/abs/2403.08288
   category: technology
   subcategory: euv
   authors:
@@ -29264,7 +29232,7 @@ papers:
     below the tensile limit of the metal.'
 - title: Free-standing bilayer metasurfaces in the visible
   date: 2024-09
-  url: https://arxiv.org/abs/2409.16969v1
+  url: https://arxiv.org/abs/2409.16969
   category: technology
   subcategory: euv
   authors:
@@ -29292,10 +29260,10 @@ papers:
     TiO2 nanofins with vertical side walls. Our work advances the nanofabrication
     of compound meta-optics and inspires new directions in wavefront shaping, metasurface
     integration, and polarization control.
-- title: Humidity-enhanced NO$_2$ gas sensing using atomically sharp edges in multilayer
-    MoS$_2$
+- title: Humidity-enhanced NO_2 gas sensing using atomically sharp edges in multilayer
+    MoS_2
   date: 2024-11
-  url: https://arxiv.org/abs/2411.01043v1
+  url: https://arxiv.org/abs/2411.01043
   category: technology
   subcategory: euv
   authors:
@@ -29308,24 +29276,24 @@ papers:
   code_url: ''
   project_url: ''
   abstract: Ambient humidity poses a significant challenge in the development of practical
-    room temperature NO$_2$ gas sensors. Here, we employ atomically precise zigzag
-    edges in multilayer MoS$_2$, fabricated using electron beam lithography and anisotropic
+    room temperature NO_2 gas sensors. Here, we employ atomically precise zigzag edges
+    in multilayer MoS_2, fabricated using electron beam lithography and anisotropic
     wet etching, to achieve highly sensitive and selective gas sensing performance
     that is humidity-tolerant at elevated temperatures and humidity-enhanced at room
     temperature under ultraviolet illumination. Notably, exposure to 2.5 parts per
-    billion (ppb) NO$_2$ at 70% relative humidity under ultraviolet illumination and
+    billion (ppb) NO_2 at 70% relative humidity under ultraviolet illumination and
     at room-temperature resulted in a 33-fold increase in response and a 6-fold faster
     recovery compared to 0% relative humidity, leading to response values exceeding
     1100%. The optimized samples demonstrated a theoretical detection limit ranging
-    from 4 to 400 parts per trillion (ppt) NO$_2$. The enhanced NO$_2$ sensing capabilities
-    of MoS$_2$ edges have been further confirmed through first-principles calculations.
-    Our study expands the applications of nanostructured MoS$_2$ and highlights its
-    potential for detecting NO$_2$ at sub-ppb levels in complex scenarios, such as
-    high humidity conditions.
+    from 4 to 400 parts per trillion (ppt) NO_2. The enhanced NO_2 sensing capabilities
+    of MoS_2 edges have been further confirmed through first-principles calculations.
+    Our study expands the applications of nanostructured MoS_2 and highlights its
+    potential for detecting NO_2 at sub-ppb levels in complex scenarios, such as high
+    humidity conditions.
 - title: High-magnitude, spatially programmable, and sustained strain engineering
     of 2D semiconductors
   date: 2025-08
-  url: https://arxiv.org/abs/2508.00972v2
+  url: https://arxiv.org/abs/2508.00972
   category: technology
   subcategory: euv
   authors:
@@ -29355,7 +29323,7 @@ papers:
 - title: Solution-derived barium titanate waveguides for integrated electro-optic
     modulation
   date: 2026-01
-  url: https://arxiv.org/abs/2601.14938v1
+  url: https://arxiv.org/abs/2601.14938
   category: technology
   subcategory: euv
   authors:
@@ -29370,22 +29338,22 @@ papers:
   abstract: Metal oxides with strong nonlinear optical properties and wide transparency
     window are key materials for the development of compact and efficient photonic
     integrated circuits used for electro-optic modulators and entangled photon sources.
-    Among them, barium titanate (BaTiO$_{3}$) is particularly attractive due to its
+    Among them, barium titanate (BaTiO_{3}) is particularly attractive due to its
     large Pockels coefficient. However, its use has been limited by challenges in
     material synthesis and in nanopatterning, owing to its chemical stability and
     inertness. Here, we demonstrate a monolithic electro-optic modulator entirely
-    based on solution-deposited BaTiO$_{3}$, fabricated through a bottom-up soft nanoimprinting
+    based on solution-deposited BaTiO_{3}, fabricated through a bottom-up soft nanoimprinting
     lithography process. Fine-tuning the synthesis and nanofabrication enhances the
     optical properties of the polycrystalline material. By optimizing the process
     parameters, we achieve a reduction in propagation losses of two orders of magnitude,
     enabling efficient electro-optic modulation. This scalable, etch-free approach
-    enables direct patterning of high-quality BaTiO$_{3}$ structures, establishing
-    a new route for low-cost, large-scale integrated electro-optic devices entirely
+    enables direct patterning of high-quality BaTiO_{3} structures, establishing a
+    new route for low-cost, large-scale integrated electro-optic devices entirely
     based on oxide material compatible with a wide range of substrates.
 - title: Enhanced Absorption in Thin-Film Silicon Solar Cells Using a Broadband Plasmonic
     Nanostructure
   date: 2025-06
-  url: https://arxiv.org/abs/2506.16118v1
+  url: https://arxiv.org/abs/2506.16118
   category: technology
   subcategory: euv
   authors:
@@ -29414,7 +29382,7 @@ papers:
 - title: Low-Loss Integration of High-Density Polymer Waveguides with Silicon Photonics
     for Co-Packaged Optics
   date: 2025-03
-  url: https://arxiv.org/abs/2503.02712v1
+  url: https://arxiv.org/abs/2503.02712
   category: technology
   subcategory: euv
   authors:
@@ -29446,7 +29414,7 @@ papers:
 - title: Multi-wavelength transparent microfluidics for UV-visible spectroscopy and
     X-ray scattering studies of photoactive systems
   date: 2025-11
-  url: https://arxiv.org/abs/2511.11441v2
+  url: https://arxiv.org/abs/2511.11441
   category: technology
   subcategory: euv
   authors:
@@ -29478,7 +29446,7 @@ papers:
     using synchrotron SAXS.
 - title: Additively manufactured ceramics for compact quantum technologies
   date: 2024-02
-  url: https://arxiv.org/abs/2402.10274v3
+  url: https://arxiv.org/abs/2402.10274
   category: technology
   subcategory: euv
   authors:
@@ -29511,7 +29479,7 @@ papers:
 - title: Optical bound states in the continuum in subwavelength gratings made of an
     epitaxial van der Waals material
   date: 2025-02
-  url: https://arxiv.org/abs/2502.03121v1
+  url: https://arxiv.org/abs/2502.03121
   category: technology
   subcategory: euv
   authors:
@@ -29524,23 +29492,23 @@ papers:
   code_url: ''
   project_url: ''
   abstract: High refractive index (4.4 at 1100 nm), negligibly small absorption in
-    near-infrared spectral range, and ease of processing make MoSe$_2$ a perfect material
-    for applications in near-infrared photonics. So far, implementation of MoSe$_2$-based
-    photonic structures has been hindered by the lack of large surface MoSe$_2$ substrates.
+    near-infrared spectral range, and ease of processing make MoSe_2 a perfect material
+    for applications in near-infrared photonics. So far, implementation of MoSe_2-based
+    photonic structures has been hindered by the lack of large surface MoSe_2 substrates.
     The use of molecular beam epitaxy allows the production of homogeneous layers
-    of MoSe$_2$ with a few-inch surface and a thickness controlled at the sub-nm level.
+    of MoSe_2 with a few-inch surface and a thickness controlled at the sub-nm level.
     In the present work, we design by theoretical calculations and fabricate by a
     simple lithography process an ultrathin subwavelength grating out of 42-nm thick,
-    epitaxially-grown MoSe$_2$ layer. Our polarization-resolved reflectivity measurements
+    epitaxially-grown MoSe_2 layer. Our polarization-resolved reflectivity measurements
     confirm that the gratings host a peculiar type of a confined optical mode that
     is a bound state in the continuum. Moreover, the fabricated structures enhance
     the efficiency of the third harmonic generation by over three orders of magnitude
-    as compared to the unstructured MoSe$_2$ layer. The presented results are promising
+    as compared to the unstructured MoSe_2 layer. The presented results are promising
     for the realization of flat, ultra-compact devices for lasing, wavefront control,
     and higher-order topological states of the light.
 - title: Loading-effect-based 3-D microfabrication empowers on-chip Brillouin optomechanics
   date: 2024-02
-  url: https://arxiv.org/abs/2402.02409v1
+  url: https://arxiv.org/abs/2402.02409
   category: technology
   subcategory: euv
   authors:
@@ -29573,7 +29541,7 @@ papers:
 - title: Bayer-type Vis-NIR Routing via Inverse Design for Submicron-pixel Image Sensing
     Chip
   date: 2024-09
-  url: https://arxiv.org/abs/2409.12459v1
+  url: https://arxiv.org/abs/2409.12459
   category: technology
   subcategory: euv
   authors:
@@ -29606,7 +29574,7 @@ papers:
 - title: Multilayer Q-BIC-like Optical Filters with High Throughput Direct-Write Multilayer
     Lithography
   date: 2026-01
-  url: https://arxiv.org/abs/2601.13241v1
+  url: https://arxiv.org/abs/2601.13241
   category: technology
   subcategory: euv
   authors:
@@ -29638,7 +29606,7 @@ papers:
 - title: Laser patterning of magnonic structure via local crystallization of Yittrium
     Iron Garnet
   date: 2024-02
-  url: https://arxiv.org/abs/2402.14444v1
+  url: https://arxiv.org/abs/2402.14444
   category: technology
   subcategory: euv
   authors:
@@ -29670,7 +29638,7 @@ papers:
 - title: Direct integration of atomic precision advanced manufacturing into middle-of-line
     silicon fabrication
   date: 2025-05
-  url: https://arxiv.org/abs/2505.03622v3
+  url: https://arxiv.org/abs/2505.03622
   category: technology
   subcategory: euv
   authors:
@@ -29702,7 +29670,7 @@ papers:
 - title: Reactive additive capillary stamping with double network hydrogel-derived
     aerogel stamps under solvothermal conditions
   date: 2024-01
-  url: https://arxiv.org/abs/2401.15013v1
+  url: https://arxiv.org/abs/2401.15013
   category: technology
   subcategory: euv
   authors:
@@ -29737,7 +29705,7 @@ papers:
 - title: Wafer-Scale Fabrication of InGaP-on-Insulator for Nonlinear and Quantum Photonic
     Applications
   date: 2024-06
-  url: https://arxiv.org/abs/2406.18788v1
+  url: https://arxiv.org/abs/2406.18788
   category: technology
   subcategory: euv
   authors:
@@ -29753,23 +29721,23 @@ papers:
     materials is driving key technologies in diverse areas such as high-speed communications,
     signal processing, sensing, and quantum information. Here, we demonstrate a novel
     nonlinear platform -- InGaP-on-insulator -- optimized for visible-to-telecommunication
-    wavelength $χ^{\left(2\right)}$ nonlinear optical processes. In this work, we
-    detail our 100-mm wafer-scale InGaP-on-insulator fabrication process realized
-    via wafer bonding, optical lithography, and dry-etching techniques. The resulting
-    wafers yield 1000s of components in each fabrication cycle, with initial designs
-    that include chip-to-fiber couplers, 12.5-cm-long nested spiral waveguides, and
-    arrays of microring resonators with free-spectral ranges spanning 400-900 GHz.
-    We demonstrate intrinsic resonator quality factors as high as 324,000 (440,000)
-    for single-resonance (split-resonance) modes near 1550 nm corresponding to 1.56
-    dB cm$^{-1}$ (1.22 dB cm$^{-1}$) propagation loss. We analyze the loss versus
-    waveguide width and resonator radius to establish the operating regime for optimal
-    775-to-1550 nm phase matching. By combining the high $χ^{\left(2\right)}$ and
-    $χ^{\left(3\right)}$ optical nonlinearity of InGaP with wafer-scale fabrication
-    and low propagation loss, these results open promising possibilities for entangled-photon,
-    multi-photon, and squeezed light generation.
+    wavelength χ^{\left(2\right)} nonlinear optical processes. In this work, we detail
+    our 100-mm wafer-scale InGaP-on-insulator fabrication process realized via wafer
+    bonding, optical lithography, and dry-etching techniques. The resulting wafers
+    yield 1000s of components in each fabrication cycle, with initial designs that
+    include chip-to-fiber couplers, 12.5-cm-long nested spiral waveguides, and arrays
+    of microring resonators with free-spectral ranges spanning 400-900 GHz. We demonstrate
+    intrinsic resonator quality factors as high as 324,000 (440,000) for single-resonance
+    (split-resonance) modes near 1550 nm corresponding to 1.56 dB cm^{-1} (1.22 dB
+    cm^{-1}) propagation loss. We analyze the loss versus waveguide width and resonator
+    radius to establish the operating regime for optimal 775-to-1550 nm phase matching.
+    By combining the high χ^{\left(2\right)} and χ^{\left(3\right)} optical nonlinearity
+    of InGaP with wafer-scale fabrication and low propagation loss, these results
+    open promising possibilities for entangled-photon, multi-photon, and squeezed
+    light generation.
 - title: Wafer-scale conformal metasurface optics
   date: 2025-11
-  url: https://arxiv.org/abs/2511.10447v1
+  url: https://arxiv.org/abs/2511.10447
   category: technology
   subcategory: euv
   authors:
@@ -29804,7 +29772,7 @@ papers:
 - title: Experimental Demonstration of Efficient and Polarization-Diversity Fiber-Chip
     Coupling by 2D Grating Couplers with 193-nm DUV Lithography
   date: 2024-07
-  url: https://arxiv.org/abs/2407.14432v2
+  url: https://arxiv.org/abs/2407.14432
   category: technology
   subcategory: euv
   authors:
@@ -29836,7 +29804,7 @@ papers:
     while reducing requirements on feature size.
 - title: Nanoscale ferroelectric programming of van der Waals heterostructures
   date: 2024-07
-  url: https://arxiv.org/abs/2407.12757v1
+  url: https://arxiv.org/abs/2407.12757
   category: technology
   subcategory: euv
   authors:
@@ -29868,7 +29836,7 @@ papers:
 - title: Physics-informed neural networks and neural operators for a study of EUV
     electromagnetic wave diffraction from a lithography mask
   date: 2025-07
-  url: https://arxiv.org/abs/2507.04153v1
+  url: https://arxiv.org/abs/2507.04153
   category: technology
   subcategory: euv
   authors:
@@ -29888,7 +29856,7 @@ papers:
 - title: Evaluation of X-ray/EUV Nanolithography Facility at AS Through Wavefront
     Propagation Simulations
   date: 2023-11
-  url: https://arxiv.org/abs/2311.16458v1
+  url: https://arxiv.org/abs/2311.16458
   category: technology
   subcategory: euv
   authors:
@@ -29919,7 +29887,7 @@ papers:
 - title: Design of an all-facet illuminator for high NA EUV lithography exposure tool
     based on deep reinforcement learning
   date: 2025-06
-  url: https://arxiv.org/abs/2506.15558v1
+  url: https://arxiv.org/abs/2506.15558
   category: technology
   subcategory: euv
   authors:
@@ -29951,7 +29919,7 @@ papers:
     exceed 99% under multiple illumination pupil shapes.
 - title: Generation of Spatially Coherent Light at Extreme Ultraviolet Wavelengths
   date: 2024-03
-  url: https://arxiv.org/abs/2403.19750v1
+  url: https://arxiv.org/abs/2403.19750
   category: technology
   subcategory: euv
   authors:
@@ -29978,7 +29946,7 @@ papers:
 - title: Phase Space Modeling of Extended Sources Based on Wigner Distribution and
     Hamiltonian Optics
   date: 2025-12
-  url: https://arxiv.org/abs/2512.07161v1
+  url: https://arxiv.org/abs/2512.07161
   category: technology
   subcategory: euv
   authors:
@@ -29998,7 +29966,7 @@ papers:
     correlation functions for partially coherent fields is enormous. To balance computational
     efficiency and physical accuracy, phase space optics provides a unified theoretical
     framework. By introducing the Wigner distribution function (WDF), we can map the
-    light field into a joint space-time-spatial frequency domain $(\bm{r}, \bm{p})$.
+    light field into a joint space-time-spatial frequency domain (\bm{r}, \bm{p}).
     This description not only retains all the information of wave optics (including
     interference terms) but also naturally transitions to the ray description of Hamiltonian
     optics in the short-wavelength limit, governed by Liouville's theorem of phase
@@ -30010,7 +29978,7 @@ papers:
     using mathematical tools such as the Moyal expansion and generalized Fresnel number.
 - title: Structured illumination microscopy with extreme ultraviolet pulses
   date: 2024-03
-  url: https://arxiv.org/abs/2403.19382v1
+  url: https://arxiv.org/abs/2403.19382
   category: technology
   subcategory: euv
   authors:
@@ -30032,7 +30000,7 @@ papers:
     resolution becomes a charming possibility.
 - title: Self-interfering high harmonic beam arrays driven by Hermite-Gaussian beams
   date: 2025-01
-  url: https://arxiv.org/abs/2501.09507v2
+  url: https://arxiv.org/abs/2501.09507
   category: technology
   subcategory: euv
   authors:
@@ -30053,8 +30021,8 @@ papers:
     azimuthal Laguerre-Gauss modal structure, with their topological charge scaling
     according to orbital angular momentum conservation. In contrast, when HHG is driven
     by Hermite-Gauss beams, the harmonic modes do not show a direct correspondence
-    to the driving modal profile. Our experimental measurements using HG$_{0,1}$ and
-    HG$_{1,1}$ modes, which are in excellent agreement with our numerical simulations,
+    to the driving modal profile. Our experimental measurements using HG_{0,1} and
+    HG_{1,1} modes, which are in excellent agreement with our numerical simulations,
     show that the lobes of the Hermite-Gauss driving beams effectively produce a set
     of separate phase-locked harmonic beamlets which can interfere downstream. This
     self-interference, which can be adjusted through the relative position between
@@ -30065,7 +30033,7 @@ papers:
     single-shot extreme-ultraviolet ptychography.
 - title: 'RHDLPP: A multigroup radiation hydrodynamics code for laser-produced plasmas'
   date: 2024-01
-  url: https://arxiv.org/abs/2401.01718v1
+  url: https://arxiv.org/abs/2401.01718
   category: technology
   subcategory: euv
   authors:
@@ -30102,7 +30070,7 @@ papers:
 - title: Attosecond Rabi Oscillations in High Harmonic Generation Resonantly Driven
     by Extreme Ultraviolet Laser Fields
   date: 2024-04
-  url: https://arxiv.org/abs/2404.04053v2
+  url: https://arxiv.org/abs/2404.04053
   category: technology
   subcategory: euv
   authors:
@@ -30131,7 +30099,7 @@ papers:
 - title: Global Alignment Reference Strategy for Laser Interference Lithography Pattern
     Arrays
   date: 2024-11
-  url: https://arxiv.org/abs/2411.01976v1
+  url: https://arxiv.org/abs/2411.01976
   category: technology
   subcategory: euv
   authors:
@@ -30151,15 +30119,15 @@ papers:
     and tilt angle. Two reference gratings are utilized: one is detached from the
     substrate, while the other remains fixed to it. To achieve global alignment, the
     exposure area is adjusted by alternating between moving the beam and the substrate.
-    In our experiment, a 3 $\times$ 3 regions grating array was fabricated, and the
-    $-1$st-order diffraction wavefront measured by the Fizeau interferometer exhibited
+    In our experiment, a 3 \times 3 regions grating array was fabricated, and the
+    -1st-order diffraction wavefront measured by the Fizeau interferometer exhibited
     good continuity. This technique enables effective and efficient alignment with
     high accuracy across any regions in an interference lithography pattern array
     on large substrates.'
 - title: Time-resolved photoemission electron microscopy on a ZnO surface using an
     extreme ultraviolet attosecond pulse pair
   date: 2023-10
-  url: https://arxiv.org/abs/2310.09666v1
+  url: https://arxiv.org/abs/2310.09666
   category: technology
   subcategory: euv
   authors:
@@ -30193,7 +30161,7 @@ papers:
 - title: Cavity-Enhanced High-order Harmonic Generation for High-Performance Time-resolved
     Photoemission Experiments
   date: 2024-10
-  url: https://arxiv.org/abs/2410.11589v1
+  url: https://arxiv.org/abs/2410.11589
   category: technology
   subcategory: euv
   authors:
@@ -30214,7 +30182,7 @@ papers:
     now in a qualitatively new regime.
 - title: Lightwave-controlled relativistic plasma mirrors
   date: 2024-06
-  url: https://arxiv.org/abs/2406.06396v3
+  url: https://arxiv.org/abs/2406.06396
   category: technology
   subcategory: euv
   authors:
@@ -30237,7 +30205,7 @@ papers:
 - title: 'Neural Lithography: Close the Design-to-Manufacturing Gap in Computational
     Optics with a ''Real2Sim'' Learned Photolithography Simulator'
   date: 2023-09
-  url: https://arxiv.org/abs/2309.17343v1
+  url: https://arxiv.org/abs/2309.17343
   category: technology
   subcategory: euv
   authors:
@@ -30266,7 +30234,7 @@ papers:
 - title: Fast inverse lithography based on a model-driven block stacking convolutional
     neural network
   date: 2024-12
-  url: https://arxiv.org/abs/2412.14599v1
+  url: https://arxiv.org/abs/2412.14599
   category: technology
   subcategory: euv
   authors:
@@ -30298,7 +30266,7 @@ papers:
     cross-scale periodic micro structure and demonstration on infrared micro polarizer
     array'
   date: 2024-10
-  url: https://arxiv.org/abs/2410.12573v1
+  url: https://arxiv.org/abs/2410.12573
   category: technology
   subcategory: euv
   authors:
@@ -30328,7 +30296,7 @@ papers:
     path for fabricating micro-polarizer arrays.
 - title: Versatile, open-source program for simulating high-harmonic generation
   date: 2025-09
-  url: https://arxiv.org/abs/2509.02867v1
+  url: https://arxiv.org/abs/2509.02867
   category: technology
   subcategory: euv
   authors:
@@ -30350,7 +30318,7 @@ papers:
 - title: High-resolution MHz time- and angle-resolved photoemission spectroscopy based
     on a tunable vacuum ultraviolet source
   date: 2024-02
-  url: https://arxiv.org/abs/2402.00784v2
+  url: https://arxiv.org/abs/2402.00784
   category: technology
   subcategory: euv
   authors:
@@ -30374,7 +30342,7 @@ papers:
 - title: Development of a 10.8-eV Tabletop Femtosecond Laser with Tunable Polarization
     for High-Resolution Angle-Resolved Photoemission Spectroscopy
   date: 2025-10
-  url: https://arxiv.org/abs/2510.24158v1
+  url: https://arxiv.org/abs/2510.24158
   category: technology
   subcategory: euv
   authors:
@@ -30399,7 +30367,7 @@ papers:
 - title: Efficiency enhancement in regenerative amplifier free-electron lasers using
     a tapered undulator
   date: 2025-01
-  url: https://arxiv.org/abs/2501.01911v1
+  url: https://arxiv.org/abs/2501.01911
   category: technology
   subcategory: euv
   authors:
@@ -30421,7 +30389,7 @@ papers:
 - title: Resolving Rydberg-Electron Recapture Dynamics via Laser-driven Frustrated
     Tunneling Ionization
   date: 2025-02
-  url: https://arxiv.org/abs/2502.19007v1
+  url: https://arxiv.org/abs/2502.19007
   category: technology
   subcategory: euv
   authors:
@@ -30447,7 +30415,7 @@ papers:
 - title: Impact of interference between two infrared pulses driving high harmonic
     generation
   date: 2026-02
-  url: https://arxiv.org/abs/2602.02407v1
+  url: https://arxiv.org/abs/2602.02407
   category: technology
   subcategory: euv
   authors:
@@ -30471,7 +30439,7 @@ papers:
     by the non-perturbative model developed by Lewenstein and co-workers.
 - title: Mid-IR chirality and chiral thermal emission through twisting
   date: 2024-09
-  url: https://arxiv.org/abs/2409.02641v2
+  url: https://arxiv.org/abs/2409.02641
   category: technology
   subcategory: euv
   authors:
@@ -30488,7 +30456,7 @@ papers:
     do not currently exist. Their development, using principles from the mature field
     of metamaterials, requires complex three-dimensional architectures that call for
     high-resolution lithography. We leverage the natural optical anisotropy found
-    in several van der Waals crystals, for example $α$-MoO$_3$, to demonstrate experimentally
+    in several van der Waals crystals, for example α-MoO_3, to demonstrate experimentally
     that its twisted bilayers break inversion-rotation symmetry and are thereby intrinsically
     chiral. Via direct thermal emission measurements of microscopic twisted bilayers,
     we demonstrate that these heterostructures generate chiral light through incandescence.
@@ -30497,7 +30465,7 @@ papers:
     conventional meta-architectures.
 - title: Synthesizing extreme-ultraviolet vector beams in a chip
   date: 2024-03
-  url: https://arxiv.org/abs/2403.11006v1
+  url: https://arxiv.org/abs/2403.11006
   category: technology
   subcategory: euv
   authors:
@@ -30522,7 +30490,7 @@ papers:
 - title: 'Coherent Mode Decoupling: A Versatile Framework for High-Throughput Partially
     Coherent Light Transport'
   date: 2026-01
-  url: https://arxiv.org/abs/2601.15776v1
+  url: https://arxiv.org/abs/2601.15776
   category: technology
   subcategory: euv
   authors:
@@ -30549,7 +30517,7 @@ papers:
 - title: Thermal scanning probe lithography for fabrication of perforated metallic
     films
   date: 2025-10
-  url: https://arxiv.org/abs/2510.12234v1
+  url: https://arxiv.org/abs/2510.12234
   category: technology
   subcategory: euv
   authors:
@@ -30571,7 +30539,7 @@ papers:
 - title: All-optical logic gates for extreme ultraviolet switching via attosecond
     four-wave mixing
   date: 2025-10
-  url: https://arxiv.org/abs/2510.00699v1
+  url: https://arxiv.org/abs/2510.00699
   category: technology
   subcategory: euv
   authors: []
@@ -30583,13 +30551,13 @@ papers:
     mixing (FWM) of one attosecond extreme ultraviolet (XUV) with two few-femtosecond
     near infrared (NIR) pulses. Simulations show that the NIR carrier-envelope phases
     (CEPs) alter the spatial distribution of the XUV FWM emission, using doubly-excited
-    states of gas-phase helium as an example. A complete set of logic gates$-$X(N)OR,
-    (N)AND, and (N)OR$-$is realized for the 2s3p FWM signal at 63.66 eV with switching
+    states of gas-phase helium as an example. A complete set of logic gates-X(N)OR,
+    (N)AND, and (N)OR-is realized for the 2s3p FWM signal at 63.66 eV with switching
     contrasts of 3.6 to 10.4. This theoretical study extends all-optical logic switching
     to the XUV and x-ray regimes and opens a new pathway for ultrafast photonic logic.
 - title: Attosecond vortex pulse trains
   date: 2024-02
-  url: https://arxiv.org/abs/2402.15225v1
+  url: https://arxiv.org/abs/2402.15225
   category: technology
   subcategory: euv
   authors:
@@ -30615,7 +30583,7 @@ papers:
 - title: Extreme Ultraviolet High-Harmonic Interferometry of Excitation-Induced Bandgap
     Dynamics in Solids
   date: 2025-02
-  url: https://arxiv.org/abs/2502.20564v1
+  url: https://arxiv.org/abs/2502.20564
   category: technology
   subcategory: euv
   authors:
@@ -30642,7 +30610,7 @@ papers:
 - title: Enhancing Cutoff Energy of Solid High-Harmonic Generation from Bonding Length
     Perspective
   date: 2025-08
-  url: https://arxiv.org/abs/2508.12563v1
+  url: https://arxiv.org/abs/2508.12563
   category: technology
   subcategory: euv
   authors:
@@ -30669,7 +30637,7 @@ papers:
 - title: Bright Coherent Ultrahigh Harmonics in the keV X-Ray Regime from Mid-Infrared
     Femtosecond Lasers
   date: 2024-03
-  url: https://arxiv.org/abs/2403.19535v1
+  url: https://arxiv.org/abs/2403.19535
   category: technology
   subcategory: euv
   authors:
@@ -30695,7 +30663,7 @@ papers:
     the emission process.
 - title: Spatio-spectral light modulator of XUV high harmonics
   date: 2024-12
-  url: https://arxiv.org/abs/2412.05866v1
+  url: https://arxiv.org/abs/2412.05866
   category: technology
   subcategory: euv
   authors:
@@ -30722,7 +30690,7 @@ papers:
 - title: Bayesian Optimization and Convolutional Neural Networks for Zernike-Based
     Wavefront Correction in High Harmonic Generation
   date: 2025-11
-  url: https://arxiv.org/abs/2512.05127v1
+  url: https://arxiv.org/abs/2512.05127
   category: technology
   subcategory: euv
   authors:
@@ -30749,7 +30717,7 @@ papers:
 - title: Squeezed states of light after high-harmonic generation in excited atomic
     systems
   date: 2024-08
-  url: https://arxiv.org/abs/2408.07577v2
+  url: https://arxiv.org/abs/2408.07577
   category: technology
   subcategory: euv
   authors:
@@ -30772,9 +30740,9 @@ papers:
     the harmonic modes themselves. Using these correlations, we demonstrate the generation
     of optical Schrödinger kitten states through heralding measurements, specifically
     via photon subtraction in one of the modes influenced by two-mode squeezing.
-- title: Ultrafast Nonequilibrium Enhancement of Electron-Phonon Interaction in 2H-MoTe$_2$
+- title: Ultrafast Nonequilibrium Enhancement of Electron-Phonon Interaction in 2H-MoTe_2
   date: 2025-08
-  url: https://arxiv.org/abs/2508.12239v1
+  url: https://arxiv.org/abs/2508.12239
   category: technology
   subcategory: euv
   authors:
@@ -30793,7 +30761,7 @@ papers:
     that photoexcited carrier density can serve as a tuning knob to enhance electron-phonon
     interactions in nonequilibrium conditions. Specifically, nonequilibrium band structure
     mapping and valley-resolved ultrafast population dynamics in semiconducting transition-metal
-    dichalcogenide 2H-MoTe$_2$ reveal band-gap renormalizations and reduced population
+    dichalcogenide 2H-MoTe_2 reveal band-gap renormalizations and reduced population
     lifetimes as photoexcited carrier densities increase. Through theoretical analysis
     of photoinduced electron and phonon energy and linewidth renormalizations, we
     attribute these transient features to nonequilibrium modifications of electron-phonon
@@ -30801,7 +30769,7 @@ papers:
     coupling mechanisms enabling control over relaxation pathways in driven solids.
 - title: Microfluidic gratings for X-ray Phase Contrast Imaging
   date: 2025-12
-  url: https://arxiv.org/abs/2512.07598v1
+  url: https://arxiv.org/abs/2512.07598
   category: technology
   subcategory: euv
   authors:
@@ -30829,7 +30797,7 @@ papers:
     and accelerate the practical deployment of X-ray Phase Contrast Imaging.
 - title: Coherent Thermal Emission from Large-Scale Suspended Nanomechanical Membranes
   date: 2024-09
-  url: https://arxiv.org/abs/2409.03045v1
+  url: https://arxiv.org/abs/2409.03045
   category: technology
   subcategory: euv
   authors:
@@ -30858,7 +30826,7 @@ papers:
     thermal infrared technologies.
 - title: A low repetition rate optical frequency comb
   date: 2023-09
-  url: https://arxiv.org/abs/2309.09616v1
+  url: https://arxiv.org/abs/2309.09616
   category: technology
   subcategory: euv
   authors:
@@ -30883,7 +30851,7 @@ papers:
     from 20 Hz to 20 kHz is measured to be 195 mrad.
 - title: 'Multi-wavelength ghost imaging: a review'
   date: 2025-06
-  url: https://arxiv.org/abs/2506.13423v1
+  url: https://arxiv.org/abs/2506.13423
   category: technology
   subcategory: euv
   authors:
@@ -30909,7 +30877,7 @@ papers:
 - title: Efficient generation of intense spatial and spatiotemporal vortex harmonics
     using plasma mirrors
   date: 2023-11
-  url: https://arxiv.org/abs/2311.13907v1
+  url: https://arxiv.org/abs/2311.13907
   category: technology
   subcategory: euv
   authors:
@@ -30936,7 +30904,7 @@ papers:
 - title: High-resolution ptychographic imaging at a seeded free-electron laser source
     using OAM beams
   date: 2023-10
-  url: https://arxiv.org/abs/2310.11773v1
+  url: https://arxiv.org/abs/2310.11773
   category: technology
   subcategory: euv
   authors:
@@ -30954,8 +30922,8 @@ papers:
     be harnessed to detect peculiar helical dichroic effects in chiral molecular media
     and in magnetic nanostructures. In this work, we perform single-shot per position
     ptychography on a nanostructured object at a seeded free-electron laser, using
-    extreme ultraviolet OAM beams of different topological charge order $\ell$ generated
-    with spiral zone plates. By controlling $\ell$, we demonstrate how the structural
+    extreme ultraviolet OAM beams of different topological charge order \ell generated
+    with spiral zone plates. By controlling \ell, we demonstrate how the structural
     features of OAM beam profile determine an improvement of about 30% in image resolution
     with respect to conventional Gaussian beam illumination. This result extends the
     capabilities of coherent diffraction imaging techniques, and paves the way for
@@ -30964,7 +30932,7 @@ papers:
 - title: Spectroscopic probe of ultrafast magnetization dynamics in the extreme ultraviolet
     spectral range
   date: 2025-02
-  url: https://arxiv.org/abs/2502.18312v4
+  url: https://arxiv.org/abs/2502.18312
   category: technology
   subcategory: euv
   authors:
@@ -30991,7 +30959,7 @@ papers:
 - title: Transient laser-induced periodic surface structures revealed by time-resolved
     EUV diffuse scattering
   date: 2025-12
-  url: https://arxiv.org/abs/2512.01696v1
+  url: https://arxiv.org/abs/2512.01696
   category: technology
   subcategory: euv
   authors:
@@ -31019,7 +30987,7 @@ papers:
 - title: Reaching extreme fields in laser-electron beam collisions with XUV laser
     light
   date: 2025-06
-  url: https://arxiv.org/abs/2506.01727v1
+  url: https://arxiv.org/abs/2506.01727
   category: technology
   subcategory: euv
   authors:
@@ -31038,15 +31006,15 @@ papers:
     wakefield acceleration of both charged particles and photons. Instead of using
     increasingly powerful accelerators and lasers, we show that photon acceleration
     of optical pulses into the extreme ultraviolet allows multi-GeV electrons to reach
-    quantum nonlinearity parameters $χ_e \gg 10$ with a high probability due to the
-    reduced radiative losses. A significant fraction of photons produced in high-$χ_e$
+    quantum nonlinearity parameters χ_e \gg 10 with a high probability due to the
+    reduced radiative losses. A significant fraction of photons produced in high-χ_e
     regions will propagate to detectors without generating pairs because of the reduction
     in the quantum rates. The photon spectra obtained may be used to characterize
     the predicted breakdown of strong-field quantum electrodynamics theory as it enters
     the fully non-perturbative regime.
 - title: Plasma lens for focusing attosecond pulses
   date: 2025-04
-  url: https://arxiv.org/abs/2504.11272v2
+  url: https://arxiv.org/abs/2504.11272
   category: technology
   subcategory: euv
   authors:
@@ -31074,7 +31042,7 @@ papers:
 - title: Carrier-Envelope-Offset Frequency Stabilization of a High Peak and Average
     Power Thin-Disk Oscillator
   date: 2026-01
-  url: https://arxiv.org/abs/2601.13821v1
+  url: https://arxiv.org/abs/2601.13821
   category: technology
   subcategory: euv
   authors:
@@ -31100,7 +31068,7 @@ papers:
     and extreme ultraviolet frequency comb generation.
 - title: Formation and Controlling of Optical Hopfions in High Harmonic Generation
   date: 2024-10
-  url: https://arxiv.org/abs/2410.06032v1
+  url: https://arxiv.org/abs/2410.06032
   category: technology
   subcategory: euv
   authors:
@@ -31125,7 +31093,7 @@ papers:
     Hopf invariant.
 - title: Resonant Self-Diffraction of Femtosecond Extreme Ultraviolet Pulses in Cobalt
   date: 2025-05
-  url: https://arxiv.org/abs/2505.07168v1
+  url: https://arxiv.org/abs/2505.07168
   category: technology
   subcategory: euv
   authors:
@@ -31144,14 +31112,14 @@ papers:
     in a spatially periodic electronic excitation. The diffraction of one of the same
     pulses by the associated refractive index modulation is measured as a function
     of the EUV wavelength. A sharp peak in the self-diffraction efficiency is observed
-    at the M$_{2,3}$ absorption edge of cobalt at 59 eV and a fine structure is found
+    at the M_{2,3} absorption edge of cobalt at 59 eV and a fine structure is found
     above the edge. The results are compared with a theoretical model assuming that
     the excitation results in an increase of the electronic temperature. EUV self-diffraction
     offers a potentially useful spectroscopy tool and will be instrumental in studying
     coherent effects in the EUV range.
 - title: Attosecond Transient Absorption Study of Coherent Hole Oscillation in Ar+
   date: 2025-08
-  url: https://arxiv.org/abs/2508.10261v1
+  url: https://arxiv.org/abs/2508.10261
   category: technology
   subcategory: euv
   authors:
@@ -31178,7 +31146,7 @@ papers:
     of the states without affecting the electronic coherences.
 - title: Attosecond Light Skyrmion Pulses via High Harmonic Generation
   date: 2025-09
-  url: https://arxiv.org/abs/2509.19113v2
+  url: https://arxiv.org/abs/2509.19113
   category: technology
   subcategory: euv
   authors:
@@ -31196,16 +31164,16 @@ papers:
     single-atom strong-field theory and macroscopic propagation reveal that an infrared
     linearly polarized vector beam with fractional orbital angular momentum produces
     extreme-ultraviolet harmonic fields with nearly identical skyrmion polarization
-    distributions across a broad spectral range. Using 1.2 $μ$m driving fields and
-    experimentally feasible spectral filtering, we show that the coherent superposition
-    of consecutive harmonics centered at 70 eV yields a train of skyrmion pulses with
-    $\sim500$ attoseconds duration. Our results open opportunities to use structured
-    attosecond light with topological polarization textures in fields as ultrafast
-    control, imaging and spectroscopy.
+    distributions across a broad spectral range. Using 1.2 μm driving fields and experimentally
+    feasible spectral filtering, we show that the coherent superposition of consecutive
+    harmonics centered at 70 eV yields a train of skyrmion pulses with \sim500 attoseconds
+    duration. Our results open opportunities to use structured attosecond light with
+    topological polarization textures in fields as ultrafast control, imaging and
+    spectroscopy.
 - title: 'Wafer-Scale All-Dielectric quasi-BIC Metasurfaces: Bridging High-throughput
     Deep-UV Lithography with Nanophotonic Applications'
   date: 2025-10
-  url: https://arxiv.org/abs/2510.15135v1
+  url: https://arxiv.org/abs/2510.15135
   category: technology
   subcategory: euv
   authors:
@@ -31236,7 +31204,7 @@ papers:
 - title: 'Isolated attosecond spatio-temporal optical vortices: Interplay between
     the topological charge and orbital angular momentum scaling in high harmonic generation'
   date: 2025-06
-  url: https://arxiv.org/abs/2506.07465v2
+  url: https://arxiv.org/abs/2506.07465
   category: technology
   subcategory: euv
   authors:
@@ -31263,7 +31231,7 @@ papers:
 - title: Broadband femtosecond lasers enable efficient two-photon excitation of the
     ultranarrow linewidth singlet 1s2s state in helium
   date: 2025-09
-  url: https://arxiv.org/abs/2509.13619v1
+  url: https://arxiv.org/abs/2509.13619
   category: technology
   subcategory: euv
   authors:
@@ -31275,21 +31243,21 @@ papers:
   code_url: ''
   project_url: ''
   abstract: We propose a broadband, femtosecond two-photon excitation scheme for efficient
-    population transfer to the ultra-narrow linewidth $1s2s\ ^1S_0$ metastable state
-    in helium. Using $120$ nm vacuum ultraviolet (VUV) femtosecond laser pulses, we
+    population transfer to the ultra-narrow linewidth 1s2s\ ^1S_0 metastable state
+    in helium. Using 120 nm vacuum ultraviolet (VUV) femtosecond laser pulses, we
     theoretically demonstrate that a direct two-photon excitation process can achieve
-    a population transfer efficiency of $25-30\%$, even when photoionization losses
+    a population transfer efficiency of 25-30\%, even when photoionization losses
     are included. The use of broadband pulses enables multiple excitation pathways
     to populate the excited state, in addition to compensating for significant AC
     Stark shifts occurring within the pulse duration. Furthermore, we introduce a
     two-color two-photon extreme ultraviolet-near infrared (XUV-IR) excitation scheme
     that will further reduce ionization losses and can achieve significantly higher
-    transfer efficiencies of $\sim 70\%$. These results demonstrate that high excitation
-    probability of ultra-narrow linewidth ($\sim 50$ Hz) excited states can be achieved
+    transfer efficiencies of \sim 70\%. These results demonstrate that high excitation
+    probability of ultra-narrow linewidth (\sim 50 Hz) excited states can be achieved
     with experimentally accessible femtosecond laser sources with a few THz bandwidth.
 - title: Wide-bandgap optical materials for high-harmonics generation at the nanoscale
   date: 2024-02
-  url: https://arxiv.org/abs/2402.00327v1
+  url: https://arxiv.org/abs/2402.00327
   category: technology
   subcategory: euv
   authors:
@@ -31318,7 +31286,7 @@ papers:
 - title: Attosecond pulses from a solid driven by a synthesized two-color field at
     megahertz repetition rate
   date: 2024-10
-  url: https://arxiv.org/abs/2410.09178v1
+  url: https://arxiv.org/abs/2410.09178
   category: technology
   subcategory: euv
   authors:
@@ -31346,7 +31314,7 @@ papers:
     IAP generation.
 - title: Generation of squeezed high-order harmonics
   date: 2023-11
-  url: https://arxiv.org/abs/2311.11257v1
+  url: https://arxiv.org/abs/2311.11257
   category: technology
   subcategory: euv
   authors:
@@ -31375,7 +31343,7 @@ papers:
 - title: Sub-wavelength coherent imaging of periodic samples using a 13.5 nm tabletop
     high harmonic light source
   date: 2024-03
-  url: https://arxiv.org/abs/2403.19766v1
+  url: https://arxiv.org/abs/2403.19766
   category: technology
   subcategory: euv
   authors:
@@ -31403,7 +31371,7 @@ papers:
 - title: Tabletop Lensless Imaging in the Extreme Ultraviolet with Reduced Radiation
     Dose
   date: 2025-05
-  url: https://arxiv.org/abs/2505.13075v2
+  url: https://arxiv.org/abs/2505.13075
   category: technology
   subcategory: euv
   authors:
@@ -31431,7 +31399,7 @@ papers:
     establishes a new paradigm for accessible XUV microscopy.'
 - title: Video-rate gigapixel ptychography via space-time neural field representations
   date: 2025-11
-  url: https://arxiv.org/abs/2511.06126v1
+  url: https://arxiv.org/abs/2511.06126
   category: technology
   subcategory: euv
   authors:
@@ -31461,7 +31429,7 @@ papers:
     sensing tool for monitoring mesoscale dynamics without lenses.
 - title: Fast spectroscopic imaging using extreme ultraviolet interferometry
   date: 2024-03
-  url: https://arxiv.org/abs/2403.03620v1
+  url: https://arxiv.org/abs/2403.03620
   category: technology
   subcategory: euv
   authors:
@@ -31490,7 +31458,7 @@ papers:
 - title: Spatial and temporal study of the post-compressed high-power laser pulses
     for coherent extreme ultraviolet source development
   date: 2025-10
-  url: https://arxiv.org/abs/2510.26472v2
+  url: https://arxiv.org/abs/2510.26472
   category: technology
   subcategory: euv
   authors:
@@ -31518,7 +31486,7 @@ papers:
     compressor.
 - title: Interface and spectrum multiplexing ptychographic reflection microscopy
   date: 2024-12
-  url: https://arxiv.org/abs/2412.11247v2
+  url: https://arxiv.org/abs/2412.11247
   category: technology
   subcategory: euv
   authors:
@@ -31547,7 +31515,7 @@ papers:
 - title: Active stabilization for ultralong acquisitions in an attosecond pump-probe
     beamline
   date: 2025-04
-  url: https://arxiv.org/abs/2504.08448v1
+  url: https://arxiv.org/abs/2504.08448
   category: technology
   subcategory: euv
   authors:
@@ -31576,7 +31544,7 @@ papers:
 - title: Xenon plasma-focused ion beam milling as a method to deterministically fabricate
     bright and high-purity single-photon sources operating at C-band
   date: 2024-06
-  url: https://arxiv.org/abs/2406.04682v1
+  url: https://arxiv.org/abs/2406.04682
   category: technology
   subcategory: euv
   authors:
@@ -31609,7 +31577,7 @@ papers:
 - title: Tool-to-Tool Matching Analysis Based Difference Score Computation Methods
     for Semiconductor Manufacturing
   date: 2025-07
-  url: https://arxiv.org/abs/2507.10564v1
+  url: https://arxiv.org/abs/2507.10564
   category: manufacturing
   subcategory: general
   authors:
@@ -31638,7 +31606,7 @@ papers:
 - title: Design and Development of a Robust Tolerance Optimisation Framework for Automated
     Optical Inspection in Semiconductor Manufacturing
   date: 2025-05
-  url: https://arxiv.org/abs/2505.03576v1
+  url: https://arxiv.org/abs/2505.03576
   category: manufacturing
   subcategory: general
   authors:
@@ -31668,7 +31636,7 @@ papers:
 - title: A High-Resolution Transmission Line Model with De-embedding Structure for
     Ultralow Contact Resistivity Extraction
   date: 2025-04
-  url: https://arxiv.org/abs/2504.20439v1
+  url: https://arxiv.org/abs/2504.20439
   category: manufacturing
   subcategory: general
   authors: []
@@ -31686,7 +31654,7 @@ papers:
 - title: 'Over-the-Top Resource Broker System for Split Computing: An Approach to
     Distribute Cloud Computing Infrastructure'
   date: 2025-08
-  url: https://arxiv.org/abs/2508.07744v1
+  url: https://arxiv.org/abs/2508.07744
   category: manufacturing
   subcategory: general
   authors:
@@ -31718,7 +31686,7 @@ papers:
 - title: Distributed Expectation Propagation for Multi-Object Tracking over Sensor
     Networks
   date: 2025-05
-  url: https://arxiv.org/abs/2505.18795v2
+  url: https://arxiv.org/abs/2505.18795
   category: manufacturing
   subcategory: general
   authors:
@@ -31743,7 +31711,7 @@ papers:
 - title: Machine learning-enabled river water quality monitoring using lithography-free
     3D-printed sensors
   date: 2025-07
-  url: https://arxiv.org/abs/2507.14152v1
+  url: https://arxiv.org/abs/2507.14152
   category: manufacturing
   subcategory: general
   authors:
@@ -31772,7 +31740,7 @@ papers:
 - title: Design and Implementation of a RISC-V SoC with Custom DSP Accelerators for
     Edge Computing
   date: 2025-06
-  url: https://arxiv.org/abs/2506.06693v1
+  url: https://arxiv.org/abs/2506.06693
   category: manufacturing
   subcategory: general
   authors:
@@ -31793,7 +31761,7 @@ papers:
 - title: Channel Performance Metrics and Evaluation for XR Head-Mounted Displays with
     mmWave Arrays
   date: 2024-04
-  url: https://arxiv.org/abs/2404.19297v1
+  url: https://arxiv.org/abs/2404.19297
   category: manufacturing
   subcategory: general
   authors:
@@ -31825,7 +31793,7 @@ papers:
 - title: A Robust Proactive Communication Strategy for Distributed Active Noise Control
     Systems
   date: 2025-10
-  url: https://arxiv.org/abs/2510.00934v1
+  url: https://arxiv.org/abs/2510.00934
   category: manufacturing
   subcategory: general
   authors:
@@ -31862,7 +31830,7 @@ papers:
 - title: Scalable manufacturing of polarization-insensitive metalenses with high-uniform
     focal arrays in the visible
   date: 2025-03
-  url: https://arxiv.org/abs/2503.09176v1
+  url: https://arxiv.org/abs/2503.09176
   category: technology
   subcategory: nanoimprint
   authors:
@@ -31893,7 +31861,7 @@ papers:
 - title: Fabrication of low-loss lithium niobate on insulator waveguides on the wafer
     scale
   date: 2024-07
-  url: https://arxiv.org/abs/2407.09208v1
+  url: https://arxiv.org/abs/2407.09208
   category: materials
   subcategory: general
   authors:
@@ -31916,7 +31884,7 @@ papers:
 - title: Enhancement of the Environmental Stability of Perovskite Thin Films via PMMA
     and AZ5214-Photoresist Coatings
   date: 2024-02
-  url: https://arxiv.org/abs/2402.16177v4
+  url: https://arxiv.org/abs/2402.16177
   category: materials
   subcategory: general
   authors:
@@ -31950,7 +31918,7 @@ papers:
     range of optoelectronic devices.
 - title: Fabrication of airbridges with gradient exposure
   date: 2025-06
-  url: https://arxiv.org/abs/2506.14565v1
+  url: https://arxiv.org/abs/2506.14565
   category: materials
   subcategory: general
   authors:
@@ -31978,7 +31946,7 @@ papers:
     Substrates and Materials Enabled by Wafer-Scale Transfer Lithography of Commercial
     Photoresists
   date: 2025-04
-  url: https://arxiv.org/abs/2504.15078v4
+  url: https://arxiv.org/abs/2504.15078
   category: materials
   subcategory: general
   authors:
@@ -31997,7 +31965,7 @@ papers:
     inaccessible substrates, overcoming fundamental limitations of conventional photolithography.
 - title: Roll-to-roll tomographic volumetric additive manufacturing
   date: 2024-02
-  url: https://arxiv.org/abs/2402.10955v2
+  url: https://arxiv.org/abs/2402.10955
   category: materials
   subcategory: general
   authors:
@@ -32036,7 +32004,7 @@ papers:
 - title: 2.34 kV \b{eta}-Ga2O3 Vertical Trench RESURF Schottky Barrier Diode with
     sub-micron fin width
   date: 2025-09
-  url: https://arxiv.org/abs/2509.21857v1
+  url: https://arxiv.org/abs/2509.21857
   category: materials
   subcategory: general
   authors:
@@ -32070,7 +32038,7 @@ papers:
     pathway towards high figure of merit, low leakage high-performance vertical devices.
 - title: Single-exposure holographic lithography of ultra-high aspect-ratio microstructures
   date: 2026-02
-  url: https://arxiv.org/abs/2602.11508v1
+  url: https://arxiv.org/abs/2602.11508
   category: materials
   subcategory: general
   authors:
@@ -32101,7 +32069,7 @@ papers:
     This approach establishes a new regime of high-throughput volumetric fabrication.
 - title: Grayscale control of local magnetic properties with direct-write laser annealing
   date: 2024-01
-  url: https://arxiv.org/abs/2401.09314v1
+  url: https://arxiv.org/abs/2401.09314
   category: materials
   subcategory: general
   authors:
@@ -32134,7 +32102,7 @@ papers:
 - title: Manipulate intrinsic light-matter interaction with bound state in the continuum
     in van der Waals metasurfaces by artificial etching
   date: 2025-03
-  url: https://arxiv.org/abs/2503.03694v1
+  url: https://arxiv.org/abs/2503.03694
   category: materials
   subcategory: general
   authors:
@@ -32158,18 +32126,18 @@ papers:
     loss and experimentally achieving a remarkable Q factor of up to 348, which is
     comparable to the highest values reported in vdW nanophotonics. We demonstrate
     room-temperature polaritons in etch-free structures using four representative
-    materials (WS$_2$, MoS$_2$, WSe$_2$, and MoSe$_2$) through self-hybridization
-    of high-Q (quasi-)bound states in the continuum (BIC) modes and excitons, achieving
-    a Rabi-splitting of approximately 80 meV, which significantly surpasses the intrinsic
-    excitonic loss. Furthermore, we showcase optical modulation of indirect bandgap
-    emission in bulk WS$_2$ and direct exciton emission in heterostructures, achieving
-    substantial polarization-dependent enhancement of their emission efficiencies.
-    The proposed etch-free vdW structure provides a versatile platform for high-Q
-    nanophononics while preserving material integrity, advancing applications in photoelectronic
+    materials (WS_2, MoS_2, WSe_2, and MoSe_2) through self-hybridization of high-Q
+    (quasi-)bound states in the continuum (BIC) modes and excitons, achieving a Rabi-splitting
+    of approximately 80 meV, which significantly surpasses the intrinsic excitonic
+    loss. Furthermore, we showcase optical modulation of indirect bandgap emission
+    in bulk WS_2 and direct exciton emission in heterostructures, achieving substantial
+    polarization-dependent enhancement of their emission efficiencies. The proposed
+    etch-free vdW structure provides a versatile platform for high-Q nanophononics
+    while preserving material integrity, advancing applications in photoelectronic
     and quantum devices.
 - title: Time-resolved radiative recombination in black silicon
   date: 2025-03
-  url: https://arxiv.org/abs/2503.12120v1
+  url: https://arxiv.org/abs/2503.12120
   category: materials
   subcategory: general
   authors:
@@ -32198,7 +32166,7 @@ papers:
 - title: A Comparison of the Spatial Statistics of Random and Defined-Sequence Photoresist
     Films
   date: 2024-09
-  url: https://arxiv.org/abs/2409.15358v1
+  url: https://arxiv.org/abs/2409.15358
   category: materials
   subcategory: general
   authors:
@@ -32227,7 +32195,7 @@ papers:
 - title: Unraveling the Reaction Mechanisms in a Chemically Amplified EUV Photoresist
     from a Combined Theoretical and Experimental Approach
   date: 2025-05
-  url: https://arxiv.org/abs/2505.07346v1
+  url: https://arxiv.org/abs/2505.07346
   category: materials
   subcategory: general
   authors:
@@ -32263,7 +32231,7 @@ papers:
 - title: 'Photoemission Spectroscopy on photoresist materials: A protocol for analysis
     of radiation sensitive materials'
   date: 2024-05
-  url: https://arxiv.org/abs/2406.05148v1
+  url: https://arxiv.org/abs/2406.05148
   category: materials
   subcategory: general
   authors:
@@ -32292,7 +32260,7 @@ papers:
 - title: Etching-free dual-lift-off for direct patterning of epitaxial oxide thin
     films
   date: 2025-09
-  url: https://arxiv.org/abs/2509.02618v1
+  url: https://arxiv.org/abs/2509.02618
   category: materials
   subcategory: general
   authors:
@@ -32310,17 +32278,17 @@ papers:
     damage, under-etching, over-etching, and lateral etching. In this study, we introduce
     a dual-lift-off method for direct patterning of oxide films, circumventing the
     etching process and associated issues. Our method involves an initial lift-off
-    of amorphous Sr$_3$Al$_2$O$_6$ or Sr$_4$Al$_2$O$_7$ ($a$SAO) through stripping
-    the photoresist, followed by a subsequent lift-off of the functional oxide thin
-    films by dissolving the $a$SAO layer. $a$SAO functions as a ``high-temperature
-    photoresist", making it compatible with the high-temperature growth of monocrystalline
-    oxides. Using this method, patterned ferromagnetic La$_{0.67}$Sr$_{0.33}$MnO$_{3}$
-    and ferroelectric BiFeO$_3$ were fabricated, accurately mirroring the shape of
-    the photoresist. Our study presents a straightforward, flexible, precise, environmentally
-    friendly, and cost-effective method for patterning high-quality oxide thin films.
+    of amorphous Sr_3Al_2O_6 or Sr_4Al_2O_7 (aSAO) through stripping the photoresist,
+    followed by a subsequent lift-off of the functional oxide thin films by dissolving
+    the aSAO layer. aSAO functions as a ``high-temperature photoresist", making it
+    compatible with the high-temperature growth of monocrystalline oxides. Using this
+    method, patterned ferromagnetic La_{0.67}Sr_{0.33}MnO_{3} and ferroelectric BiFeO_3
+    were fabricated, accurately mirroring the shape of the photoresist. Our study
+    presents a straightforward, flexible, precise, environmentally friendly, and cost-effective
+    method for patterning high-quality oxide thin films.
 - title: Patterning perovskite colour converters for AR/VR microdisplays
   date: 2025-11
-  url: https://arxiv.org/abs/2511.22182v1
+  url: https://arxiv.org/abs/2511.22182
   category: materials
   subcategory: general
   authors:
@@ -32347,7 +32315,7 @@ papers:
 - title: Transverse Photoresistivity from Photothermal Current Deflection in Metal
     Films
   date: 2026-01
-  url: https://arxiv.org/abs/2601.02340v1
+  url: https://arxiv.org/abs/2601.02340
   category: materials
   subcategory: general
   authors:
@@ -32374,7 +32342,7 @@ papers:
 - title: Impact of Oxygen Plasma Surface Treatment on Photoresist Adhesion in BaTiO3-Based
     Photonic Device Fabrication
   date: 2025-11
-  url: https://arxiv.org/abs/2511.00349v1
+  url: https://arxiv.org/abs/2511.00349
   category: materials
   subcategory: general
   authors:
@@ -32402,7 +32370,7 @@ papers:
 - title: Operando Ultrafast Damage-free Diffraction-Enhanced X-ray Absorption Spectroscopy
     for Chemical Reactivity of Polymer in Solvents
   date: 2024-09
-  url: https://arxiv.org/abs/2410.00268v1
+  url: https://arxiv.org/abs/2410.00268
   category: materials
   subcategory: general
   authors:
@@ -32434,7 +32402,7 @@ papers:
 - title: 'Quantifying the performances of SU-8 microfluidic devices: high liquid water
     tightness, long-term stability, and vacuum compatibility'
   date: 2023-10
-  url: https://arxiv.org/abs/2310.06472v1
+  url: https://arxiv.org/abs/2310.06472
   category: materials
   subcategory: general
   authors:
@@ -32452,9 +32420,9 @@ papers:
     of a micro-scale processable sealing material for nanofluidic/microfluidics chip
     fabrication, which enables us to achieve all these requirements. We observed that
     micrometric walls made of SU-8 photoresist, whose thickness can be as low as 35
-    $μ$m, exhibit water pressure leak-tightness from 1.5 bar up to 5.5 bar, no water
-    porosity even after 2 months of aging, and are able to sustain under $10^{-5}$
-    mbar vacuum. This sealing material is therefore reliable and versatile for building
+    μm, exhibit water pressure leak-tightness from 1.5 bar up to 5.5 bar, no water
+    porosity even after 2 months of aging, and are able to sustain under 10^{-5} mbar
+    vacuum. This sealing material is therefore reliable and versatile for building
     microchips, part of which must be isolated from liquid water under pressure or
     vacuum. Moreover, the fabrication process we propose does not require the use
     of aggressive chemicals or high-temperature or high-energy plasma treatment. It
@@ -32463,7 +32431,7 @@ papers:
 - title: Direct Photochemical Patterning of Lithium Niobate Thin Films for Scalable
     Nonlinear Optical Metasurfaces
   date: 2025-11
-  url: https://arxiv.org/abs/2511.12357v1
+  url: https://arxiv.org/abs/2511.12357
   category: materials
   subcategory: general
   authors:
@@ -32486,15 +32454,15 @@ papers:
     followed by rinsing with ethanol, yields amorphous patterns, which transform into
     crystalline lithium niobate after a calcination step. This method enables a scalable
     fabrication of a range of complex geometric shapes with a feature resolution down
-    to $30\,μ\mathrm{m}$. The patterned lithium niobate structures exhibit a tunable
-    second harmonic generation activity with an isotropic optical response. This approach
-    offers a scalable and low-cost pathway for manufacturing lithium niobate photonics
-    and the potential to fabricate other materials (e.g., barium titanite and lithium
+    to 30\,μm. The patterned lithium niobate structures exhibit a tunable second harmonic
+    generation activity with an isotropic optical response. This approach offers a
+    scalable and low-cost pathway for manufacturing lithium niobate photonics and
+    the potential to fabricate other materials (e.g., barium titanite and lithium
     tantalate).
 - title: Real time observation of glass-like carbon formation from SU-8 using X-ray
     and ultraviolet photoelectron spectroscopy
   date: 2025-07
-  url: https://arxiv.org/abs/2507.14053v2
+  url: https://arxiv.org/abs/2507.14053
   category: materials
   subcategory: general
   authors:
@@ -32507,25 +32475,25 @@ papers:
   code_url: ''
   project_url: ''
   abstract: The structural development and change in elemental composition of SU-8
-    3005 photoresist into glass-like carbon due to pyrolysis up to 1000~$\degree$C
-    is investigated utilising \textit{in-situ} x-ray and ultraviolet photoelectron
-    spectroscopy (XPS/UPS) under ultra-high vacuum (UHV). XPS spectra were analysed
-    in order to investigate changes to elemental composition and physical structure.
-    Peak asymmetry in the measured C 1s spectra is found to be a clear indicator of
-    a transition in both physical structure and increased electrical conductivity.
-    The \textit{in-situ} XPS measurement of pyrolysis is effective in isolating changes
-    in oxygen composition solely due to the pyrolysis process. Oxygen concentration,
-    C 1s peak asymmetry and C 1s peak positions are strong indicators of semiconducting
-    SU-8 transitioning to conducting glass-like carbon. For SU-8 pyrolysed above temperatures
-    of 500~$\degree$C, a clear development is observed in the material structure and
-    composition towards a carbon rich conducting network indicative of glass-like
-    carbon. UPS spectra were analysed to investigate the changes in secondary electron
-    cut-off (SECO) and valence band maximum (VBM) as the SU-8 layer is heated in UHV.
-    The changes in SECO and VBM correlates well with the XPS data and a zero binding
-    energy state is observed at 1000~$\degree$C.
+    3005 photoresist into glass-like carbon due to pyrolysis up to 1000~\degreeC is
+    investigated utilising in-situ x-ray and ultraviolet photoelectron spectroscopy
+    (XPS/UPS) under ultra-high vacuum (UHV). XPS spectra were analysed in order to
+    investigate changes to elemental composition and physical structure. Peak asymmetry
+    in the measured C 1s spectra is found to be a clear indicator of a transition
+    in both physical structure and increased electrical conductivity. The in-situ
+    XPS measurement of pyrolysis is effective in isolating changes in oxygen composition
+    solely due to the pyrolysis process. Oxygen concentration, C 1s peak asymmetry
+    and C 1s peak positions are strong indicators of semiconducting SU-8 transitioning
+    to conducting glass-like carbon. For SU-8 pyrolysed above temperatures of 500~\degreeC,
+    a clear development is observed in the material structure and composition towards
+    a carbon rich conducting network indicative of glass-like carbon. UPS spectra
+    were analysed to investigate the changes in secondary electron cut-off (SECO)
+    and valence band maximum (VBM) as the SU-8 layer is heated in UHV. The changes
+    in SECO and VBM correlates well with the XPS data and a zero binding energy state
+    is observed at 1000~\degreeC.
 - title: Sustainable Materials Discovery in the Era of Artificial Intelligence
   date: 2026-01
-  url: https://arxiv.org/abs/2601.21527v3
+  url: https://arxiv.org/abs/2601.21527
   category: materials
   subcategory: general
   authors:
@@ -32562,7 +32530,7 @@ papers:
     and feasibility while identifying material-specific integration challenges.'
 - title: Self-aligned optical microcomb emerging between octave separated lasers
   date: 2026-02
-  url: https://arxiv.org/abs/2602.05151v2
+  url: https://arxiv.org/abs/2602.05151
   category: technology
   subcategory: multi-patterning
   authors:
@@ -32586,7 +32554,7 @@ papers:
     needed for robust zero-frequency offset detection. Here, we overcome this limitation
     via an architectural inversion where an optical microcomb forms by filling the
     spectrum between two octave-separated pump lasers. The two pumps generate a parametrically
-    driven cavity soliton (PDCS) in an integrated $χ^{(3)}$ resonator, which robustly
+    driven cavity soliton (PDCS) in an integrated χ^{(3)} resonator, which robustly
     self-aligns to (i.e., synchronizes with) the pump lasers across multiple foundry-fabricated
     devices and operating configurations. This produces a single octave-spanning comb
     extending from telecom to visible wavelengths, whose zero-frequency offset is
@@ -32597,7 +32565,7 @@ papers:
     the same self-aligned microcomb with only its input locks changed.'
 - title: Low-loss liquid metal interconnects for superconducting quantum circuits
   date: 2024-03
-  url: https://arxiv.org/abs/2404.00770v2
+  url: https://arxiv.org/abs/2404.00770
   category: technology
   subcategory: multi-patterning
   authors:
@@ -32625,7 +32593,7 @@ papers:
 - title: NiOx/\b{eta}-Ga2O3 Heterojunction Diode Achieving Breakdown Voltage &gt;3
     kV with Plasma Etch Field-Termination
   date: 2024-09
-  url: https://arxiv.org/abs/2409.17374v1
+  url: https://arxiv.org/abs/2409.17374
   category: technology
   subcategory: multi-patterning
   authors:
@@ -32657,7 +32625,7 @@ papers:
     within NiOx at elevated temperatures.
 - title: Complex-valued scatter compensation in nonlinear microscopy
   date: 2024-06
-  url: https://arxiv.org/abs/2406.19031v2
+  url: https://arxiv.org/abs/2406.19031
   category: technology
   subcategory: multi-patterning
   authors:
@@ -32685,7 +32653,7 @@ papers:
 - title: Two-step focusing anamorphic catadioptric telescope and componentwise aberration
     compensations
   date: 2024-01
-  url: https://arxiv.org/abs/2401.10762v4
+  url: https://arxiv.org/abs/2401.10762
   category: technology
   subcategory: high-na
   authors:
@@ -32709,7 +32677,7 @@ papers:
 - title: Compact vacuum levitation and control platform with a single 3D-printed fiber
     lens
   date: 2025-04
-  url: https://arxiv.org/abs/2504.15734v3
+  url: https://arxiv.org/abs/2504.15734
   category: technology
   subcategory: high-na
   authors:
@@ -32740,7 +32708,7 @@ papers:
     of levitated particles.
 - title: Multi-NA Metalens Array for Compact High-NA Microscopy
   date: 2025-10
-  url: https://arxiv.org/abs/2510.07123v1
+  url: https://arxiv.org/abs/2510.07123
   category: technology
   subcategory: high-na
   authors:
@@ -32763,7 +32731,7 @@ papers:
 - title: High-temperature stability of ambient-cured one-part alkali-activated materials
     incorporating graphene for thermal energy storage
   date: 2024-02
-  url: https://arxiv.org/abs/2402.13543v1
+  url: https://arxiv.org/abs/2402.13543
   category: technology
   subcategory: high-na
   authors:
@@ -32789,7 +32757,7 @@ papers:
     use of the nano-engineered AAMs for thermal energy storage (TES) at 400 to 600oC.
 - title: High Numerical Aperture Achromatic Meta-Devices through Dispersion Compensation
   date: 2025-04
-  url: https://arxiv.org/abs/2504.02535v1
+  url: https://arxiv.org/abs/2504.02535
   category: technology
   subcategory: high-na
   authors:
@@ -32820,7 +32788,7 @@ papers:
 - title: FDTD-based Inverse Design enables f/0.27 flat Microlens Array for Integral
     Imaging
   date: 2024-04
-  url: https://arxiv.org/abs/2404.11573v1
+  url: https://arxiv.org/abs/2404.11573
   category: technology
   subcategory: high-na
   authors:
@@ -32846,7 +32814,7 @@ papers:
     have the potential for low-cost, high-volume manufacturing.
 - title: 'CAMO: Correlation-Aware Mask Optimization with Modulated Reinforcement Learning'
   date: 2024-04
-  url: https://arxiv.org/abs/2404.00980v1
+  url: https://arxiv.org/abs/2404.00980
   category: technology
   subcategory: general
   authors:
@@ -32871,7 +32839,7 @@ papers:
     OPC engines from both academia and industry.
 - title: Intelligent OPC Engineer Assistant for Semiconductor Manufacturing
   date: 2024-08
-  url: https://arxiv.org/abs/2408.12775v2
+  url: https://arxiv.org/abs/2408.12775
   category: technology
   subcategory: general
   authors:
@@ -32886,8 +32854,8 @@ papers:
     of complex tasks such as deep learning and natural language processing, paving
     the way for the development of artificial general intelligence (AGI). AI, on the
     other hand, can be leveraged to innovate and streamline semiconductor technology
-    from planning and implementation to manufacturing. In this paper, we present \textit{Intelligent
-    OPC Engineer Assistant}, an AI/LLM-powered methodology designed to solve the core
+    from planning and implementation to manufacturing. In this paper, we present Intelligent
+    OPC Engineer Assistant, an AI/LLM-powered methodology designed to solve the core
     manufacturing-aware optimization problem known as optical proximity correction
     (OPC). The methodology involves a reinforcement learning-based OPC recipe search
     and a customized multi-modal agent system for recipe summarization. Experiments
@@ -32897,7 +32865,7 @@ papers:
 - title: 'ForgetMeNot: Understanding and Modeling the Impact of Forever Chemicals
     Toward Sustainable Large-Scale Computing'
   date: 2025-05
-  url: https://arxiv.org/abs/2505.11236v1
+  url: https://arxiv.org/abs/2505.11236
   category: technology
   subcategory: general
   authors:
@@ -32929,7 +32897,7 @@ papers:
 - title: Modeling PFAS in Semiconductor Manufacturing to Quantify Trade-offs in Energy
     Efficiency and Environmental Impact of Computing Systems
   date: 2025-05
-  url: https://arxiv.org/abs/2505.06727v1
+  url: https://arxiv.org/abs/2505.06727
   category: technology
   subcategory: general
   authors:
@@ -32958,11 +32926,11 @@ papers:
     of EUV) unlike embodied carbon trends, and (3) conduct case studies to illustrate
     how to optimize and trade-off designs with lower PFAS, while meeting power-performance-area
     constraints. We show that optimizing designs to use less back-end-of-line (BEOL)
-    metal stack layers can save 1.7$\times$ PFAS-containing layers in systolic arrays.
+    metal stack layers can save 1.7\times PFAS-containing layers in systolic arrays.
 - title: An Optimal Alignment-Driven Iterative Closed-Loop Convergence Framework for
     High-Performance Ultra-Large Scale Layout Pattern Clustering
   date: 2025-12
-  url: https://arxiv.org/abs/2512.13133v1
+  url: https://arxiv.org/abs/2512.13133
   category: technology
   subcategory: general
   authors:
@@ -32973,7 +32941,7 @@ papers:
   abstract: 'With the aggressive scaling of VLSI technology, the explosion of layout
     patterns creates a critical bottleneck for DFM applications like OPC. Pattern
     clustering is essential to reduce data complexity, yet existing methods struggle
-    with computational prohibitiveness ($O(N^2)$ comparisons), sub-optimal discrete
+    with computational prohibitiveness (O(N^2) comparisons), sub-optimal discrete
     sampling for center alignment, and difficult speed-quality trade-offs. To address
     these, we propose an Optimal Alignment-Driven Iterative Closed-Loop Convergence
     Framework. First, to resolve alignment ambiguity, we introduce a hybrid suite
@@ -32991,7 +32959,7 @@ papers:
     and precision.'
 - title: A System Level Performance Evaluation for Superconducting Digital Systems
   date: 2024-11
-  url: https://arxiv.org/abs/2411.08645v1
+  url: https://arxiv.org/abs/2411.08645
   category: technology
   subcategory: general
   authors:
@@ -33016,7 +32984,7 @@ papers:
 - title: Federated Knowledge Distillation for Multi-Model Architectures Lithography
     Hotspot Detection
   date: 2025-01
-  url: https://arxiv.org/abs/2501.04066v2
+  url: https://arxiv.org/abs/2501.04066
   category: technology
   subcategory: general
   authors:
@@ -33043,7 +33011,7 @@ papers:
 - title: Physics-Constrained Adaptive Neural Networks Enable Real-Time Semiconductor
     Manufacturing Optimization with Minimal Training Data
   date: 2025-11
-  url: https://arxiv.org/abs/2511.12788v1
+  url: https://arxiv.org/abs/2511.12788
   category: technology
   subcategory: general
   authors:
@@ -33055,7 +33023,7 @@ papers:
     (EUV) lithography optimization, where traditional methods consume billions of
     CPU hours while failing to achieve sub-nanometer precision. We present a physics-constrained
     adaptive learning framework that automatically calibrates electromagnetic approximations
-    through learnable parameters $\boldsymbolθ = \{θ_d, θ_a, θ_b, θ_p, θ_c\}$ while
+    through learnable parameters \boldsymbolθ = \{θ_d, θ_a, θ_b, θ_p, θ_c\} while
     simultaneously minimizing Edge Placement Error (EPE) between simulated aerial
     images and target photomasks. The framework integrates differentiable modules
     for Fresnel diffraction, material absorption, optical point spread function blur,
@@ -33076,7 +33044,7 @@ papers:
 - title: 'PGR-DRC: Pre-Global Routing DRC Violation Prediction Using Unsupervised
     Learning'
   date: 2025-06
-  url: https://arxiv.org/abs/2507.13355v1
+  url: https://arxiv.org/abs/2507.13355
   category: technology
   subcategory: general
   authors:
