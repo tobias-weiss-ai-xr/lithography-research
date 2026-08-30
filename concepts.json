@@ -5,7 +5,7 @@
       "term": "Lithography Technology",
       "kind": "taxonomy",
       "seed": true,
-      "df": 515,
+      "df": 684,
       "match": {
         "type": "field",
         "field": "category",
@@ -17,31 +17,13 @@
         "technology/general",
         "technology/multi-patterning"
       ],
-      "papers": 515
-    },
-    {
-      "term": "Semiconductor Manufacturing",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 161,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "manufacturing"
-      },
-      "top_cells": [
-        "manufacturing/general",
-        "manufacturing/euv",
-        "manufacturing/china",
-        "manufacturing/duv"
-      ],
-      "papers": 161
+      "papers": 684
     },
     {
       "term": "Materials & Optics",
       "kind": "taxonomy",
       "seed": true,
-      "df": 158,
+      "df": 180,
       "match": {
         "type": "field",
         "field": "category",
@@ -53,23 +35,41 @@
         "materials/multi-patterning",
         "materials/nanoimprint"
       ],
-      "papers": 158
+      "papers": 180
+    },
+    {
+      "term": "Semiconductor Manufacturing",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 170,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "manufacturing"
+      },
+      "top_cells": [
+        "manufacturing/general",
+        "manufacturing/euv",
+        "manufacturing/china",
+        "manufacturing/duv"
+      ],
+      "papers": 170
     },
     {
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 106,
+      "df": 122,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 106,
+      "papers": 122,
       "top_cells": [
-        "manufacturing/general",
         "technology/euv",
+        "manufacturing/general",
         "technology/general",
         "technology/nanoimprint"
       ]
@@ -112,19 +112,19 @@
       "term": "quantitative",
       "kind": "curated",
       "seed": true,
-      "df": 27,
+      "df": 32,
       "match": {
         "type": "text",
         "forms": [
           "quantitative"
         ]
       },
-      "papers": 27,
+      "papers": 32,
       "top_cells": [
         "technology/euv",
         "technology/nanoimprint",
         "materials/euv",
-        "geopolitics/euv"
+        "materials/general"
       ]
     },
     {
@@ -149,18 +149,18 @@
       "term": "dataset",
       "kind": "curated",
       "seed": true,
-      "df": 15,
+      "df": 17,
       "match": {
         "type": "text",
         "forms": [
           "dataset"
         ]
       },
-      "papers": 15,
+      "papers": 17,
       "top_cells": [
         "manufacturing/general",
-        "technology/euv",
         "technology/general",
+        "technology/euv",
         "technology/nanoimprint"
       ]
     },
@@ -168,17 +168,17 @@
       "term": "reproducibility",
       "kind": "curated",
       "seed": true,
-      "df": 11,
+      "df": 13,
       "match": {
         "type": "text",
         "forms": [
           "reproducibility"
         ]
       },
-      "papers": 11,
+      "papers": 13,
       "top_cells": [
-        "technology/nanoimprint",
         "technology/euv",
+        "technology/nanoimprint",
         "manufacturing/general",
         "materials/euv"
       ]
@@ -187,19 +187,38 @@
       "term": "benchmark",
       "kind": "curated",
       "seed": true,
-      "df": 10,
+      "df": 12,
       "match": {
         "type": "text",
         "forms": [
           "benchmark"
         ]
       },
-      "papers": 10,
+      "papers": 12,
       "top_cells": [
         "technology/euv",
-        "materials/euv",
         "technology/general",
+        "materials/euv",
         "manufacturing/general"
+      ]
+    },
+    {
+      "term": "experiment",
+      "kind": "curated",
+      "seed": true,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiment"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "technology/euv",
+        "technology/nanoimprint",
+        "manufacturing/general",
+        "survey/euv"
       ]
     },
     {
@@ -225,14 +244,14 @@
       "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 5,
+      "df": 6,
       "match": {
         "type": "text",
         "forms": [
           "survey"
         ]
       },
-      "papers": 5,
+      "papers": 6,
       "top_cells": [
         "manufacturing/general",
         "materials/euv",
@@ -257,25 +276,6 @@
         "geopolitics/general",
         "survey/euv",
         "technology/nanoimprint"
-      ]
-    },
-    {
-      "term": "experiment",
-      "kind": "curated",
-      "seed": true,
-      "df": 4,
-      "match": {
-        "type": "text",
-        "forms": [
-          "experiment"
-        ]
-      },
-      "papers": 4,
-      "top_cells": [
-        "technology/euv",
-        "technology/nanoimprint",
-        "manufacturing/general",
-        "survey/euv"
       ]
     },
     {

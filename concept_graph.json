@@ -4,25 +4,25 @@
       "id": 0,
       "term": "Lithography Technology",
       "kind": "taxonomy",
-      "df": 515
+      "df": 684
     },
     {
       "id": 1,
-      "term": "Semiconductor Manufacturing",
+      "term": "Materials & Optics",
       "kind": "taxonomy",
-      "df": 161
+      "df": 180
     },
     {
       "id": 2,
-      "term": "Materials & Optics",
+      "term": "Semiconductor Manufacturing",
       "kind": "taxonomy",
-      "df": 158
+      "df": 170
     },
     {
       "id": 3,
       "term": "framework",
       "kind": "curated",
-      "df": 106
+      "df": 122
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
       "id": 6,
       "term": "quantitative",
       "kind": "curated",
-      "df": 27
+      "df": 32
     },
     {
       "id": 7,
@@ -52,41 +52,41 @@
       "id": 8,
       "term": "dataset",
       "kind": "curated",
-      "df": 15
+      "df": 17
     },
     {
       "id": 9,
       "term": "reproducibility",
       "kind": "curated",
-      "df": 11
+      "df": 13
     },
     {
       "id": 10,
       "term": "benchmark",
       "kind": "curated",
-      "df": 10
+      "df": 12
     },
     {
       "id": 11,
+      "term": "experiment",
+      "kind": "curated",
+      "df": 9
+    },
+    {
+      "id": 12,
       "term": "case study",
       "kind": "curated",
       "df": 6
     },
     {
-      "id": 12,
+      "id": 13,
       "term": "survey",
       "kind": "curated",
-      "df": 5
-    },
-    {
-      "id": 13,
-      "term": "literature review",
-      "kind": "curated",
-      "df": 4
+      "df": 6
     },
     {
       "id": 14,
-      "term": "experiment",
+      "term": "literature review",
       "kind": "curated",
       "df": 4
     },
@@ -167,37 +167,37 @@
     {
       "source": 0,
       "target": 3,
-      "weight": 52
+      "weight": 62
     },
     {
       "source": 0,
       "target": 6,
-      "weight": 16
+      "weight": 19
     },
     {
       "source": 0,
       "target": 10,
-      "weight": 5
+      "weight": 7
     },
     {
       "source": 3,
       "target": 10,
-      "weight": 3
+      "weight": 4
     },
     {
       "source": 0,
-      "target": 14,
-      "weight": 2
+      "target": 11,
+      "weight": 7
     },
     {
       "source": 0,
-      "target": 8,
-      "weight": 6
-    },
-    {
-      "source": 3,
       "target": 8,
       "weight": 8
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "weight": 9
     },
     {
       "source": 3,
@@ -207,7 +207,7 @@
     {
       "source": 0,
       "target": 9,
-      "weight": 8
+      "weight": 10
     },
     {
       "source": 6,
@@ -216,53 +216,58 @@
     },
     {
       "source": 3,
-      "target": 11,
-      "weight": 2
-    },
-    {
-      "source": 1,
-      "target": 3,
-      "weight": 32
-    },
-    {
-      "source": 1,
-      "target": 10,
-      "weight": 2
-    },
-    {
-      "source": 1,
-      "target": 9,
-      "weight": 2
-    },
-    {
-      "source": 1,
       "target": 12,
       "weight": 2
     },
     {
-      "source": 1,
-      "target": 8,
-      "weight": 9
-    },
-    {
-      "source": 1,
-      "target": 6,
+      "source": 0,
+      "target": 13,
       "weight": 2
     },
     {
-      "source": 2,
+      "source": 1,
       "target": 6,
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "weight": 11
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "weight": 3
     },
     {
       "source": 2,
       "target": 3,
-      "weight": 9
+      "weight": 36
     },
     {
       "source": 2,
       "target": 10,
-      "weight": 3
+      "weight": 2
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "weight": 2
+    },
+    {
+      "source": 2,
+      "target": 13,
+      "weight": 2
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "weight": 9
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "weight": 2
     },
     {
       "source": 3,
@@ -301,13 +306,13 @@
     },
     {
       "source": 5,
-      "target": 11,
+      "target": 12,
       "weight": 3
     }
   ],
   "stats": {
     "concepts": 27,
-    "edges": 28,
-    "papers": 956
+    "edges": 29,
+    "papers": 1156
   }
 }

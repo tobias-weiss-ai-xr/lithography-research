@@ -1,45 +1,46 @@
 # Concept Graph Analysis
 
-**Generated:** 27 nodes, 28 edges, 1 components, 1 communities (modularity -22.861). Edges = co-occurrence.
+**Generated:** 27 nodes, 29 edges, 1 components, 1 communities (modularity -30.338). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2867, degree 11, df 106
-- **Lithography Technology** — PR 0.1948, degree 6, df 515
-- **Semiconductor Manufacturing** — PR 0.1133, degree 6, df 161
-- **quantitative** — PR 0.0884, degree 7, df 27
-- **dataset** — PR 0.0539, degree 3, df 15
-- **Materials & Optics** — PR 0.0420, degree 3, df 158
-- **benchmark** — PR 0.0355, degree 4, df 10
-- **Lithography Equipment** — PR 0.0315, degree 2, df 47
-- **reproducibility** — PR 0.0288, degree 2, df 11
-- **Geopolitics & Export Controls** — PR 0.0283, degree 3, df 18
-- **qualitative** — PR 0.0238, degree 3, df 3
-- **case study** — PR 0.0238, degree 2, df 6
+- **framework** — PR 0.2782, degree 11, df 122
+- **Lithography Technology** — PR 0.2150, degree 7, df 684
+- **Semiconductor Manufacturing** — PR 0.1012, degree 6, df 170
+- **quantitative** — PR 0.0865, degree 7, df 32
+- **dataset** — PR 0.0517, degree 3, df 17
+- **Materials & Optics** — PR 0.0439, degree 3, df 180
+- **benchmark** — PR 0.0364, degree 4, df 12
+- **Lithography Equipment** — PR 0.0295, degree 2, df 47
+- **reproducibility** — PR 0.0291, degree 2, df 13
+- **Geopolitics & Export Controls** — PR 0.0262, degree 3, df 18
+- **case study** — PR 0.0226, degree 2, df 6
+- **qualitative** — PR 0.0223, degree 3, df 3
 
 ## Bridge nodes (high betweenness — connect clusters)
 
 - framework
 - Lithography Technology
-- Semiconductor Manufacturing
 - quantitative
+- Semiconductor Manufacturing
 - benchmark
 - dataset
 - reproducibility
+- survey
 - Materials & Optics
 
 ## Bridge edges (high edge-betweenness)
 
-- Semiconductor Manufacturing ↔ survey (weight 2, EB 14.0)
-- Lithography Technology ↔ experiment (weight 2, EB 14.0)
+- Lithography Technology ↔ framework (weight 62, EB 14.8333)
+- Lithography Technology ↔ experiment (weight 7, EB 14.0)
 - framework ↔ Lithography Equipment (weight 5, EB 13.0)
 - framework ↔ case study (weight 2, EB 13.0)
-- Semiconductor Manufacturing ↔ framework (weight 32, EB 12.8833)
-- Lithography Technology ↔ framework (weight 52, EB 12.8833)
+- Semiconductor Manufacturing ↔ framework (weight 36, EB 10.0)
+- Lithography Technology ↔ quantitative (weight 19, EB 9.4167)
 - framework ↔ Surveys & Reviews (weight 4, EB 9.0)
 - framework ↔ qualitative (weight 2, EB 8.5)
 - framework ↔ Geopolitics & Export Controls (weight 4, EB 8.5)
-- Semiconductor Manufacturing ↔ quantitative (weight 2, EB 8.4667)
+- Lithography Technology ↔ survey (weight 2, EB 7.8333)
 
 ## Communities (clusters of related concepts)
 

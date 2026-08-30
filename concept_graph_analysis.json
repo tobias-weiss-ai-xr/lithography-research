@@ -1,81 +1,81 @@
 {
   "stats": {
     "nodes": 27,
-    "edges": 28,
+    "edges": 29,
     "components": 1,
     "communities": 1,
-    "modularity": -22.861
+    "modularity": -30.3383
   },
   "nodes": [
     {
       "id": 3,
       "term": "framework",
       "kind": "curated",
-      "df": 106,
+      "df": 122,
       "degree": 11,
-      "weighted_degree": 130,
+      "weighted_degree": 148,
       "degree_centrality": 0.4231,
-      "pagerank": 0.286701,
-      "betweenness": 44.3833,
+      "pagerank": 0.27823,
+      "betweenness": 43.9167,
       "clustering": 0.2364
     },
     {
       "id": 0,
       "term": "Lithography Technology",
       "kind": "taxonomy",
-      "df": 515,
-      "degree": 6,
-      "weighted_degree": 89,
-      "degree_centrality": 0.2308,
-      "pagerank": 0.194774,
-      "betweenness": 18.9167,
-      "clustering": 0.2
+      "df": 684,
+      "degree": 7,
+      "weighted_degree": 115,
+      "degree_centrality": 0.2692,
+      "pagerank": 0.21495,
+      "betweenness": 24.4167,
+      "clustering": 0.1429
     },
     {
-      "id": 1,
+      "id": 2,
       "term": "Semiconductor Manufacturing",
       "kind": "taxonomy",
-      "df": 161,
+      "df": 170,
       "degree": 6,
-      "weighted_degree": 49,
+      "weighted_degree": 53,
       "degree_centrality": 0.2308,
-      "pagerank": 0.113348,
-      "betweenness": 18.9167,
+      "pagerank": 0.10121,
+      "betweenness": 11.4167,
       "clustering": 0.2
     },
     {
       "id": 6,
       "term": "quantitative",
       "kind": "curated",
-      "df": 27,
+      "df": 32,
       "degree": 7,
-      "weighted_degree": 37,
+      "weighted_degree": 42,
       "degree_centrality": 0.2692,
-      "pagerank": 0.088358,
-      "betweenness": 12.4667,
+      "pagerank": 0.086516,
+      "betweenness": 12.0,
       "clustering": 0.3333
     },
     {
       "id": 8,
       "term": "dataset",
       "kind": "curated",
-      "df": 15,
+      "df": 17,
       "degree": 3,
-      "weighted_degree": 23,
+      "weighted_degree": 26,
       "degree_centrality": 0.1154,
-      "pagerank": 0.053854,
-      "betweenness": 0.8,
+      "pagerank": 0.0517,
+      "betweenness": 0.3333,
       "clustering": 0.6667
     },
     {
-      "id": 2,
+      "id": 1,
       "term": "Materials & Optics",
       "kind": "taxonomy",
-      "df": 158,
+      "df": 180,
       "degree": 3,
-      "weighted_degree": 16,
+      "weighted_degree": 20,
       "degree_centrality": 0.1154,
-      "pagerank": 0.041963,
+      "pagerank": 0.043877,
       "betweenness": 0.25,
       "clustering": 0.6667
     },
@@ -83,12 +83,12 @@
       "id": 10,
       "term": "benchmark",
       "kind": "curated",
-      "df": 10,
+      "df": 12,
       "degree": 4,
-      "weighted_degree": 13,
+      "weighted_degree": 16,
       "degree_centrality": 0.1538,
-      "pagerank": 0.035545,
-      "betweenness": 2.4667,
+      "pagerank": 0.036354,
+      "betweenness": 2.0,
       "clustering": 0.5
     },
     {
@@ -99,7 +99,7 @@
       "degree": 2,
       "weighted_degree": 8,
       "degree_centrality": 0.0769,
-      "pagerank": 0.031507,
+      "pagerank": 0.029518,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -107,12 +107,12 @@
       "id": 9,
       "term": "reproducibility",
       "kind": "curated",
-      "df": 11,
+      "df": 13,
       "degree": 2,
-      "weighted_degree": 10,
+      "weighted_degree": 12,
       "degree_centrality": 0.0769,
-      "pagerank": 0.028814,
-      "betweenness": 0.8,
+      "pagerank": 0.029134,
+      "betweenness": 0.3333,
       "clustering": 0.0
     },
     {
@@ -123,7 +123,19 @@
       "degree": 3,
       "weighted_degree": 8,
       "degree_centrality": 0.1154,
-      "pagerank": 0.028308,
+      "pagerank": 0.026202,
+      "betweenness": 0.0,
+      "clustering": 1.0
+    },
+    {
+      "id": 12,
+      "term": "case study",
+      "kind": "curated",
+      "df": 6,
+      "degree": 2,
+      "weighted_degree": 5,
+      "degree_centrality": 0.0769,
+      "pagerank": 0.022605,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -135,21 +147,21 @@
       "degree": 3,
       "weighted_degree": 6,
       "degree_centrality": 0.1154,
-      "pagerank": 0.023824,
+      "pagerank": 0.022266,
       "betweenness": 0.0,
       "clustering": 1.0
     },
     {
       "id": 11,
-      "term": "case study",
+      "term": "experiment",
       "kind": "curated",
-      "df": 6,
-      "degree": 2,
-      "weighted_degree": 5,
-      "degree_centrality": 0.0769,
-      "pagerank": 0.023792,
+      "df": 9,
+      "degree": 1,
+      "weighted_degree": 7,
+      "degree_centrality": 0.0385,
+      "pagerank": 0.021121,
       "betweenness": 0.0,
-      "clustering": 1.0
+      "clustering": 0.0
     },
     {
       "id": 4,
@@ -159,36 +171,24 @@
       "degree": 2,
       "weighted_degree": 6,
       "degree_centrality": 0.0769,
-      "pagerank": 0.021558,
+      "pagerank": 0.019894,
       "betweenness": 0.0,
       "clustering": 1.0
     },
     {
-      "id": 12,
+      "id": 13,
       "term": "survey",
       "kind": "curated",
-      "df": 5,
-      "degree": 1,
-      "weighted_degree": 2,
-      "degree_centrality": 0.0385,
-      "pagerank": 0.013932,
-      "betweenness": 0.0,
+      "df": 6,
+      "degree": 2,
+      "weighted_degree": 4,
+      "degree_centrality": 0.0769,
+      "pagerank": 0.016424,
+      "betweenness": 0.3333,
       "clustering": 0.0
     },
     {
       "id": 14,
-      "term": "experiment",
-      "kind": "curated",
-      "df": 4,
-      "degree": 1,
-      "weighted_degree": 2,
-      "degree_centrality": 0.0385,
-      "pagerank": 0.01372,
-      "betweenness": 0.0,
-      "clustering": 0.0
-    },
-    {
-      "id": 13,
       "term": "literature review",
       "kind": "curated",
       "df": 4,
@@ -369,24 +369,25 @@
   "bridge_nodes": [
     "framework",
     "Lithography Technology",
-    "Semiconductor Manufacturing",
     "quantitative",
+    "Semiconductor Manufacturing",
     "benchmark",
     "dataset",
     "reproducibility",
+    "survey",
     "Materials & Optics"
   ],
   "bridge_edges": [
     {
-      "source": "Semiconductor Manufacturing",
-      "target": "survey",
-      "weight": 2,
-      "edge_betweenness": 14.0
+      "source": "Lithography Technology",
+      "target": "framework",
+      "weight": 62,
+      "edge_betweenness": 14.8333
     },
     {
       "source": "Lithography Technology",
       "target": "experiment",
-      "weight": 2,
+      "weight": 7,
       "edge_betweenness": 14.0
     },
     {
@@ -404,14 +405,14 @@
     {
       "source": "Semiconductor Manufacturing",
       "target": "framework",
-      "weight": 32,
-      "edge_betweenness": 12.8833
+      "weight": 36,
+      "edge_betweenness": 10.0
     },
     {
       "source": "Lithography Technology",
-      "target": "framework",
-      "weight": 52,
-      "edge_betweenness": 12.8833
+      "target": "quantitative",
+      "weight": 19,
+      "edge_betweenness": 9.4167
     },
     {
       "source": "framework",
@@ -432,40 +433,40 @@
       "edge_betweenness": 8.5
     },
     {
-      "source": "Semiconductor Manufacturing",
-      "target": "quantitative",
-      "weight": 2,
-      "edge_betweenness": 8.4667
-    },
-    {
       "source": "Lithography Technology",
-      "target": "quantitative",
-      "weight": 16,
-      "edge_betweenness": 8.4667
-    },
-    {
-      "source": "Semiconductor Manufacturing",
-      "target": "reproducibility",
+      "target": "survey",
       "weight": 2,
-      "edge_betweenness": 7.8
+      "edge_betweenness": 7.8333
     },
     {
       "source": "Lithography Technology",
       "target": "reproducibility",
-      "weight": 8,
-      "edge_betweenness": 7.8
+      "weight": 10,
+      "edge_betweenness": 7.8333
     },
     {
       "source": "framework",
       "target": "dataset",
-      "weight": 8,
+      "weight": 9,
       "edge_betweenness": 7.6667
     },
     {
       "source": "Materials & Optics",
       "target": "framework",
-      "weight": 9,
+      "weight": 11,
       "edge_betweenness": 7.1667
+    },
+    {
+      "source": "Semiconductor Manufacturing",
+      "target": "reproducibility",
+      "weight": 2,
+      "edge_betweenness": 6.8333
+    },
+    {
+      "source": "Semiconductor Manufacturing",
+      "target": "survey",
+      "weight": 2,
+      "edge_betweenness": 6.8333
     }
   ]
 }

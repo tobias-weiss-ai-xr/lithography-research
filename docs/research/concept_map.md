@@ -1,26 +1,26 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 27 concepts, 28 relationships from 956 papers. Edges = co-occurrence (shared papers).
+**Generated:** 27 concepts, 29 relationships from 1156 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| Lithography Technology | taxonomy | 515 |
-| Semiconductor Manufacturing | taxonomy | 161 |
-| Materials & Optics | taxonomy | 158 |
-| framework | curated | 106 |
+| Lithography Technology | taxonomy | 684 |
+| Materials & Optics | taxonomy | 180 |
+| Semiconductor Manufacturing | taxonomy | 170 |
+| framework | curated | 122 |
 | Surveys & Reviews | taxonomy | 56 |
 | Lithography Equipment | taxonomy | 47 |
-| quantitative | curated | 27 |
+| quantitative | curated | 32 |
 | Geopolitics & Export Controls | taxonomy | 18 |
-| dataset | curated | 15 |
-| reproducibility | curated | 11 |
-| benchmark | curated | 10 |
+| dataset | curated | 17 |
+| reproducibility | curated | 13 |
+| benchmark | curated | 12 |
+| experiment | curated | 9 |
 | case study | curated | 6 |
-| survey | curated | 5 |
+| survey | curated | 6 |
 | literature review | curated | 4 |
-| experiment | curated | 4 |
 | qualitative | curated | 3 |
 | Market & Economics | taxonomy | 1 |
 | systematic review | curated | 1 |
@@ -38,38 +38,39 @@
 
 ### Lithography Technology
 
-- framework — 52 shared paper(s)
-- quantitative — 16 shared paper(s)
-- reproducibility — 8 shared paper(s)
-- dataset — 6 shared paper(s)
-- benchmark — 5 shared paper(s)
-- experiment — 2 shared paper(s)
+- framework — 62 shared paper(s)
+- quantitative — 19 shared paper(s)
+- reproducibility — 10 shared paper(s)
+- dataset — 8 shared paper(s)
+- benchmark — 7 shared paper(s)
+- experiment — 7 shared paper(s)
+- survey — 2 shared paper(s)
+
+### Materials & Optics
+
+- framework — 11 shared paper(s)
+- quantitative — 6 shared paper(s)
+- benchmark — 3 shared paper(s)
 
 ### Semiconductor Manufacturing
 
-- framework — 32 shared paper(s)
+- framework — 36 shared paper(s)
 - dataset — 9 shared paper(s)
 - benchmark — 2 shared paper(s)
 - reproducibility — 2 shared paper(s)
 - survey — 2 shared paper(s)
 - quantitative — 2 shared paper(s)
 
-### Materials & Optics
-
-- framework — 9 shared paper(s)
-- quantitative — 4 shared paper(s)
-- benchmark — 3 shared paper(s)
-
 ### framework
 
-- Lithography Technology — 52 shared paper(s)
-- Semiconductor Manufacturing — 32 shared paper(s)
+- Lithography Technology — 62 shared paper(s)
+- Semiconductor Manufacturing — 36 shared paper(s)
+- Materials & Optics — 11 shared paper(s)
+- dataset — 9 shared paper(s)
 - quantitative — 9 shared paper(s)
-- Materials & Optics — 9 shared paper(s)
-- dataset — 8 shared paper(s)
 - Lithography Equipment — 5 shared paper(s)
+- benchmark — 4 shared paper(s)
 - Geopolitics & Export Controls — 4 shared paper(s)
-- Surveys & Reviews — 4 shared paper(s)
 
 ### Surveys & Reviews
 
@@ -83,9 +84,9 @@
 
 ### quantitative
 
-- Lithography Technology — 16 shared paper(s)
+- Lithography Technology — 19 shared paper(s)
 - framework — 9 shared paper(s)
-- Materials & Optics — 4 shared paper(s)
+- Materials & Optics — 6 shared paper(s)
 - qualitative — 2 shared paper(s)
 - Semiconductor Manufacturing — 2 shared paper(s)
 - Geopolitics & Export Controls — 2 shared paper(s)
@@ -99,21 +100,25 @@
 
 ### dataset
 
+- framework — 9 shared paper(s)
 - Semiconductor Manufacturing — 9 shared paper(s)
-- framework — 8 shared paper(s)
-- Lithography Technology — 6 shared paper(s)
+- Lithography Technology — 8 shared paper(s)
 
 ### reproducibility
 
-- Lithography Technology — 8 shared paper(s)
+- Lithography Technology — 10 shared paper(s)
 - Semiconductor Manufacturing — 2 shared paper(s)
 
 ### benchmark
 
-- Lithography Technology — 5 shared paper(s)
-- framework — 3 shared paper(s)
+- Lithography Technology — 7 shared paper(s)
+- framework — 4 shared paper(s)
 - Materials & Optics — 3 shared paper(s)
 - Semiconductor Manufacturing — 2 shared paper(s)
+
+### experiment
+
+- Lithography Technology — 7 shared paper(s)
 
 ### case study
 
@@ -122,11 +127,8 @@
 
 ### survey
 
-- Semiconductor Manufacturing — 2 shared paper(s)
-
-### experiment
-
 - Lithography Technology — 2 shared paper(s)
+- Semiconductor Manufacturing — 2 shared paper(s)
 
 ### qualitative
 
