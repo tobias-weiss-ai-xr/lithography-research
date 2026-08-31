@@ -5,7 +5,7 @@
       "term": "Lithography Technology",
       "kind": "taxonomy",
       "seed": true,
-      "df": 684,
+      "df": 686,
       "match": {
         "type": "field",
         "field": "category",
@@ -17,7 +17,7 @@
         "technology/general",
         "technology/multi-patterning"
       ],
-      "papers": 684
+      "papers": 686
     },
     {
       "term": "Materials & Optics",

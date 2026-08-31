@@ -5,7 +5,7 @@
 ## Top hubs (by PageRank)
 
 - **framework** — PR 0.2781, degree 11, df 121
-- **Lithography Technology** — PR 0.2173, degree 7, df 684
+- **Lithography Technology** — PR 0.2173, degree 7, df 686
 - **Semiconductor Manufacturing** — PR 0.0992, degree 6, df 169
 - **quantitative** — PR 0.0873, degree 7, df 32
 - **dataset** — PR 0.0490, degree 3, df 16
