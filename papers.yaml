@@ -33072,3 +33072,61 @@ papers:
     (SVM) and neural network (NN) models have 85.44\% and 98.74\% accuracy, respectively.
     In addition, the proposed methodology has about 26.3x and up to 6003x lower training
     times compared to SVM and NN-models, respectively.
+- title: 'LNoS: Lithium Niobate on Silicon Spatial Light Modulator'
+  date: 2024-02
+  url: https://arxiv.org/abs/2402.14608v1
+  category: technology
+  subcategory: euv
+  authors:
+  - Sivan Trajtenberg-Mills
+  - Mohamed ElKabbash
+  - Cole J. Brabec
+  - Christopher L. Panuski
+  - Ian Christen
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Programmable spatiotemporal control of light is crucial for advancements
+    in optical communications, imaging, and quantum technologies. Commercial spatial
+    light modulators (SLMs) typically have megapixel-scale apertures but are limited
+    to ~kHz operational speeds. Developing a device that controls a similar number
+    of spatial modes at high speeds could potentially transform fields such as imaging
+    through scattering media, quantum computing with cold atoms and ions, and high-speed
+    machine vision, but to date remains an open challenge. In this work we introduce
+    and demonstrate a free-form, resonant electro-optic (EO) modulator with megapixel
+    apertures using CMOS integration. The optical layer features a Lithium Niobate
+    (LN) thin-film integrated with a photonic crystal (PhC), yielding a guided mode
+    resonance (GMR) with a Q-factor&gt;1000, a field overlap coefficient ~90% and
+    a 1.6 GHz 3-dB modulation bandwidth (detector limited). To realize a free-form
+    and scalable SLM, we fabricate the PhC via interference lithography and develop
+    a procedure to bond the device to a megapixel CMOS backplane. We identify limitations
+    in existing EO materials and CMOS backplanes that must be overcome to simultaneously
+    achieve megapixel-scale, GHz-rate operation. The `LN on Silicon' (LNoS) architecture
+    we present is a blueprint towards realizing such devices.
+- title: Density-gradient effect in high-harmonic generation in gases
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.28032v1
+  category: technology
+  subcategory: euv
+  authors:
+  - Zoltán Filus
+  - Tímea Grósz
+  - Chinmoy Biswas
+  - Lénárd Gulyás Oldal
+  - Tamás Bartyik
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: High-harmonic generation (HHG) in gaseous targets is the most widespread
+    method to produce coherent extreme-ultraviolet (XUV) pulses with sub-femtosecond
+    duration. However, this process has intrinsically low efficiency, and substantial
+    research and development is devoted worldwide to increase the achievable photon
+    flux through this highly nonlinear light--matter interaction process. In this
+    work, we show the strong interplay of phase matching and absorption in gas-pressure
+    gradients, substantially affecting macroscopic HHG efficiency. Through detailed
+    experimental analysis and supporting numerical studies, we highlight their significance,
+    particularly at the boundaries of the interaction volume. The concluded results
+    have implications in the massively expanding application possibilities of HHG
+    sources requiring high photon flux, for example in the semiconductor industry,
+    in nanoscale imaging of biological and industrial samples, or in nonlinear optics
+    in the XUV regime.
